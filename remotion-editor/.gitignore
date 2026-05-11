@@ -1,0 +1,8 @@
+node_modules/
+out/
+public/*.mp4
+public/*.webm
+public/*.mkv
+public/*.json
+dist/
+.remotion/
