@@ -1,0 +1,40 @@
+{
+  "name": "tiktok-viral-pipeline",
+  "version": "1.0.0",
+  "description": "Pipeline de montage vidéo TikTok 9:16 ultra viral à partir d'une URL YouTube, avec sous-titres mot-par-mot, motion design et overlays animés (Remotion).",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "studio": "remotion studio",
+    "build": "tsx pipeline/run.ts",
+    "build:demo": "tsx pipeline/run.ts --demo",
+    "download": "tsx pipeline/download.ts",
+    "transcribe": "tsx pipeline/transcribe.ts",
+    "highlights": "tsx pipeline/highlights.ts",
+    "render": "tsx pipeline/render.ts",
+    "clean": "rm -rf out data/*.json downloads/*.mp4 downloads/*.srt downloads/*.vtt"
+  },
+  "dependencies": {
+    "@remotion/bundler": "^4.0.350",
+    "@remotion/captions": "^4.0.350",
+    "@remotion/cli": "^4.0.350",
+    "@remotion/google-fonts": "^4.0.350",
+    "@remotion/renderer": "^4.0.350",
+    "@remotion/shapes": "^4.0.350",
+    "@remotion/transitions": "^4.0.350",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "remotion": "^4.0.350",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.3"
+  }
+}
