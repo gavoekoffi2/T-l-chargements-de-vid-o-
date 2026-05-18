@@ -1,0 +1,93 @@
+name: Monter une vidéo TikTok
+
+# Ce workflow se lance MANUELLEMENT depuis l'onglet "Actions" sur GitHub.
+# Tu entres l'URL YouTube, ton @, la durée, et tu reçois les MP4 en téléchargement.
+on:
+  workflow_dispatch:
+    inputs:
+      youtube_url:
+        description: "URL de la vidéo YouTube (ex: https://youtu.be/yiuGeVaZs3s)"
+        required: true
+        type: string
+      handle:
+        description: "Ton handle TikTok (sera affiché en haut de la vidéo)"
+        required: false
+        default: "@yourhandle"
+        type: string
+      min_seconds:
+        description: "Durée minimum d'un clip (en secondes)"
+        required: false
+        default: "90"
+        type: string
+      max_seconds:
+        description: "Durée maximum d'un clip (en secondes)"
+        required: false
+        default: "120"
+        type: string
+      max_clips:
+        description: "Nombre maximum de clips (laisser vide pour TOUS les moments forts)"
+        required: false
+        default: ""
+        type: string
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Cloner le repo
+        uses: actions/checkout@v4
+
+      - name: Installer Node 22
+        uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: "npm"
+
+      - name: Installer ffmpeg + yt-dlp + chromium
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg chromium-browser
+          pip install -U yt-dlp
+          # Lien symbolique pour que Remotion trouve chromium au bon endroit
+          sudo ln -sf "$(which chromium-browser)" /usr/bin/chromium
+
+      - name: Installer les dépendances Node
+        run: npm install --no-audit --no-fund
+
+      - name: Lancer le pipeline (download + transcribe + crop + render)
+        env:
+          REMOTION_CHROME_PATH: /usr/bin/chromium
+        run: |
+          ARGS=( "${{ inputs.youtube_url }}" )
+          ARGS+=( "--handle=${{ inputs.handle }}" )
+          ARGS+=( "--min=${{ inputs.min_seconds }}" )
+          ARGS+=( "--max=${{ inputs.max_seconds }}" )
+          if [ -n "${{ inputs.max_clips }}" ]; then
+            ARGS+=( "--clips=${{ inputs.max_clips }}" )
+          fi
+          npx tsx pipeline/run.ts "${ARGS[@]}"
+
+      - name: Lister les fichiers produits
+        if: always()
+        run: ls -lh out/ || echo "(rien dans out/)"
+
+      - name: Uploader les clips TikTok finaux
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: tiktok-clips
+          path: out/*.mp4
+          retention-days: 30
+
+      - name: Uploader les artefacts de debug si échec
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: debug
+          path: |
+            data/*.json
+            downloads/*.srt
+            downloads/*.vtt
+          retention-days: 7
+          if-no-files-found: ignore
