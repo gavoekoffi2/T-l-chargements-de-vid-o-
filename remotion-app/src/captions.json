@@ -1,0 +1,4346 @@
+[
+  {
+    "text": "L 'intelligence artificielle",
+    "start": 0.0,
+    "end": 1.34,
+    "words": [
+      {
+        "text": "L",
+        "start": 0.0,
+        "end": 0.56,
+        "highlight": false
+      },
+      {
+        "text": "'intelligence",
+        "start": 0.56,
+        "end": 0.9,
+        "highlight": true
+      },
+      {
+        "text": "artificielle",
+        "start": 0.9,
+        "end": 1.34,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "a déjà atteint",
+    "start": 1.34,
+    "end": 2.22,
+    "words": [
+      {
+        "text": "a",
+        "start": 1.34,
+        "end": 1.58,
+        "highlight": false
+      },
+      {
+        "text": "déjà",
+        "start": 1.58,
+        "end": 1.9,
+        "highlight": false
+      },
+      {
+        "text": "atteint",
+        "start": 1.9,
+        "end": 2.22,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "son niveau 4",
+    "start": 2.22,
+    "end": 3.14,
+    "words": [
+      {
+        "text": "son",
+        "start": 2.22,
+        "end": 2.44,
+        "highlight": false
+      },
+      {
+        "text": "niveau",
+        "start": 2.44,
+        "end": 2.68,
+        "highlight": true
+      },
+      {
+        "text": "4",
+        "start": 2.68,
+        "end": 3.14,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "actuellement alors que",
+    "start": 3.14,
+    "end": 4.56,
+    "words": [
+      {
+        "text": "actuellement",
+        "start": 3.14,
+        "end": 3.74,
+        "highlight": false
+      },
+      {
+        "text": "alors",
+        "start": 3.74,
+        "end": 4.2,
+        "highlight": false
+      },
+      {
+        "text": "que",
+        "start": 4.2,
+        "end": 4.56,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "beaucoup de personnes",
+    "start": 4.56,
+    "end": 5.34,
+    "words": [
+      {
+        "text": "beaucoup",
+        "start": 4.56,
+        "end": 4.86,
+        "highlight": false
+      },
+      {
+        "text": "de",
+        "start": 4.86,
+        "end": 5.1,
+        "highlight": false
+      },
+      {
+        "text": "personnes",
+        "start": 5.1,
+        "end": 5.34,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "sont malheureusement bloquées",
+    "start": 5.34,
+    "end": 6.96,
+    "words": [
+      {
+        "text": "sont",
+        "start": 5.34,
+        "end": 5.62,
+        "highlight": false
+      },
+      {
+        "text": "malheureusement",
+        "start": 5.62,
+        "end": 6.2,
+        "highlight": false
+      },
+      {
+        "text": "bloquées",
+        "start": 6.2,
+        "end": 6.96,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "au niveau 1",
+    "start": 6.96,
+    "end": 8.24,
+    "words": [
+      {
+        "text": "au",
+        "start": 6.96,
+        "end": 7.16,
+        "highlight": false
+      },
+      {
+        "text": "niveau",
+        "start": 7.16,
+        "end": 7.6,
+        "highlight": true
+      },
+      {
+        "text": "1",
+        "start": 7.6,
+        "end": 8.24,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "de l 'intelligence",
+    "start": 8.24,
+    "end": 8.94,
+    "words": [
+      {
+        "text": "de",
+        "start": 8.24,
+        "end": 8.4,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 8.4,
+        "end": 8.58,
+        "highlight": false
+      },
+      {
+        "text": "'intelligence",
+        "start": 8.58,
+        "end": 8.94,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "artificielle. Dans cette",
+    "start": 8.94,
+    "end": 10.06,
+    "words": [
+      {
+        "text": "artificielle.",
+        "start": 8.94,
+        "end": 9.54,
+        "highlight": true
+      },
+      {
+        "text": "Dans",
+        "start": 9.88,
+        "end": 9.92,
+        "highlight": false
+      },
+      {
+        "text": "cette",
+        "start": 9.92,
+        "end": 10.06,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "vidéo, je vais",
+    "start": 10.06,
+    "end": 10.7,
+    "words": [
+      {
+        "text": "vidéo,",
+        "start": 10.06,
+        "end": 10.36,
+        "highlight": false
+      },
+      {
+        "text": "je",
+        "start": 10.38,
+        "end": 10.56,
+        "highlight": false
+      },
+      {
+        "text": "vais",
+        "start": 10.56,
+        "end": 10.7,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "te montrer les",
+    "start": 10.7,
+    "end": 11.56,
+    "words": [
+      {
+        "text": "te",
+        "start": 10.7,
+        "end": 10.96,
+        "highlight": false
+      },
+      {
+        "text": "montrer",
+        "start": 10.96,
+        "end": 11.22,
+        "highlight": false
+      },
+      {
+        "text": "les",
+        "start": 11.22,
+        "end": 11.56,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "différents paliers que",
+    "start": 11.56,
+    "end": 12.68,
+    "words": [
+      {
+        "text": "différents",
+        "start": 11.56,
+        "end": 11.88,
+        "highlight": false
+      },
+      {
+        "text": "paliers",
+        "start": 11.88,
+        "end": 12.34,
+        "highlight": false
+      },
+      {
+        "text": "que",
+        "start": 12.34,
+        "end": 12.68,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "l 'intelligence artificielle",
+    "start": 12.68,
+    "end": 13.74,
+    "words": [
+      {
+        "text": "l",
+        "start": 12.68,
+        "end": 12.92,
+        "highlight": false
+      },
+      {
+        "text": "'intelligence",
+        "start": 12.92,
+        "end": 13.3,
+        "highlight": true
+      },
+      {
+        "text": "artificielle",
+        "start": 13.3,
+        "end": 13.74,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "a déjà franchi,",
+    "start": 13.74,
+    "end": 14.94,
+    "words": [
+      {
+        "text": "a",
+        "start": 13.74,
+        "end": 13.94,
+        "highlight": false
+      },
+      {
+        "text": "déjà",
+        "start": 13.94,
+        "end": 14.26,
+        "highlight": false
+      },
+      {
+        "text": "franchi,",
+        "start": 14.26,
+        "end": 14.94,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "ce qui va",
+    "start": 15.04,
+    "end": 15.34,
+    "words": [
+      {
+        "text": "ce",
+        "start": 15.04,
+        "end": 15.14,
+        "highlight": false
+      },
+      {
+        "text": "qui",
+        "start": 15.14,
+        "end": 15.2,
+        "highlight": false
+      },
+      {
+        "text": "va",
+        "start": 15.2,
+        "end": 15.34,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "te permettre de",
+    "start": 15.34,
+    "end": 16.46,
+    "words": [
+      {
+        "text": "te",
+        "start": 15.34,
+        "end": 15.6,
+        "highlight": false
+      },
+      {
+        "text": "permettre",
+        "start": 15.6,
+        "end": 15.96,
+        "highlight": false
+      },
+      {
+        "text": "de",
+        "start": 15.96,
+        "end": 16.46,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "voir à quel",
+    "start": 16.46,
+    "end": 17.24,
+    "words": [
+      {
+        "text": "voir",
+        "start": 16.46,
+        "end": 16.88,
+        "highlight": false
+      },
+      {
+        "text": "à",
+        "start": 16.88,
+        "end": 17.12,
+        "highlight": false
+      },
+      {
+        "text": "quel",
+        "start": 17.12,
+        "end": 17.24,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "niveau tu en",
+    "start": 17.24,
+    "end": 18.0,
+    "words": [
+      {
+        "text": "niveau",
+        "start": 17.24,
+        "end": 17.5,
+        "highlight": true
+      },
+      {
+        "text": "tu",
+        "start": 17.5,
+        "end": 17.76,
+        "highlight": false
+      },
+      {
+        "text": "en",
+        "start": 17.76,
+        "end": 18.0,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "es dans ta",
+    "start": 18.0,
+    "end": 18.54,
+    "words": [
+      {
+        "text": "es",
+        "start": 18.0,
+        "end": 18.1,
+        "highlight": false
+      },
+      {
+        "text": "dans",
+        "start": 18.1,
+        "end": 18.3,
+        "highlight": false
+      },
+      {
+        "text": "ta",
+        "start": 18.3,
+        "end": 18.54,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "maîtrise de cette",
+    "start": 18.54,
+    "end": 19.36,
+    "words": [
+      {
+        "text": "maîtrise",
+        "start": 18.54,
+        "end": 18.96,
+        "highlight": true
+      },
+      {
+        "text": "de",
+        "start": 18.96,
+        "end": 19.18,
+        "highlight": false
+      },
+      {
+        "text": "cette",
+        "start": 19.18,
+        "end": 19.36,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "nouvelle technologie qui",
+    "start": 19.36,
+    "end": 20.24,
+    "words": [
+      {
+        "text": "nouvelle",
+        "start": 19.36,
+        "end": 19.62,
+        "highlight": false
+      },
+      {
+        "text": "technologie",
+        "start": 19.62,
+        "end": 20.14,
+        "highlight": false
+      },
+      {
+        "text": "qui",
+        "start": 20.14,
+        "end": 20.24,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "va transformer notre",
+    "start": 20.24,
+    "end": 21.42,
+    "words": [
+      {
+        "text": "va",
+        "start": 20.24,
+        "end": 20.54,
+        "highlight": false
+      },
+      {
+        "text": "transformer",
+        "start": 20.54,
+        "end": 21.1,
+        "highlight": true
+      },
+      {
+        "text": "notre",
+        "start": 21.1,
+        "end": 21.42,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "quotidien à jamais.",
+    "start": 21.42,
+    "end": 22.48,
+    "words": [
+      {
+        "text": "quotidien",
+        "start": 21.42,
+        "end": 21.92,
+        "highlight": false
+      },
+      {
+        "text": "à",
+        "start": 21.92,
+        "end": 22.2,
+        "highlight": false
+      },
+      {
+        "text": "jamais.",
+        "start": 22.2,
+        "end": 22.48,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "Si tu es",
+    "start": 22.48,
+    "end": 22.96,
+    "words": [
+      {
+        "text": "Si",
+        "start": 22.48,
+        "end": 22.78,
+        "highlight": false
+      },
+      {
+        "text": "tu",
+        "start": 22.78,
+        "end": 22.92,
+        "highlight": false
+      },
+      {
+        "text": "es",
+        "start": 22.92,
+        "end": 22.96,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "nouveau ici, ici",
+    "start": 22.96,
+    "end": 23.86,
+    "words": [
+      {
+        "text": "nouveau",
+        "start": 22.96,
+        "end": 23.2,
+        "highlight": false
+      },
+      {
+        "text": "ici,",
+        "start": 23.2,
+        "end": 23.52,
+        "highlight": false
+      },
+      {
+        "text": "ici",
+        "start": 23.86,
+        "end": 23.86,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "c 'est Claude,",
+    "start": 23.86,
+    "end": 24.6,
+    "words": [
+      {
+        "text": "c",
+        "start": 23.86,
+        "end": 24.02,
+        "highlight": false
+      },
+      {
+        "text": "'est",
+        "start": 24.02,
+        "end": 24.14,
+        "highlight": false
+      },
+      {
+        "text": "Claude,",
+        "start": 24.14,
+        "end": 24.6,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "Monsieur IA, ici",
+    "start": 24.78,
+    "end": 25.7,
+    "words": [
+      {
+        "text": "Monsieur",
+        "start": 24.78,
+        "end": 25.06,
+        "highlight": false
+      },
+      {
+        "text": "IA,",
+        "start": 25.06,
+        "end": 25.46,
+        "highlight": false
+      },
+      {
+        "text": "ici",
+        "start": 25.52,
+        "end": 25.7,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "je partage avec",
+    "start": 25.7,
+    "end": 26.62,
+    "words": [
+      {
+        "text": "je",
+        "start": 25.7,
+        "end": 25.94,
+        "highlight": false
+      },
+      {
+        "text": "partage",
+        "start": 25.94,
+        "end": 26.4,
+        "highlight": false
+      },
+      {
+        "text": "avec",
+        "start": 26.4,
+        "end": 26.62,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "toi les opportunités",
+    "start": 26.62,
+    "end": 27.88,
+    "words": [
+      {
+        "text": "toi",
+        "start": 26.62,
+        "end": 26.86,
+        "highlight": false
+      },
+      {
+        "text": "les",
+        "start": 26.86,
+        "end": 27.1,
+        "highlight": false
+      },
+      {
+        "text": "opportunités",
+        "start": 27.1,
+        "end": 27.88,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "et les nouveautés",
+    "start": 27.88,
+    "end": 28.7,
+    "words": [
+      {
+        "text": "et",
+        "start": 27.88,
+        "end": 28.2,
+        "highlight": false
+      },
+      {
+        "text": "les",
+        "start": 28.2,
+        "end": 28.42,
+        "highlight": false
+      },
+      {
+        "text": "nouveautés",
+        "start": 28.42,
+        "end": 28.7,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "dans le domaine",
+    "start": 28.7,
+    "end": 29.14,
+    "words": [
+      {
+        "text": "dans",
+        "start": 28.7,
+        "end": 28.92,
+        "highlight": false
+      },
+      {
+        "text": "le",
+        "start": 28.92,
+        "end": 28.94,
+        "highlight": false
+      },
+      {
+        "text": "domaine",
+        "start": 28.94,
+        "end": 29.14,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "de l 'intelligence",
+    "start": 29.14,
+    "end": 29.86,
+    "words": [
+      {
+        "text": "de",
+        "start": 29.14,
+        "end": 29.34,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 29.34,
+        "end": 29.5,
+        "highlight": false
+      },
+      {
+        "text": "'intelligence",
+        "start": 29.5,
+        "end": 29.86,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "artificielle. Donc si",
+    "start": 29.86,
+    "end": 30.62,
+    "words": [
+      {
+        "text": "artificielle.",
+        "start": 29.86,
+        "end": 30.22,
+        "highlight": true
+      },
+      {
+        "text": "Donc",
+        "start": 30.36,
+        "end": 30.46,
+        "highlight": false
+      },
+      {
+        "text": "si",
+        "start": 30.46,
+        "end": 30.62,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "tu ne veux",
+    "start": 30.62,
+    "end": 30.94,
+    "words": [
+      {
+        "text": "tu",
+        "start": 30.62,
+        "end": 30.7,
+        "highlight": false
+      },
+      {
+        "text": "ne",
+        "start": 30.7,
+        "end": 30.82,
+        "highlight": false
+      },
+      {
+        "text": "veux",
+        "start": 30.82,
+        "end": 30.94,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "rien rater, abonne",
+    "start": 30.94,
+    "end": 32.18,
+    "words": [
+      {
+        "text": "rien",
+        "start": 30.94,
+        "end": 31.24,
+        "highlight": false
+      },
+      {
+        "text": "rater,",
+        "start": 31.24,
+        "end": 31.74,
+        "highlight": false
+      },
+      {
+        "text": "abonne",
+        "start": 32.0,
+        "end": 32.18,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "-toi. On y",
+    "start": 32.18,
+    "end": 32.72,
+    "words": [
+      {
+        "text": "-toi.",
+        "start": 32.18,
+        "end": 32.42,
+        "highlight": false
+      },
+      {
+        "text": "On",
+        "start": 32.44,
+        "end": 32.58,
+        "highlight": false
+      },
+      {
+        "text": "y",
+        "start": 32.58,
+        "end": 32.72,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "va. Sûrement que",
+    "start": 32.72,
+    "end": 33.62,
+    "words": [
+      {
+        "text": "va.",
+        "start": 32.72,
+        "end": 32.96,
+        "highlight": false
+      },
+      {
+        "text": "Sûrement",
+        "start": 33.2,
+        "end": 33.44,
+        "highlight": false
+      },
+      {
+        "text": "que",
+        "start": 33.44,
+        "end": 33.62,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "tu te demandes",
+    "start": 33.62,
+    "end": 34.3,
+    "words": [
+      {
+        "text": "tu",
+        "start": 33.62,
+        "end": 33.74,
+        "highlight": false
+      },
+      {
+        "text": "te",
+        "start": 33.74,
+        "end": 33.92,
+        "highlight": false
+      },
+      {
+        "text": "demandes",
+        "start": 33.92,
+        "end": 34.3,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "à quel niveau",
+    "start": 34.3,
+    "end": 34.98,
+    "words": [
+      {
+        "text": "à",
+        "start": 34.3,
+        "end": 34.56,
+        "highlight": false
+      },
+      {
+        "text": "quel",
+        "start": 34.56,
+        "end": 34.68,
+        "highlight": false
+      },
+      {
+        "text": "niveau",
+        "start": 34.68,
+        "end": 34.98,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "tu as atteint",
+    "start": 34.98,
+    "end": 35.66,
+    "words": [
+      {
+        "text": "tu",
+        "start": 34.98,
+        "end": 35.2,
+        "highlight": false
+      },
+      {
+        "text": "as",
+        "start": 35.2,
+        "end": 35.44,
+        "highlight": false
+      },
+      {
+        "text": "atteint",
+        "start": 35.44,
+        "end": 35.66,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "donc dans ta",
+    "start": 35.66,
+    "end": 36.26,
+    "words": [
+      {
+        "text": "donc",
+        "start": 35.66,
+        "end": 35.9,
+        "highlight": false
+      },
+      {
+        "text": "dans",
+        "start": 35.9,
+        "end": 36.08,
+        "highlight": false
+      },
+      {
+        "text": "ta",
+        "start": 36.08,
+        "end": 36.26,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "maîtrise de l",
+    "start": 36.26,
+    "end": 36.96,
+    "words": [
+      {
+        "text": "maîtrise",
+        "start": 36.26,
+        "end": 36.58,
+        "highlight": true
+      },
+      {
+        "text": "de",
+        "start": 36.58,
+        "end": 36.76,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 36.76,
+        "end": 36.96,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "'intelligence artificielle et",
+    "start": 36.96,
+    "end": 37.98,
+    "words": [
+      {
+        "text": "'intelligence",
+        "start": 36.96,
+        "end": 37.26,
+        "highlight": true
+      },
+      {
+        "text": "artificielle",
+        "start": 37.26,
+        "end": 37.66,
+        "highlight": true
+      },
+      {
+        "text": "et",
+        "start": 37.66,
+        "end": 37.98,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "regarde cette vidéo",
+    "start": 37.98,
+    "end": 38.68,
+    "words": [
+      {
+        "text": "regarde",
+        "start": 37.98,
+        "end": 38.24,
+        "highlight": false
+      },
+      {
+        "text": "cette",
+        "start": 38.24,
+        "end": 38.44,
+        "highlight": false
+      },
+      {
+        "text": "vidéo",
+        "start": 38.44,
+        "end": 38.68,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "jusqu 'à la",
+    "start": 38.68,
+    "end": 39.22,
+    "words": [
+      {
+        "text": "jusqu",
+        "start": 38.68,
+        "end": 38.94,
+        "highlight": false
+      },
+      {
+        "text": "'à",
+        "start": 38.94,
+        "end": 39.06,
+        "highlight": false
+      },
+      {
+        "text": "la",
+        "start": 39.06,
+        "end": 39.22,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "fin pour découvrir",
+    "start": 39.22,
+    "end": 40.18,
+    "words": [
+      {
+        "text": "fin",
+        "start": 39.22,
+        "end": 39.4,
+        "highlight": false
+      },
+      {
+        "text": "pour",
+        "start": 39.4,
+        "end": 39.72,
+        "highlight": false
+      },
+      {
+        "text": "découvrir",
+        "start": 39.72,
+        "end": 40.18,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "donc le niveau",
+    "start": 40.18,
+    "end": 41.3,
+    "words": [
+      {
+        "text": "donc",
+        "start": 40.18,
+        "end": 40.66,
+        "highlight": false
+      },
+      {
+        "text": "le",
+        "start": 40.66,
+        "end": 40.88,
+        "highlight": false
+      },
+      {
+        "text": "niveau",
+        "start": 40.88,
+        "end": 41.3,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "que tu as",
+    "start": 41.3,
+    "end": 42.44,
+    "words": [
+      {
+        "text": "que",
+        "start": 41.3,
+        "end": 41.78,
+        "highlight": false
+      },
+      {
+        "text": "tu",
+        "start": 41.78,
+        "end": 42.16,
+        "highlight": false
+      },
+      {
+        "text": "as",
+        "start": 42.16,
+        "end": 42.44,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "atteint dans la",
+    "start": 42.44,
+    "end": 43.3,
+    "words": [
+      {
+        "text": "atteint",
+        "start": 42.44,
+        "end": 42.7,
+        "highlight": false
+      },
+      {
+        "text": "dans",
+        "start": 42.7,
+        "end": 43.04,
+        "highlight": false
+      },
+      {
+        "text": "la",
+        "start": 43.04,
+        "end": 43.3,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "maîtrise de l",
+    "start": 43.3,
+    "end": 44.04,
+    "words": [
+      {
+        "text": "maîtrise",
+        "start": 43.3,
+        "end": 43.74,
+        "highlight": true
+      },
+      {
+        "text": "de",
+        "start": 43.74,
+        "end": 43.9,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 43.9,
+        "end": 44.04,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "'intelligence artificielle actuellement.",
+    "start": 44.04,
+    "end": 45.34,
+    "words": [
+      {
+        "text": "'intelligence",
+        "start": 44.04,
+        "end": 44.4,
+        "highlight": true
+      },
+      {
+        "text": "artificielle",
+        "start": 44.4,
+        "end": 44.86,
+        "highlight": true
+      },
+      {
+        "text": "actuellement.",
+        "start": 44.86,
+        "end": 45.34,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "Le niveau 1",
+    "start": 45.34,
+    "end": 46.42,
+    "words": [
+      {
+        "text": "Le",
+        "start": 45.34,
+        "end": 45.86,
+        "highlight": false
+      },
+      {
+        "text": "niveau",
+        "start": 45.86,
+        "end": 46.1,
+        "highlight": true
+      },
+      {
+        "text": "1",
+        "start": 46.1,
+        "end": 46.42,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "de l 'intelligence",
+    "start": 46.42,
+    "end": 47.22,
+    "words": [
+      {
+        "text": "de",
+        "start": 46.42,
+        "end": 46.6,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 46.6,
+        "end": 46.78,
+        "highlight": false
+      },
+      {
+        "text": "'intelligence",
+        "start": 46.78,
+        "end": 47.22,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "artificielle, c 'est",
+    "start": 47.22,
+    "end": 47.92,
+    "words": [
+      {
+        "text": "artificielle,",
+        "start": 47.22,
+        "end": 47.7,
+        "highlight": true
+      },
+      {
+        "text": "c",
+        "start": 47.78,
+        "end": 47.9,
+        "highlight": false
+      },
+      {
+        "text": "'est",
+        "start": 47.9,
+        "end": 47.92,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "le niveau 4",
+    "start": 47.92,
+    "end": 48.66,
+    "words": [
+      {
+        "text": "le",
+        "start": 47.92,
+        "end": 48.12,
+        "highlight": false
+      },
+      {
+        "text": "niveau",
+        "start": 48.12,
+        "end": 48.38,
+        "highlight": true
+      },
+      {
+        "text": "4",
+        "start": 48.38,
+        "end": 48.66,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "-bot. Donc c",
+    "start": 48.66,
+    "end": 49.84,
+    "words": [
+      {
+        "text": "-bot.",
+        "start": 48.66,
+        "end": 48.88,
+        "highlight": false
+      },
+      {
+        "text": "Donc",
+        "start": 49.16,
+        "end": 49.48,
+        "highlight": false
+      },
+      {
+        "text": "c",
+        "start": 49.48,
+        "end": 49.84,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'est un système",
+    "start": 49.84,
+    "end": 50.5,
+    "words": [
+      {
+        "text": "'est",
+        "start": 49.84,
+        "end": 49.86,
+        "highlight": false
+      },
+      {
+        "text": "un",
+        "start": 49.86,
+        "end": 50.06,
+        "highlight": false
+      },
+      {
+        "text": "système",
+        "start": 50.06,
+        "end": 50.5,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "à qui vous",
+    "start": 50.5,
+    "end": 51.64,
+    "words": [
+      {
+        "text": "à",
+        "start": 50.5,
+        "end": 51.18,
+        "highlight": false
+      },
+      {
+        "text": "qui",
+        "start": 51.18,
+        "end": 51.28,
+        "highlight": false
+      },
+      {
+        "text": "vous",
+        "start": 51.28,
+        "end": 51.64,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "interagissez en envoyant",
+    "start": 51.64,
+    "end": 53.02,
+    "words": [
+      {
+        "text": "interagissez",
+        "start": 51.64,
+        "end": 52.42,
+        "highlight": false
+      },
+      {
+        "text": "en",
+        "start": 52.42,
+        "end": 52.74,
+        "highlight": false
+      },
+      {
+        "text": "envoyant",
+        "start": 52.74,
+        "end": 53.02,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "des requêtes à",
+    "start": 53.02,
+    "end": 53.94,
+    "words": [
+      {
+        "text": "des",
+        "start": 53.02,
+        "end": 53.18,
+        "highlight": false
+      },
+      {
+        "text": "requêtes",
+        "start": 53.18,
+        "end": 53.64,
+        "highlight": false
+      },
+      {
+        "text": "à",
+        "start": 53.64,
+        "end": 53.94,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "travers un carte",
+    "start": 53.94,
+    "end": 54.94,
+    "words": [
+      {
+        "text": "travers",
+        "start": 53.94,
+        "end": 54.3,
+        "highlight": false
+      },
+      {
+        "text": "un",
+        "start": 54.3,
+        "end": 54.68,
+        "highlight": false
+      },
+      {
+        "text": "carte",
+        "start": 54.68,
+        "end": 54.94,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "et ils vous",
+    "start": 54.94,
+    "end": 55.84,
+    "words": [
+      {
+        "text": "et",
+        "start": 54.94,
+        "end": 55.38,
+        "highlight": false
+      },
+      {
+        "text": "ils",
+        "start": 55.38,
+        "end": 55.68,
+        "highlight": false
+      },
+      {
+        "text": "vous",
+        "start": 55.68,
+        "end": 55.84,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "répondent. Nous avons",
+    "start": 55.84,
+    "end": 56.64,
+    "words": [
+      {
+        "text": "répondent.",
+        "start": 55.84,
+        "end": 56.3,
+        "highlight": false
+      },
+      {
+        "text": "Nous",
+        "start": 56.3,
+        "end": 56.5,
+        "highlight": false
+      },
+      {
+        "text": "avons",
+        "start": 56.5,
+        "end": 56.64,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "des exemples comme",
+    "start": 56.64,
+    "end": 57.6,
+    "words": [
+      {
+        "text": "des",
+        "start": 56.64,
+        "end": 56.86,
+        "highlight": false
+      },
+      {
+        "text": "exemples",
+        "start": 56.86,
+        "end": 57.12,
+        "highlight": false
+      },
+      {
+        "text": "comme",
+        "start": 57.12,
+        "end": 57.6,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "4 -GPT, 10",
+    "start": 57.6,
+    "end": 58.8,
+    "words": [
+      {
+        "text": "4",
+        "start": 57.6,
+        "end": 57.82,
+        "highlight": true
+      },
+      {
+        "text": "-GPT,",
+        "start": 57.82,
+        "end": 58.5,
+        "highlight": false
+      },
+      {
+        "text": "10",
+        "start": 58.58,
+        "end": 58.8,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "-Psych, Claude. Donc",
+    "start": 58.8,
+    "end": 60.9,
+    "words": [
+      {
+        "text": "-Psych,",
+        "start": 58.8,
+        "end": 59.26,
+        "highlight": false
+      },
+      {
+        "text": "Claude.",
+        "start": 59.58,
+        "end": 60.1,
+        "highlight": true
+      },
+      {
+        "text": "Donc",
+        "start": 60.6,
+        "end": 60.9,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "ce niveau, c",
+    "start": 60.9,
+    "end": 61.7,
+    "words": [
+      {
+        "text": "ce",
+        "start": 60.9,
+        "end": 61.14,
+        "highlight": false
+      },
+      {
+        "text": "niveau,",
+        "start": 61.14,
+        "end": 61.54,
+        "highlight": true
+      },
+      {
+        "text": "c",
+        "start": 61.58,
+        "end": 61.7,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "'est le niveau",
+    "start": 61.7,
+    "end": 62.04,
+    "words": [
+      {
+        "text": "'est",
+        "start": 61.7,
+        "end": 61.76,
+        "highlight": false
+      },
+      {
+        "text": "le",
+        "start": 61.76,
+        "end": 61.96,
+        "highlight": false
+      },
+      {
+        "text": "niveau",
+        "start": 61.96,
+        "end": 62.04,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "1 de l",
+    "start": 62.04,
+    "end": 62.52,
+    "words": [
+      {
+        "text": "1",
+        "start": 62.04,
+        "end": 62.26,
+        "highlight": true
+      },
+      {
+        "text": "de",
+        "start": 62.26,
+        "end": 62.36,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 62.36,
+        "end": 62.52,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "'intelligence artificielle et",
+    "start": 62.52,
+    "end": 63.14,
+    "words": [
+      {
+        "text": "'intelligence",
+        "start": 62.52,
+        "end": 62.76,
+        "highlight": true
+      },
+      {
+        "text": "artificielle",
+        "start": 62.76,
+        "end": 63.0,
+        "highlight": true
+      },
+      {
+        "text": "et",
+        "start": 63.0,
+        "end": 63.14,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "il y a",
+    "start": 63.14,
+    "end": 63.36,
+    "words": [
+      {
+        "text": "il",
+        "start": 63.14,
+        "end": 63.28,
+        "highlight": false
+      },
+      {
+        "text": "y",
+        "start": 63.28,
+        "end": 63.28,
+        "highlight": false
+      },
+      {
+        "text": "a",
+        "start": 63.28,
+        "end": 63.36,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "beaucoup qui sont",
+    "start": 63.36,
+    "end": 63.88,
+    "words": [
+      {
+        "text": "beaucoup",
+        "start": 63.36,
+        "end": 63.56,
+        "highlight": false
+      },
+      {
+        "text": "qui",
+        "start": 63.56,
+        "end": 63.68,
+        "highlight": false
+      },
+      {
+        "text": "sont",
+        "start": 63.68,
+        "end": 63.88,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "bloqués à ce",
+    "start": 63.88,
+    "end": 64.42,
+    "words": [
+      {
+        "text": "bloqués",
+        "start": 63.88,
+        "end": 64.22,
+        "highlight": false
+      },
+      {
+        "text": "à",
+        "start": 64.22,
+        "end": 64.36,
+        "highlight": false
+      },
+      {
+        "text": "ce",
+        "start": 64.36,
+        "end": 64.42,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "niveau actuellement. Le",
+    "start": 64.42,
+    "end": 65.64,
+    "words": [
+      {
+        "text": "niveau",
+        "start": 64.42,
+        "end": 64.66,
+        "highlight": true
+      },
+      {
+        "text": "actuellement.",
+        "start": 64.66,
+        "end": 65.16,
+        "highlight": false
+      },
+      {
+        "text": "Le",
+        "start": 65.5,
+        "end": 65.64,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "niveau 2 de",
+    "start": 65.64,
+    "end": 66.06,
+    "words": [
+      {
+        "text": "niveau",
+        "start": 65.64,
+        "end": 65.78,
+        "highlight": true
+      },
+      {
+        "text": "2",
+        "start": 65.78,
+        "end": 65.94,
+        "highlight": true
+      },
+      {
+        "text": "de",
+        "start": 65.94,
+        "end": 66.06,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "l 'intelligence artificielle,",
+    "start": 66.06,
+    "end": 66.9,
+    "words": [
+      {
+        "text": "l",
+        "start": 66.06,
+        "end": 66.22,
+        "highlight": false
+      },
+      {
+        "text": "'intelligence",
+        "start": 66.22,
+        "end": 66.52,
+        "highlight": true
+      },
+      {
+        "text": "artificielle,",
+        "start": 66.52,
+        "end": 66.9,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "c 'est les",
+    "start": 66.98,
+    "end": 67.48,
+    "words": [
+      {
+        "text": "c",
+        "start": 66.98,
+        "end": 67.16,
+        "highlight": false
+      },
+      {
+        "text": "'est",
+        "start": 67.16,
+        "end": 67.22,
+        "highlight": false
+      },
+      {
+        "text": "les",
+        "start": 67.22,
+        "end": 67.48,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "automatisations. Donc vous",
+    "start": 67.48,
+    "end": 68.82,
+    "words": [
+      {
+        "text": "automatisations.",
+        "start": 67.48,
+        "end": 68.28,
+        "highlight": true
+      },
+      {
+        "text": "Donc",
+        "start": 68.28,
+        "end": 68.56,
+        "highlight": false
+      },
+      {
+        "text": "vous",
+        "start": 68.56,
+        "end": 68.82,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "dites à l",
+    "start": 68.82,
+    "end": 69.98,
+    "words": [
+      {
+        "text": "dites",
+        "start": 68.82,
+        "end": 69.5,
+        "highlight": false
+      },
+      {
+        "text": "à",
+        "start": 69.5,
+        "end": 69.98,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 69.98,
+        "end": 69.98,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'IA, une fois",
+    "start": 69.98,
+    "end": 71.14,
+    "words": [
+      {
+        "text": "'IA,",
+        "start": 69.98,
+        "end": 70.08,
+        "highlight": false
+      },
+      {
+        "text": "une",
+        "start": 70.24,
+        "end": 70.92,
+        "highlight": false
+      },
+      {
+        "text": "fois",
+        "start": 70.92,
+        "end": 71.14,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "que je reçois",
+    "start": 71.14,
+    "end": 72.14,
+    "words": [
+      {
+        "text": "que",
+        "start": 71.14,
+        "end": 71.28,
+        "highlight": false
+      },
+      {
+        "text": "je",
+        "start": 71.28,
+        "end": 71.46,
+        "highlight": false
+      },
+      {
+        "text": "reçois",
+        "start": 71.46,
+        "end": 72.14,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "un e -mail",
+    "start": 72.14,
+    "end": 73.02,
+    "words": [
+      {
+        "text": "un",
+        "start": 72.14,
+        "end": 72.42,
+        "highlight": false
+      },
+      {
+        "text": "e",
+        "start": 72.42,
+        "end": 72.6,
+        "highlight": false
+      },
+      {
+        "text": "-mail",
+        "start": 72.6,
+        "end": 73.02,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "et qu 'il",
+    "start": 73.02,
+    "end": 73.7,
+    "words": [
+      {
+        "text": "et",
+        "start": 73.02,
+        "end": 73.46,
+        "highlight": false
+      },
+      {
+        "text": "qu",
+        "start": 73.46,
+        "end": 73.7,
+        "highlight": false
+      },
+      {
+        "text": "'il",
+        "start": 73.7,
+        "end": 73.7,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "identifie qu 'il",
+    "start": 73.7,
+    "end": 74.7,
+    "words": [
+      {
+        "text": "identifie",
+        "start": 73.7,
+        "end": 74.3,
+        "highlight": false
+      },
+      {
+        "text": "qu",
+        "start": 74.3,
+        "end": 74.64,
+        "highlight": false
+      },
+      {
+        "text": "'il",
+        "start": 74.64,
+        "end": 74.7,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "y a des",
+    "start": 74.7,
+    "end": 75.26,
+    "words": [
+      {
+        "text": "y",
+        "start": 74.7,
+        "end": 74.7,
+        "highlight": false
+      },
+      {
+        "text": "a",
+        "start": 74.7,
+        "end": 75.08,
+        "highlight": false
+      },
+      {
+        "text": "des",
+        "start": 75.08,
+        "end": 75.26,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "pièces jointes dans",
+    "start": 75.26,
+    "end": 76.12,
+    "words": [
+      {
+        "text": "pièces",
+        "start": 75.26,
+        "end": 75.48,
+        "highlight": false
+      },
+      {
+        "text": "jointes",
+        "start": 75.48,
+        "end": 75.86,
+        "highlight": false
+      },
+      {
+        "text": "dans",
+        "start": 75.86,
+        "end": 76.12,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "l 'e -mail,",
+    "start": 76.12,
+    "end": 76.76,
+    "words": [
+      {
+        "text": "l",
+        "start": 76.12,
+        "end": 76.28,
+        "highlight": false
+      },
+      {
+        "text": "'e",
+        "start": 76.28,
+        "end": 76.46,
+        "highlight": false
+      },
+      {
+        "text": "-mail,",
+        "start": 76.46,
+        "end": 76.76,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "classe -moi donc",
+    "start": 77.0,
+    "end": 78.14,
+    "words": [
+      {
+        "text": "classe",
+        "start": 77.0,
+        "end": 77.28,
+        "highlight": false
+      },
+      {
+        "text": "-moi",
+        "start": 77.28,
+        "end": 77.64,
+        "highlight": false
+      },
+      {
+        "text": "donc",
+        "start": 77.64,
+        "end": 78.14,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "les documents dans",
+    "start": 78.14,
+    "end": 79.16,
+    "words": [
+      {
+        "text": "les",
+        "start": 78.14,
+        "end": 78.3,
+        "highlight": false
+      },
+      {
+        "text": "documents",
+        "start": 78.3,
+        "end": 78.74,
+        "highlight": false
+      },
+      {
+        "text": "dans",
+        "start": 78.74,
+        "end": 79.16,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "un Google Drive",
+    "start": 79.16,
+    "end": 79.94,
+    "words": [
+      {
+        "text": "un",
+        "start": 79.16,
+        "end": 79.32,
+        "highlight": false
+      },
+      {
+        "text": "Google",
+        "start": 79.32,
+        "end": 79.6,
+        "highlight": true
+      },
+      {
+        "text": "Drive",
+        "start": 79.6,
+        "end": 79.94,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "et l 'IA",
+    "start": 79.94,
+    "end": 80.64,
+    "words": [
+      {
+        "text": "et",
+        "start": 79.94,
+        "end": 80.32,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 80.32,
+        "end": 80.56,
+        "highlight": false
+      },
+      {
+        "text": "'IA",
+        "start": 80.56,
+        "end": 80.64,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "va exécuter cette",
+    "start": 80.64,
+    "end": 81.58,
+    "words": [
+      {
+        "text": "va",
+        "start": 80.64,
+        "end": 80.9,
+        "highlight": false
+      },
+      {
+        "text": "exécuter",
+        "start": 80.9,
+        "end": 81.36,
+        "highlight": false
+      },
+      {
+        "text": "cette",
+        "start": 81.36,
+        "end": 81.58,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "tâche -là. Nous",
+    "start": 81.58,
+    "end": 82.5,
+    "words": [
+      {
+        "text": "tâche",
+        "start": 81.58,
+        "end": 81.84,
+        "highlight": false
+      },
+      {
+        "text": "-là.",
+        "start": 81.84,
+        "end": 82.34,
+        "highlight": false
+      },
+      {
+        "text": "Nous",
+        "start": 82.4,
+        "end": 82.5,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "avons des outils",
+    "start": 82.5,
+    "end": 82.94,
+    "words": [
+      {
+        "text": "avons",
+        "start": 82.5,
+        "end": 82.54,
+        "highlight": false
+      },
+      {
+        "text": "des",
+        "start": 82.54,
+        "end": 82.7,
+        "highlight": false
+      },
+      {
+        "text": "outils",
+        "start": 82.7,
+        "end": 82.94,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "comme N8N, Make,",
+    "start": 82.94,
+    "end": 85.04,
+    "words": [
+      {
+        "text": "comme",
+        "start": 82.94,
+        "end": 83.54,
+        "highlight": false
+      },
+      {
+        "text": "N8N,",
+        "start": 83.54,
+        "end": 84.48,
+        "highlight": true
+      },
+      {
+        "text": "Make,",
+        "start": 84.6,
+        "end": 85.04,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "Zapier, etc. Le",
+    "start": 85.6,
+    "end": 87.56,
+    "words": [
+      {
+        "text": "Zapier,",
+        "start": 85.6,
+        "end": 86.34,
+        "highlight": true
+      },
+      {
+        "text": "etc.",
+        "start": 86.46,
+        "end": 86.92,
+        "highlight": false
+      },
+      {
+        "text": "Le",
+        "start": 87.36,
+        "end": 87.56,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "niveau 3 de",
+    "start": 87.56,
+    "end": 88.24,
+    "words": [
+      {
+        "text": "niveau",
+        "start": 87.56,
+        "end": 87.76,
+        "highlight": true
+      },
+      {
+        "text": "3",
+        "start": 87.76,
+        "end": 88.0,
+        "highlight": true
+      },
+      {
+        "text": "de",
+        "start": 88.0,
+        "end": 88.24,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "l 'IA, c",
+    "start": 88.24,
+    "end": 89.2,
+    "words": [
+      {
+        "text": "l",
+        "start": 88.24,
+        "end": 88.5,
+        "highlight": false
+      },
+      {
+        "text": "'IA,",
+        "start": 88.5,
+        "end": 88.72,
+        "highlight": false
+      },
+      {
+        "text": "c",
+        "start": 89.2,
+        "end": 89.2,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'est les agents",
+    "start": 89.2,
+    "end": 90.22,
+    "words": [
+      {
+        "text": "'est",
+        "start": 89.2,
+        "end": 89.56,
+        "highlight": false
+      },
+      {
+        "text": "les",
+        "start": 89.56,
+        "end": 89.92,
+        "highlight": false
+      },
+      {
+        "text": "agents",
+        "start": 89.92,
+        "end": 90.22,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "IA, ou bien",
+    "start": 90.22,
+    "end": 91.22,
+    "words": [
+      {
+        "text": "IA,",
+        "start": 90.22,
+        "end": 90.8,
+        "highlight": false
+      },
+      {
+        "text": "ou",
+        "start": 90.98,
+        "end": 91.06,
+        "highlight": false
+      },
+      {
+        "text": "bien",
+        "start": 91.06,
+        "end": 91.22,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "les agents d",
+    "start": 91.22,
+    "end": 91.88,
+    "words": [
+      {
+        "text": "les",
+        "start": 91.22,
+        "end": 91.48,
+        "highlight": false
+      },
+      {
+        "text": "agents",
+        "start": 91.48,
+        "end": 91.68,
+        "highlight": true
+      },
+      {
+        "text": "d",
+        "start": 91.68,
+        "end": 91.88,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "'intelligence artificielle. Ce",
+    "start": 91.88,
+    "end": 93.3,
+    "words": [
+      {
+        "text": "'intelligence",
+        "start": 91.88,
+        "end": 92.3,
+        "highlight": true
+      },
+      {
+        "text": "artificielle.",
+        "start": 92.3,
+        "end": 92.86,
+        "highlight": true
+      },
+      {
+        "text": "Ce",
+        "start": 92.86,
+        "end": 93.3,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "sont des systèmes",
+    "start": 93.3,
+    "end": 93.6,
+    "words": [
+      {
+        "text": "sont",
+        "start": 93.3,
+        "end": 93.32,
+        "highlight": false
+      },
+      {
+        "text": "des",
+        "start": 93.32,
+        "end": 93.32,
+        "highlight": false
+      },
+      {
+        "text": "systèmes",
+        "start": 93.32,
+        "end": 93.6,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "dotés d 'une",
+    "start": 93.6,
+    "end": 94.38,
+    "words": [
+      {
+        "text": "dotés",
+        "start": 93.6,
+        "end": 94.0,
+        "highlight": false
+      },
+      {
+        "text": "d",
+        "start": 94.0,
+        "end": 94.18,
+        "highlight": false
+      },
+      {
+        "text": "'une",
+        "start": 94.18,
+        "end": 94.38,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "mémoire qui peuvent",
+    "start": 94.38,
+    "end": 96.06,
+    "words": [
+      {
+        "text": "mémoire",
+        "start": 94.38,
+        "end": 95.26,
+        "highlight": false
+      },
+      {
+        "text": "qui",
+        "start": 95.26,
+        "end": 95.52,
+        "highlight": false
+      },
+      {
+        "text": "peuvent",
+        "start": 95.52,
+        "end": 96.06,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "réfléchir et exécuter",
+    "start": 96.06,
+    "end": 98.86,
+    "words": [
+      {
+        "text": "réfléchir",
+        "start": 96.06,
+        "end": 97.24,
+        "highlight": false
+      },
+      {
+        "text": "et",
+        "start": 97.24,
+        "end": 97.7,
+        "highlight": false
+      },
+      {
+        "text": "exécuter",
+        "start": 97.7,
+        "end": 98.86,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "une tâche et",
+    "start": 98.86,
+    "end": 99.86,
+    "words": [
+      {
+        "text": "une",
+        "start": 98.86,
+        "end": 99.2,
+        "highlight": false
+      },
+      {
+        "text": "tâche",
+        "start": 99.2,
+        "end": 99.6,
+        "highlight": false
+      },
+      {
+        "text": "et",
+        "start": 99.6,
+        "end": 99.86,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "vous présenter des",
+    "start": 99.86,
+    "end": 100.62,
+    "words": [
+      {
+        "text": "vous",
+        "start": 99.86,
+        "end": 100.12,
+        "highlight": false
+      },
+      {
+        "text": "présenter",
+        "start": 100.12,
+        "end": 100.36,
+        "highlight": false
+      },
+      {
+        "text": "des",
+        "start": 100.36,
+        "end": 100.62,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "résultats. Donc vous",
+    "start": 100.62,
+    "end": 101.74,
+    "words": [
+      {
+        "text": "résultats.",
+        "start": 100.62,
+        "end": 101.14,
+        "highlight": false
+      },
+      {
+        "text": "Donc",
+        "start": 101.44,
+        "end": 101.44,
+        "highlight": false
+      },
+      {
+        "text": "vous",
+        "start": 101.44,
+        "end": 101.74,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "envoyez donc des",
+    "start": 101.74,
+    "end": 103.12,
+    "words": [
+      {
+        "text": "envoyez",
+        "start": 101.74,
+        "end": 102.34,
+        "highlight": false
+      },
+      {
+        "text": "donc",
+        "start": 102.34,
+        "end": 102.94,
+        "highlight": false
+      },
+      {
+        "text": "des",
+        "start": 102.94,
+        "end": 103.12,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "requêtes à l",
+    "start": 103.12,
+    "end": 104.42,
+    "words": [
+      {
+        "text": "requêtes",
+        "start": 103.12,
+        "end": 103.84,
+        "highlight": false
+      },
+      {
+        "text": "à",
+        "start": 103.84,
+        "end": 104.1,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 104.1,
+        "end": 104.42,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'intelligence artificielle qui",
+    "start": 104.42,
+    "end": 105.74,
+    "words": [
+      {
+        "text": "'intelligence",
+        "start": 104.42,
+        "end": 104.58,
+        "highlight": true
+      },
+      {
+        "text": "artificielle",
+        "start": 104.58,
+        "end": 105.12,
+        "highlight": true
+      },
+      {
+        "text": "qui",
+        "start": 105.12,
+        "end": 105.74,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "ont la capacité",
+    "start": 105.74,
+    "end": 107.02,
+    "words": [
+      {
+        "text": "ont",
+        "start": 105.74,
+        "end": 105.92,
+        "highlight": false
+      },
+      {
+        "text": "la",
+        "start": 105.92,
+        "end": 106.22,
+        "highlight": false
+      },
+      {
+        "text": "capacité",
+        "start": 106.22,
+        "end": 107.02,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "de réfléchir et",
+    "start": 107.02,
+    "end": 108.72,
+    "words": [
+      {
+        "text": "de",
+        "start": 107.02,
+        "end": 107.4,
+        "highlight": false
+      },
+      {
+        "text": "réfléchir",
+        "start": 107.4,
+        "end": 108.22,
+        "highlight": false
+      },
+      {
+        "text": "et",
+        "start": 108.22,
+        "end": 108.72,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "d 'exécuter des",
+    "start": 108.72,
+    "end": 110.24,
+    "words": [
+      {
+        "text": "d",
+        "start": 108.72,
+        "end": 108.92,
+        "highlight": false
+      },
+      {
+        "text": "'exécuter",
+        "start": 108.92,
+        "end": 109.92,
+        "highlight": false
+      },
+      {
+        "text": "des",
+        "start": 109.92,
+        "end": 110.24,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "actions qui vont",
+    "start": 110.24,
+    "end": 111.6,
+    "words": [
+      {
+        "text": "actions",
+        "start": 110.24,
+        "end": 110.76,
+        "highlight": false
+      },
+      {
+        "text": "qui",
+        "start": 110.76,
+        "end": 111.12,
+        "highlight": false
+      },
+      {
+        "text": "vont",
+        "start": 111.12,
+        "end": 111.6,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "aboutir au résultat.",
+    "start": 111.6,
+    "end": 113.16,
+    "words": [
+      {
+        "text": "aboutir",
+        "start": 111.6,
+        "end": 112.26,
+        "highlight": false
+      },
+      {
+        "text": "au",
+        "start": 112.26,
+        "end": 112.54,
+        "highlight": false
+      },
+      {
+        "text": "résultat.",
+        "start": 112.54,
+        "end": 113.16,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "Donc ça, c",
+    "start": 113.28,
+    "end": 114.6,
+    "words": [
+      {
+        "text": "Donc",
+        "start": 113.28,
+        "end": 113.8,
+        "highlight": false
+      },
+      {
+        "text": "ça,",
+        "start": 113.8,
+        "end": 114.24,
+        "highlight": false
+      },
+      {
+        "text": "c",
+        "start": 114.38,
+        "end": 114.6,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'est les agents",
+    "start": 114.6,
+    "end": 115.1,
+    "words": [
+      {
+        "text": "'est",
+        "start": 114.6,
+        "end": 114.6,
+        "highlight": false
+      },
+      {
+        "text": "les",
+        "start": 114.6,
+        "end": 114.86,
+        "highlight": false
+      },
+      {
+        "text": "agents",
+        "start": 114.86,
+        "end": 115.1,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "IA. Donc c",
+    "start": 115.1,
+    "end": 116.14,
+    "words": [
+      {
+        "text": "IA.",
+        "start": 115.1,
+        "end": 115.66,
+        "highlight": false
+      },
+      {
+        "text": "Donc",
+        "start": 115.84,
+        "end": 115.98,
+        "highlight": false
+      },
+      {
+        "text": "c",
+        "start": 115.98,
+        "end": 116.14,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'est le niveau",
+    "start": 116.14,
+    "end": 116.5,
+    "words": [
+      {
+        "text": "'est",
+        "start": 116.14,
+        "end": 116.16,
+        "highlight": false
+      },
+      {
+        "text": "le",
+        "start": 116.16,
+        "end": 116.32,
+        "highlight": false
+      },
+      {
+        "text": "niveau",
+        "start": 116.32,
+        "end": 116.5,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "3 de l",
+    "start": 116.5,
+    "end": 117.02,
+    "words": [
+      {
+        "text": "3",
+        "start": 116.5,
+        "end": 116.74,
+        "highlight": true
+      },
+      {
+        "text": "de",
+        "start": 116.74,
+        "end": 116.92,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 116.92,
+        "end": 117.02,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "'intelligence artificielle.",
+    "start": 117.02,
+    "end": 117.86,
+    "words": [
+      {
+        "text": "'intelligence",
+        "start": 117.02,
+        "end": 117.38,
+        "highlight": true
+      },
+      {
+        "text": "artificielle.",
+        "start": 117.38,
+        "end": 117.86,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "Le niveau 4",
+    "start": 118.58,
+    "end": 119.68,
+    "words": [
+      {
+        "text": "Le",
+        "start": 118.58,
+        "end": 119.2,
+        "highlight": false
+      },
+      {
+        "text": "niveau",
+        "start": 119.2,
+        "end": 119.4,
+        "highlight": true
+      },
+      {
+        "text": "4",
+        "start": 119.4,
+        "end": 119.68,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "de l 'intelligence",
+    "start": 119.68,
+    "end": 120.38,
+    "words": [
+      {
+        "text": "de",
+        "start": 119.68,
+        "end": 119.9,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 119.9,
+        "end": 120.12,
+        "highlight": false
+      },
+      {
+        "text": "'intelligence",
+        "start": 120.12,
+        "end": 120.38,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "artificielle, et c",
+    "start": 120.38,
+    "end": 121.32,
+    "words": [
+      {
+        "text": "artificielle,",
+        "start": 120.38,
+        "end": 120.98,
+        "highlight": true
+      },
+      {
+        "text": "et",
+        "start": 121.26,
+        "end": 121.28,
+        "highlight": false
+      },
+      {
+        "text": "c",
+        "start": 121.28,
+        "end": 121.32,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "'est là où",
+    "start": 121.32,
+    "end": 121.98,
+    "words": [
+      {
+        "text": "'est",
+        "start": 121.32,
+        "end": 121.42,
+        "highlight": false
+      },
+      {
+        "text": "là",
+        "start": 121.42,
+        "end": 121.76,
+        "highlight": false
+      },
+      {
+        "text": "où",
+        "start": 121.76,
+        "end": 121.98,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "on en est",
+    "start": 121.98,
+    "end": 122.56,
+    "words": [
+      {
+        "text": "on",
+        "start": 121.98,
+        "end": 122.18,
+        "highlight": false
+      },
+      {
+        "text": "en",
+        "start": 122.18,
+        "end": 122.38,
+        "highlight": false
+      },
+      {
+        "text": "est",
+        "start": 122.38,
+        "end": 122.56,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "actuellement, c 'est",
+    "start": 122.56,
+    "end": 123.74,
+    "words": [
+      {
+        "text": "actuellement,",
+        "start": 122.56,
+        "end": 123.2,
+        "highlight": false
+      },
+      {
+        "text": "c",
+        "start": 123.64,
+        "end": 123.74,
+        "highlight": false
+      },
+      {
+        "text": "'est",
+        "start": 123.74,
+        "end": 123.74,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "les agents orchestrateurs.",
+    "start": 123.74,
+    "end": 126.6,
+    "words": [
+      {
+        "text": "les",
+        "start": 123.74,
+        "end": 124.34,
+        "highlight": false
+      },
+      {
+        "text": "agents",
+        "start": 124.34,
+        "end": 124.82,
+        "highlight": true
+      },
+      {
+        "text": "orchestrateurs.",
+        "start": 124.82,
+        "end": 126.6,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "C 'est les",
+    "start": 126.84,
+    "end": 127.28,
+    "words": [
+      {
+        "text": "C",
+        "start": 126.84,
+        "end": 126.92,
+        "highlight": false
+      },
+      {
+        "text": "'est",
+        "start": 126.92,
+        "end": 126.92,
+        "highlight": false
+      },
+      {
+        "text": "les",
+        "start": 126.92,
+        "end": 127.28,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "intelligence artificielle qui",
+    "start": 127.28,
+    "end": 128.9,
+    "words": [
+      {
+        "text": "intelligence",
+        "start": 127.28,
+        "end": 127.68,
+        "highlight": true
+      },
+      {
+        "text": "artificielle",
+        "start": 127.68,
+        "end": 128.44,
+        "highlight": true
+      },
+      {
+        "text": "qui",
+        "start": 128.44,
+        "end": 128.9,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "sont capables de",
+    "start": 128.9,
+    "end": 130.98,
+    "words": [
+      {
+        "text": "sont",
+        "start": 128.9,
+        "end": 129.38,
+        "highlight": false
+      },
+      {
+        "text": "capables",
+        "start": 129.38,
+        "end": 130.46,
+        "highlight": false
+      },
+      {
+        "text": "de",
+        "start": 130.46,
+        "end": 130.98,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "coordonner d 'autres",
+    "start": 130.98,
+    "end": 132.16,
+    "words": [
+      {
+        "text": "coordonner",
+        "start": 130.98,
+        "end": 131.52,
+        "highlight": false
+      },
+      {
+        "text": "d",
+        "start": 131.52,
+        "end": 131.84,
+        "highlight": false
+      },
+      {
+        "text": "'autres",
+        "start": 131.84,
+        "end": 132.16,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "intelligence artificielle. Donc",
+    "start": 132.16,
+    "end": 133.42,
+    "words": [
+      {
+        "text": "intelligence",
+        "start": 132.16,
+        "end": 132.52,
+        "highlight": true
+      },
+      {
+        "text": "artificielle.",
+        "start": 132.52,
+        "end": 133.1,
+        "highlight": true
+      },
+      {
+        "text": "Donc",
+        "start": 133.42,
+        "end": 133.42,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "ils sont capables",
+    "start": 133.42,
+    "end": 134.54,
+    "words": [
+      {
+        "text": "ils",
+        "start": 133.42,
+        "end": 133.94,
+        "highlight": false
+      },
+      {
+        "text": "sont",
+        "start": 133.94,
+        "end": 134.12,
+        "highlight": false
+      },
+      {
+        "text": "capables",
+        "start": 134.12,
+        "end": 134.54,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "de coordonner d",
+    "start": 134.54,
+    "end": 135.48,
+    "words": [
+      {
+        "text": "de",
+        "start": 134.54,
+        "end": 134.82,
+        "highlight": false
+      },
+      {
+        "text": "coordonner",
+        "start": 134.82,
+        "end": 135.26,
+        "highlight": false
+      },
+      {
+        "text": "d",
+        "start": 135.26,
+        "end": 135.48,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'autres équipes d",
+    "start": 135.48,
+    "end": 137.0,
+    "words": [
+      {
+        "text": "'autres",
+        "start": 135.48,
+        "end": 135.78,
+        "highlight": false
+      },
+      {
+        "text": "équipes",
+        "start": 135.78,
+        "end": 136.7,
+        "highlight": false
+      },
+      {
+        "text": "d",
+        "start": 136.7,
+        "end": 137.0,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'intelligence artificielle. Et",
+    "start": 137.0,
+    "end": 138.7,
+    "words": [
+      {
+        "text": "'intelligence",
+        "start": 137.0,
+        "end": 137.44,
+        "highlight": true
+      },
+      {
+        "text": "artificielle.",
+        "start": 137.44,
+        "end": 138.06,
+        "highlight": true
+      },
+      {
+        "text": "Et",
+        "start": 138.4,
+        "end": 138.7,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "là, nous sommes",
+    "start": 138.7,
+    "end": 139.64,
+    "words": [
+      {
+        "text": "là,",
+        "start": 138.7,
+        "end": 139.06,
+        "highlight": false
+      },
+      {
+        "text": "nous",
+        "start": 139.18,
+        "end": 139.44,
+        "highlight": false
+      },
+      {
+        "text": "sommes",
+        "start": 139.44,
+        "end": 139.64,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "au haut niveau.",
+    "start": 139.64,
+    "end": 140.36,
+    "words": [
+      {
+        "text": "au",
+        "start": 139.64,
+        "end": 139.88,
+        "highlight": false
+      },
+      {
+        "text": "haut",
+        "start": 139.88,
+        "end": 140.1,
+        "highlight": false
+      },
+      {
+        "text": "niveau.",
+        "start": 140.1,
+        "end": 140.36,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "Donc nous avons",
+    "start": 140.88,
+    "end": 141.84,
+    "words": [
+      {
+        "text": "Donc",
+        "start": 140.88,
+        "end": 141.08,
+        "highlight": false
+      },
+      {
+        "text": "nous",
+        "start": 141.08,
+        "end": 141.34,
+        "highlight": false
+      },
+      {
+        "text": "avons",
+        "start": 141.34,
+        "end": 141.84,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "des exemples comme",
+    "start": 141.84,
+    "end": 143.02,
+    "words": [
+      {
+        "text": "des",
+        "start": 141.84,
+        "end": 142.12,
+        "highlight": false
+      },
+      {
+        "text": "exemples",
+        "start": 142.12,
+        "end": 142.48,
+        "highlight": false
+      },
+      {
+        "text": "comme",
+        "start": 142.48,
+        "end": 143.02,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "OpenCode, nous avons",
+    "start": 143.02,
+    "end": 143.86,
+    "words": [
+      {
+        "text": "OpenCode,",
+        "start": 143.02,
+        "end": 143.58,
+        "highlight": true
+      },
+      {
+        "text": "nous",
+        "start": 143.72,
+        "end": 143.72,
+        "highlight": false
+      },
+      {
+        "text": "avons",
+        "start": 143.72,
+        "end": 143.86,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "des exemples comme",
+    "start": 143.86,
+    "end": 144.66,
+    "words": [
+      {
+        "text": "des",
+        "start": 143.86,
+        "end": 144.06,
+        "highlight": false
+      },
+      {
+        "text": "exemples",
+        "start": 144.06,
+        "end": 144.26,
+        "highlight": false
+      },
+      {
+        "text": "comme",
+        "start": 144.26,
+        "end": 144.66,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "Hermes. Nous pouvons",
+    "start": 144.66,
+    "end": 145.98,
+    "words": [
+      {
+        "text": "Hermes.",
+        "start": 144.66,
+        "end": 145.28,
+        "highlight": true
+      },
+      {
+        "text": "Nous",
+        "start": 145.28,
+        "end": 145.6,
+        "highlight": false
+      },
+      {
+        "text": "pouvons",
+        "start": 145.6,
+        "end": 145.98,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "citer également Antigravity",
+    "start": 145.98,
+    "end": 148.14,
+    "words": [
+      {
+        "text": "citer",
+        "start": 145.98,
+        "end": 146.36,
+        "highlight": false
+      },
+      {
+        "text": "également",
+        "start": 146.36,
+        "end": 147.28,
+        "highlight": false
+      },
+      {
+        "text": "Antigravity",
+        "start": 147.28,
+        "end": 148.14,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "de Google.",
+    "start": 148.14,
+    "end": 148.64,
+    "words": [
+      {
+        "text": "de",
+        "start": 148.14,
+        "end": 148.32,
+        "highlight": false
+      },
+      {
+        "text": "Google.",
+        "start": 148.32,
+        "end": 148.64,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "Donc surtout, si",
+    "start": 149.44,
+    "end": 150.32,
+    "words": [
+      {
+        "text": "Donc",
+        "start": 149.44,
+        "end": 149.54,
+        "highlight": false
+      },
+      {
+        "text": "surtout,",
+        "start": 149.54,
+        "end": 150.0,
+        "highlight": false
+      },
+      {
+        "text": "si",
+        "start": 150.22,
+        "end": 150.32,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "vous avez regardé",
+    "start": 150.32,
+    "end": 150.88,
+    "words": [
+      {
+        "text": "vous",
+        "start": 150.32,
+        "end": 150.44,
+        "highlight": false
+      },
+      {
+        "text": "avez",
+        "start": 150.44,
+        "end": 150.62,
+        "highlight": false
+      },
+      {
+        "text": "regardé",
+        "start": 150.62,
+        "end": 150.88,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "la vidéo jusqu",
+    "start": 150.88,
+    "end": 151.66,
+    "words": [
+      {
+        "text": "la",
+        "start": 150.88,
+        "end": 151.02,
+        "highlight": false
+      },
+      {
+        "text": "vidéo",
+        "start": 151.02,
+        "end": 151.34,
+        "highlight": false
+      },
+      {
+        "text": "jusqu",
+        "start": 151.34,
+        "end": 151.66,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'à la fin,",
+    "start": 151.66,
+    "end": 152.1,
+    "words": [
+      {
+        "text": "'à",
+        "start": 151.66,
+        "end": 151.78,
+        "highlight": false
+      },
+      {
+        "text": "la",
+        "start": 151.78,
+        "end": 151.94,
+        "highlight": false
+      },
+      {
+        "text": "fin,",
+        "start": 151.94,
+        "end": 152.1,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "dites -moi dans",
+    "start": 152.28,
+    "end": 152.68,
+    "words": [
+      {
+        "text": "dites",
+        "start": 152.28,
+        "end": 152.36,
+        "highlight": false
+      },
+      {
+        "text": "-moi",
+        "start": 152.36,
+        "end": 152.56,
+        "highlight": false
+      },
+      {
+        "text": "dans",
+        "start": 152.56,
+        "end": 152.68,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "les commentaires là",
+    "start": 152.68,
+    "end": 153.78,
+    "words": [
+      {
+        "text": "les",
+        "start": 152.68,
+        "end": 152.9,
+        "highlight": false
+      },
+      {
+        "text": "commentaires",
+        "start": 152.9,
+        "end": 153.34,
+        "highlight": false
+      },
+      {
+        "text": "là",
+        "start": 153.34,
+        "end": 153.78,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "où vous en",
+    "start": 153.78,
+    "end": 155.02,
+    "words": [
+      {
+        "text": "où",
+        "start": 153.78,
+        "end": 154.44,
+        "highlight": false
+      },
+      {
+        "text": "vous",
+        "start": 154.44,
+        "end": 154.84,
+        "highlight": false
+      },
+      {
+        "text": "en",
+        "start": 154.84,
+        "end": 155.02,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "êtes dans la",
+    "start": 155.02,
+    "end": 155.9,
+    "words": [
+      {
+        "text": "êtes",
+        "start": 155.02,
+        "end": 155.36,
+        "highlight": false
+      },
+      {
+        "text": "dans",
+        "start": 155.36,
+        "end": 155.72,
+        "highlight": false
+      },
+      {
+        "text": "la",
+        "start": 155.72,
+        "end": 155.9,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "maîtrise de l",
+    "start": 155.9,
+    "end": 156.64,
+    "words": [
+      {
+        "text": "maîtrise",
+        "start": 155.9,
+        "end": 156.38,
+        "highlight": true
+      },
+      {
+        "text": "de",
+        "start": 156.38,
+        "end": 156.54,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 156.54,
+        "end": 156.64,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "'intelligence artificielle. À",
+    "start": 156.64,
+    "end": 157.66,
+    "words": [
+      {
+        "text": "'intelligence",
+        "start": 156.64,
+        "end": 157.0,
+        "highlight": true
+      },
+      {
+        "text": "artificielle.",
+        "start": 157.0,
+        "end": 157.36,
+        "highlight": true
+      },
+      {
+        "text": "À",
+        "start": 157.64,
+        "end": 157.66,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "quel niveau vous",
+    "start": 157.66,
+    "end": 158.32,
+    "words": [
+      {
+        "text": "quel",
+        "start": 157.66,
+        "end": 157.82,
+        "highlight": false
+      },
+      {
+        "text": "niveau",
+        "start": 157.82,
+        "end": 158.12,
+        "highlight": true
+      },
+      {
+        "text": "vous",
+        "start": 158.12,
+        "end": 158.32,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "avez atteint. Et",
+    "start": 158.32,
+    "end": 159.94,
+    "words": [
+      {
+        "text": "avez",
+        "start": 158.32,
+        "end": 158.58,
+        "highlight": false
+      },
+      {
+        "text": "atteint.",
+        "start": 158.58,
+        "end": 159.18,
+        "highlight": false
+      },
+      {
+        "text": "Et",
+        "start": 159.5,
+        "end": 159.94,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "si vous ne",
+    "start": 159.94,
+    "end": 160.28,
+    "words": [
+      {
+        "text": "si",
+        "start": 159.94,
+        "end": 160.04,
+        "highlight": false
+      },
+      {
+        "text": "vous",
+        "start": 160.04,
+        "end": 160.18,
+        "highlight": false
+      },
+      {
+        "text": "ne",
+        "start": 160.18,
+        "end": 160.28,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "voulez pas rater",
+    "start": 160.28,
+    "end": 161.06,
+    "words": [
+      {
+        "text": "voulez",
+        "start": 160.28,
+        "end": 160.4,
+        "highlight": false
+      },
+      {
+        "text": "pas",
+        "start": 160.4,
+        "end": 160.68,
+        "highlight": false
+      },
+      {
+        "text": "rater",
+        "start": 160.68,
+        "end": 161.06,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "les prochains outils",
+    "start": 161.06,
+    "end": 162.3,
+    "words": [
+      {
+        "text": "les",
+        "start": 161.06,
+        "end": 161.62,
+        "highlight": false
+      },
+      {
+        "text": "prochains",
+        "start": 161.62,
+        "end": 161.98,
+        "highlight": false
+      },
+      {
+        "text": "outils",
+        "start": 161.98,
+        "end": 162.3,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "ou bien les",
+    "start": 162.3,
+    "end": 162.9,
+    "words": [
+      {
+        "text": "ou",
+        "start": 162.3,
+        "end": 162.52,
+        "highlight": false
+      },
+      {
+        "text": "bien",
+        "start": 162.52,
+        "end": 162.62,
+        "highlight": false
+      },
+      {
+        "text": "les",
+        "start": 162.62,
+        "end": 162.9,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "nouveautés dans le",
+    "start": 162.9,
+    "end": 163.66,
+    "words": [
+      {
+        "text": "nouveautés",
+        "start": 162.9,
+        "end": 163.38,
+        "highlight": false
+      },
+      {
+        "text": "dans",
+        "start": 163.38,
+        "end": 163.58,
+        "highlight": false
+      },
+      {
+        "text": "le",
+        "start": 163.58,
+        "end": 163.66,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "domaine de l",
+    "start": 163.66,
+    "end": 164.16,
+    "words": [
+      {
+        "text": "domaine",
+        "start": 163.66,
+        "end": 163.9,
+        "highlight": false
+      },
+      {
+        "text": "de",
+        "start": 163.9,
+        "end": 164.06,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 164.06,
+        "end": 164.16,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'intelligence artificielle, abonnez",
+    "start": 164.16,
+    "end": 165.98,
+    "words": [
+      {
+        "text": "'intelligence",
+        "start": 164.16,
+        "end": 164.58,
+        "highlight": true
+      },
+      {
+        "text": "artificielle,",
+        "start": 164.58,
+        "end": 165.26,
+        "highlight": true
+      },
+      {
+        "text": "abonnez",
+        "start": 165.72,
+        "end": 165.98,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "-vous.",
+    "start": 165.98,
+    "end": 166.08,
+    "words": [
+      {
+        "text": "-vous.",
+        "start": 165.98,
+        "end": 166.08,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  }
+]

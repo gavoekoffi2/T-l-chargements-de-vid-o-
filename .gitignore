@@ -1,0 +1,8 @@
+node_modules/
+out/
+downloads/
+remotion-app/node_modules/
+remotion-app/out/
+remotion-app/public/source.mp4
+*.log
+.DS_Store

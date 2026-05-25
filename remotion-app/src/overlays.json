@@ -1,0 +1,93 @@
+[
+  {
+    "id": "chatgpt",
+    "brand": "ChatGPT",
+    "logo": "chatgpt.svg",
+    "color": "#10A37F",
+    "start": 57.0,
+    "duration": 2.6,
+    "side": "left",
+    "y": 350
+  },
+  {
+    "id": "deepseek",
+    "brand": "DeepSeek",
+    "logo": "deepseek.svg",
+    "color": "#4D6BFE",
+    "start": 57.9,
+    "duration": 2.6,
+    "side": "right",
+    "y": 600
+  },
+  {
+    "id": "claude",
+    "brand": "Claude",
+    "logo": "claude.svg",
+    "color": "#D97757",
+    "start": 58.8,
+    "duration": 2.6,
+    "side": "left",
+    "y": 850
+  },
+  {
+    "id": "n8n",
+    "brand": "n8n",
+    "logo": "n8n.svg",
+    "color": "#EA4B71",
+    "start": 83.0,
+    "duration": 2.8,
+    "side": "left",
+    "y": 350
+  },
+  {
+    "id": "make",
+    "brand": "Make",
+    "logo": "make.svg",
+    "color": "#6D00CC",
+    "start": 83.9,
+    "duration": 2.8,
+    "side": "right",
+    "y": 600
+  },
+  {
+    "id": "zapier",
+    "brand": "Zapier",
+    "logo": "zapier.svg",
+    "color": "#FF4F00",
+    "start": 84.8,
+    "duration": 2.8,
+    "side": "left",
+    "y": 850
+  },
+  {
+    "id": "opencode",
+    "brand": "OpenCode",
+    "logo": "chatgpt.svg",
+    "color": "#10A37F",
+    "start": 142.0,
+    "duration": 2.8,
+    "side": "left",
+    "y": 350
+  },
+  {
+    "id": "hermes",
+    "brand": "Hermes",
+    "logo": "claude.svg",
+    "color": "#9B59B6",
+    "start": 143.2,
+    "duration": 2.8,
+    "side": "right",
+    "y": 600
+  },
+  {
+    "id": "antigravity",
+    "brand": "Antigravity",
+    "logo": "google.svg",
+    "color": "#4285F4",
+    "start": 145.5,
+    "duration": 3.2,
+    "side": "left",
+    "y": 850,
+    "subtitle": "by Google"
+  }
+]
