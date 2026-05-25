@@ -1,4 +1,4 @@
-import { AbsoluteFill, OffthreadVideo, Audio, staticFile, Sequence } from 'remotion';
+import { AbsoluteFill, OffthreadVideo, staticFile } from 'remotion';
 import { CaptionTrack } from './components/CaptionTrack';
 import { LogoOverlayTrack } from './components/LogoOverlayTrack';
 import { ZoomTrack } from './components/ZoomTrack';
@@ -8,6 +8,8 @@ import { LevelBadgeTrack } from './components/LevelBadgeTrack';
 import { ProgressBar } from './components/ProgressBar';
 import { VignetteAndGrain } from './components/VignetteAndGrain';
 import { ParticlesTrack } from './components/ParticlesTrack';
+import { BRollTrack } from './components/BRollTrack';
+import { SubscribeCTA } from './components/SubscribeCTA';
 
 export const Main: React.FC = () => {
   return (
@@ -24,6 +26,9 @@ export const Main: React.FC = () => {
       {/* Subtle grain + vignette for cinematic feel */}
       <VignetteAndGrain />
 
+      {/* B-Rolls: fullscreen motion-graphics cutaways (above video, below text) */}
+      <BRollTrack />
+
       {/* Particles / motion-design ambient */}
       <ParticlesTrack />
 
@@ -35,6 +40,9 @@ export const Main: React.FC = () => {
 
       {/* Hook captions at the very beginning */}
       <HookOverlay />
+
+      {/* Subscribe CTAs (mini + full end-screen) */}
+      <SubscribeCTA />
 
       {/* Word-by-word TikTok captions */}
       <CaptionTrack />

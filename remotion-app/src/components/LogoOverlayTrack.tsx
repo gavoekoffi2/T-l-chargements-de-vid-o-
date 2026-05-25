@@ -93,8 +93,8 @@ const LogoCard: React.FC<{ overlay: Overlay; t: number; fps: number; frame: numb
         style={{
           display: 'flex',
           alignItems: 'center',
-          gap: 24,
-          padding: '24px 36px',
+          gap: 18,
+          padding: '16px 26px',
           background: 'rgba(15, 15, 20, 0.92)',
           border: `4px solid ${overlay.color}`,
           borderRadius: 28,
@@ -134,14 +134,14 @@ const LogoCard: React.FC<{ overlay: Overlay; t: number; fps: number; frame: numb
         {/* Logo */}
         <div
           style={{
-            width: 110,
-            height: 110,
-            borderRadius: 22,
+            width: 88,
+            height: 88,
+            borderRadius: 18,
             background: '#fff',
             display: 'flex',
             alignItems: 'center',
             justifyContent: 'center',
-            padding: 14,
+            padding: 12,
             boxShadow: `0 0 24px ${overlay.color}aa`,
           }}
         >
@@ -162,7 +162,7 @@ const LogoCard: React.FC<{ overlay: Overlay; t: number; fps: number; frame: numb
             style={{
               fontFamily: 'Inter, system-ui, sans-serif',
               fontWeight: 900,
-              fontSize: 72,
+              fontSize: 56,
               color: '#fff',
               lineHeight: 1,
               textShadow: `0 0 12px ${overlay.color}`,
@@ -176,9 +176,9 @@ const LogoCard: React.FC<{ overlay: Overlay; t: number; fps: number; frame: numb
               style={{
                 fontFamily: 'Inter, system-ui, sans-serif',
                 fontWeight: 700,
-                fontSize: 30,
+                fontSize: 24,
                 color: overlay.color,
-                marginTop: 6,
+                marginTop: 4,
                 letterSpacing: 1,
               }}
             >

@@ -1,6 +1,7 @@
 import { AbsoluteFill, useCurrentFrame, interpolate, spring, useVideoConfig } from 'remotion';
 import React from 'react';
 import captions from '../captions.json';
+import { isInBRoll, isInFullCTA } from '../brolls';
 
 type Word = { text: string; start: number; end: number; highlight: boolean };
 type Group = { text: string; start: number; end: number; words: Word[]; hasHighlight: boolean };
@@ -28,6 +29,9 @@ export const CaptionTrack: React.FC = () => {
   );
 
   if (!active) return null;
+
+  // Hide captions during B-roll cutaways or full subscribe CTA
+  if (isInBRoll(t) || isInFullCTA(t)) return null;
 
   return (
     <AbsoluteFill
