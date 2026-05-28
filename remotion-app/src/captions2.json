@@ -1,0 +1,1996 @@
+[
+  {
+    "text": "Google vient de",
+    "start": 0.0,
+    "end": 1.02,
+    "words": [
+      {
+        "text": "Google",
+        "start": 0.0,
+        "end": 0.62,
+        "highlight": true
+      },
+      {
+        "text": "vient",
+        "start": 0.62,
+        "end": 0.82,
+        "highlight": false
+      },
+      {
+        "text": "de",
+        "start": 0.82,
+        "end": 1.02,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "faire sorti une",
+    "start": 1.02,
+    "end": 1.72,
+    "words": [
+      {
+        "text": "faire",
+        "start": 1.02,
+        "end": 1.12,
+        "highlight": false
+      },
+      {
+        "text": "sorti",
+        "start": 1.12,
+        "end": 1.6,
+        "highlight": false
+      },
+      {
+        "text": "une",
+        "start": 1.6,
+        "end": 1.72,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "nouvelle technologie qui",
+    "start": 1.72,
+    "end": 2.44,
+    "words": [
+      {
+        "text": "nouvelle",
+        "start": 1.72,
+        "end": 1.84,
+        "highlight": true
+      },
+      {
+        "text": "technologie",
+        "start": 1.84,
+        "end": 2.34,
+        "highlight": true
+      },
+      {
+        "text": "qui",
+        "start": 2.34,
+        "end": 2.44,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "va littéralement te",
+    "start": 2.44,
+    "end": 3.6,
+    "words": [
+      {
+        "text": "va",
+        "start": 2.44,
+        "end": 2.7,
+        "highlight": false
+      },
+      {
+        "text": "littéralement",
+        "start": 2.7,
+        "end": 3.34,
+        "highlight": true
+      },
+      {
+        "text": "te",
+        "start": 3.34,
+        "end": 3.6,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "permettre de créer",
+    "start": 3.6,
+    "end": 4.5,
+    "words": [
+      {
+        "text": "permettre",
+        "start": 3.6,
+        "end": 3.9,
+        "highlight": false
+      },
+      {
+        "text": "de",
+        "start": 3.9,
+        "end": 4.36,
+        "highlight": false
+      },
+      {
+        "text": "créer",
+        "start": 4.36,
+        "end": 4.5,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "une vidéo à",
+    "start": 4.5,
+    "end": 5.7,
+    "words": [
+      {
+        "text": "une",
+        "start": 4.5,
+        "end": 4.78,
+        "highlight": false
+      },
+      {
+        "text": "vidéo",
+        "start": 4.78,
+        "end": 5.36,
+        "highlight": true
+      },
+      {
+        "text": "à",
+        "start": 5.36,
+        "end": 5.7,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "partir de n",
+    "start": 5.7,
+    "end": 6.86,
+    "words": [
+      {
+        "text": "partir",
+        "start": 5.7,
+        "end": 6.24,
+        "highlight": false
+      },
+      {
+        "text": "de",
+        "start": 6.24,
+        "end": 6.8,
+        "highlight": false
+      },
+      {
+        "text": "n",
+        "start": 6.8,
+        "end": 6.86,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'importe quoi.",
+    "start": 6.86,
+    "end": 7.7,
+    "words": [
+      {
+        "text": "'importe",
+        "start": 6.86,
+        "end": 7.18,
+        "highlight": false
+      },
+      {
+        "text": "quoi.",
+        "start": 7.18,
+        "end": 7.7,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "Tu lui donnes",
+    "start": 8.72,
+    "end": 9.26,
+    "words": [
+      {
+        "text": "Tu",
+        "start": 8.72,
+        "end": 8.76,
+        "highlight": false
+      },
+      {
+        "text": "lui",
+        "start": 8.76,
+        "end": 9.02,
+        "highlight": false
+      },
+      {
+        "text": "donnes",
+        "start": 9.02,
+        "end": 9.26,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "texte, images, vidéos,",
+    "start": 9.26,
+    "end": 11.3,
+    "words": [
+      {
+        "text": "texte,",
+        "start": 9.26,
+        "end": 9.74,
+        "highlight": true
+      },
+      {
+        "text": "images,",
+        "start": 10.04,
+        "end": 10.58,
+        "highlight": true
+      },
+      {
+        "text": "vidéos,",
+        "start": 10.8,
+        "end": 11.3,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "ou bien même",
+    "start": 11.52,
+    "end": 12.52,
+    "words": [
+      {
+        "text": "ou",
+        "start": 11.52,
+        "end": 11.74,
+        "highlight": false
+      },
+      {
+        "text": "bien",
+        "start": 11.74,
+        "end": 12.14,
+        "highlight": false
+      },
+      {
+        "text": "même",
+        "start": 12.14,
+        "end": 12.52,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "une simple idée",
+    "start": 12.52,
+    "end": 13.94,
+    "words": [
+      {
+        "text": "une",
+        "start": 12.52,
+        "end": 13.08,
+        "highlight": false
+      },
+      {
+        "text": "simple",
+        "start": 13.08,
+        "end": 13.44,
+        "highlight": false
+      },
+      {
+        "text": "idée",
+        "start": 13.44,
+        "end": 13.94,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "et il te",
+    "start": 13.94,
+    "end": 16.1,
+    "words": [
+      {
+        "text": "et",
+        "start": 13.94,
+        "end": 15.34,
+        "highlight": false
+      },
+      {
+        "text": "il",
+        "start": 15.34,
+        "end": 15.68,
+        "highlight": false
+      },
+      {
+        "text": "te",
+        "start": 15.68,
+        "end": 16.1,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "crée une vidéo",
+    "start": 16.1,
+    "end": 17.14,
+    "words": [
+      {
+        "text": "crée",
+        "start": 16.1,
+        "end": 16.54,
+        "highlight": false
+      },
+      {
+        "text": "une",
+        "start": 16.54,
+        "end": 16.84,
+        "highlight": false
+      },
+      {
+        "text": "vidéo",
+        "start": 16.84,
+        "end": 17.14,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "complète.",
+    "start": 17.14,
+    "end": 17.82,
+    "words": [
+      {
+        "text": "complète.",
+        "start": 17.14,
+        "end": 17.82,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "Oui, tu as",
+    "start": 18.4,
+    "end": 18.96,
+    "words": [
+      {
+        "text": "Oui,",
+        "start": 18.4,
+        "end": 18.62,
+        "highlight": false
+      },
+      {
+        "text": "tu",
+        "start": 18.74,
+        "end": 18.84,
+        "highlight": false
+      },
+      {
+        "text": "as",
+        "start": 18.84,
+        "end": 18.96,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "bien entendu, et",
+    "start": 18.96,
+    "end": 19.96,
+    "words": [
+      {
+        "text": "bien",
+        "start": 18.96,
+        "end": 19.2,
+        "highlight": false
+      },
+      {
+        "text": "entendu,",
+        "start": 19.2,
+        "end": 19.6,
+        "highlight": false
+      },
+      {
+        "text": "et",
+        "start": 19.84,
+        "end": 19.96,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "cette nouvelle technologie",
+    "start": 19.96,
+    "end": 20.88,
+    "words": [
+      {
+        "text": "cette",
+        "start": 19.96,
+        "end": 20.12,
+        "highlight": false
+      },
+      {
+        "text": "nouvelle",
+        "start": 20.12,
+        "end": 20.4,
+        "highlight": true
+      },
+      {
+        "text": "technologie",
+        "start": 20.4,
+        "end": 20.88,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "s 'appelle Gemini",
+    "start": 20.88,
+    "end": 22.28,
+    "words": [
+      {
+        "text": "s",
+        "start": 20.88,
+        "end": 21.12,
+        "highlight": false
+      },
+      {
+        "text": "'appelle",
+        "start": 21.12,
+        "end": 21.44,
+        "highlight": false
+      },
+      {
+        "text": "Gemini",
+        "start": 21.44,
+        "end": 22.28,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "Harmony. Et avec",
+    "start": 22.28,
+    "end": 23.82,
+    "words": [
+      {
+        "text": "Harmony.",
+        "start": 22.28,
+        "end": 22.9,
+        "highlight": true
+      },
+      {
+        "text": "Et",
+        "start": 23.3,
+        "end": 23.6,
+        "highlight": false
+      },
+      {
+        "text": "avec",
+        "start": 23.6,
+        "end": 23.82,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "elle, tu peux",
+    "start": 23.82,
+    "end": 24.4,
+    "words": [
+      {
+        "text": "elle,",
+        "start": 23.82,
+        "end": 24.04,
+        "highlight": false
+      },
+      {
+        "text": "tu",
+        "start": 24.08,
+        "end": 24.18,
+        "highlight": false
+      },
+      {
+        "text": "peux",
+        "start": 24.18,
+        "end": 24.4,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "même modifier une",
+    "start": 24.4,
+    "end": 25.38,
+    "words": [
+      {
+        "text": "même",
+        "start": 24.4,
+        "end": 24.64,
+        "highlight": false
+      },
+      {
+        "text": "modifier",
+        "start": 24.64,
+        "end": 25.12,
+        "highlight": false
+      },
+      {
+        "text": "une",
+        "start": 25.12,
+        "end": 25.38,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "vidéo juste en",
+    "start": 25.38,
+    "end": 26.52,
+    "words": [
+      {
+        "text": "vidéo",
+        "start": 25.38,
+        "end": 25.88,
+        "highlight": true
+      },
+      {
+        "text": "juste",
+        "start": 25.88,
+        "end": 26.22,
+        "highlight": false
+      },
+      {
+        "text": "en",
+        "start": 26.22,
+        "end": 26.52,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "parlant. Oui, et",
+    "start": 26.52,
+    "end": 27.28,
+    "words": [
+      {
+        "text": "parlant.",
+        "start": 26.52,
+        "end": 27.14,
+        "highlight": false
+      },
+      {
+        "text": "Oui,",
+        "start": 27.14,
+        "end": 27.28,
+        "highlight": false
+      },
+      {
+        "text": "et",
+        "start": 27.28,
+        "end": 27.28,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "ça se fait",
+    "start": 27.28,
+    "end": 27.78,
+    "words": [
+      {
+        "text": "ça",
+        "start": 27.28,
+        "end": 27.44,
+        "highlight": false
+      },
+      {
+        "text": "se",
+        "start": 27.44,
+        "end": 27.62,
+        "highlight": false
+      },
+      {
+        "text": "fait",
+        "start": 27.62,
+        "end": 27.78,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "automatiquement, et c",
+    "start": 27.78,
+    "end": 30.0,
+    "words": [
+      {
+        "text": "automatiquement,",
+        "start": 27.78,
+        "end": 29.56,
+        "highlight": true
+      },
+      {
+        "text": "et",
+        "start": 29.72,
+        "end": 29.82,
+        "highlight": false
+      },
+      {
+        "text": "c",
+        "start": 29.82,
+        "end": 30.0,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "'est une révolution",
+    "start": 30.0,
+    "end": 31.14,
+    "words": [
+      {
+        "text": "'est",
+        "start": 30.0,
+        "end": 30.02,
+        "highlight": false
+      },
+      {
+        "text": "une",
+        "start": 30.02,
+        "end": 30.22,
+        "highlight": false
+      },
+      {
+        "text": "révolution",
+        "start": 30.22,
+        "end": 31.14,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "pour les créateurs",
+    "start": 31.14,
+    "end": 32.36,
+    "words": [
+      {
+        "text": "pour",
+        "start": 31.14,
+        "end": 31.8,
+        "highlight": false
+      },
+      {
+        "text": "les",
+        "start": 31.8,
+        "end": 32.1,
+        "highlight": false
+      },
+      {
+        "text": "créateurs",
+        "start": 32.1,
+        "end": 32.36,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "de contenu. Et",
+    "start": 32.36,
+    "end": 33.18,
+    "words": [
+      {
+        "text": "de",
+        "start": 32.36,
+        "end": 32.6,
+        "highlight": false
+      },
+      {
+        "text": "contenu.",
+        "start": 32.6,
+        "end": 32.92,
+        "highlight": false
+      },
+      {
+        "text": "Et",
+        "start": 33.08,
+        "end": 33.18,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "non seulement ça,",
+    "start": 33.18,
+    "end": 33.84,
+    "words": [
+      {
+        "text": "non",
+        "start": 33.18,
+        "end": 33.36,
+        "highlight": false
+      },
+      {
+        "text": "seulement",
+        "start": 33.36,
+        "end": 33.58,
+        "highlight": false
+      },
+      {
+        "text": "ça,",
+        "start": 33.58,
+        "end": 33.84,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "Google a encore",
+    "start": 33.98,
+    "end": 34.46,
+    "words": [
+      {
+        "text": "Google",
+        "start": 33.98,
+        "end": 34.08,
+        "highlight": true
+      },
+      {
+        "text": "a",
+        "start": 34.08,
+        "end": 34.22,
+        "highlight": false
+      },
+      {
+        "text": "encore",
+        "start": 34.22,
+        "end": 34.46,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "fait d 'autres",
+    "start": 34.46,
+    "end": 36.56,
+    "words": [
+      {
+        "text": "fait",
+        "start": 34.46,
+        "end": 34.58,
+        "highlight": false
+      },
+      {
+        "text": "d",
+        "start": 34.58,
+        "end": 34.64,
+        "highlight": false
+      },
+      {
+        "text": "'autres",
+        "start": 34.64,
+        "end": 36.56,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "annonces très intéressantes.",
+    "start": 36.56,
+    "end": 38.3,
+    "words": [
+      {
+        "text": "annonces",
+        "start": 36.56,
+        "end": 37.02,
+        "highlight": false
+      },
+      {
+        "text": "très",
+        "start": 37.02,
+        "end": 37.34,
+        "highlight": false
+      },
+      {
+        "text": "intéressantes.",
+        "start": 37.34,
+        "end": 38.3,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "Et ils ont",
+    "start": 38.84,
+    "end": 39.3,
+    "words": [
+      {
+        "text": "Et",
+        "start": 38.84,
+        "end": 38.9,
+        "highlight": false
+      },
+      {
+        "text": "ils",
+        "start": 38.9,
+        "end": 39.06,
+        "highlight": false
+      },
+      {
+        "text": "ont",
+        "start": 39.06,
+        "end": 39.3,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "annoncé une nouvelle",
+    "start": 39.3,
+    "end": 42.02,
+    "words": [
+      {
+        "text": "annoncé",
+        "start": 39.3,
+        "end": 39.72,
+        "highlight": false
+      },
+      {
+        "text": "une",
+        "start": 39.72,
+        "end": 41.4,
+        "highlight": false
+      },
+      {
+        "text": "nouvelle",
+        "start": 41.4,
+        "end": 42.02,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "interface pour Gemini,",
+    "start": 42.02,
+    "end": 43.74,
+    "words": [
+      {
+        "text": "interface",
+        "start": 42.02,
+        "end": 42.74,
+        "highlight": true
+      },
+      {
+        "text": "pour",
+        "start": 42.74,
+        "end": 43.26,
+        "highlight": false
+      },
+      {
+        "text": "Gemini,",
+        "start": 43.26,
+        "end": 43.74,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "leur intelligence artificielle,",
+    "start": 43.86,
+    "end": 45.42,
+    "words": [
+      {
+        "text": "leur",
+        "start": 43.86,
+        "end": 44.42,
+        "highlight": false
+      },
+      {
+        "text": "intelligence",
+        "start": 44.42,
+        "end": 44.76,
+        "highlight": true
+      },
+      {
+        "text": "artificielle,",
+        "start": 44.76,
+        "end": 45.42,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "qu 'ils ont",
+    "start": 45.76,
+    "end": 46.14,
+    "words": [
+      {
+        "text": "qu",
+        "start": 45.76,
+        "end": 45.9,
+        "highlight": false
+      },
+      {
+        "text": "'ils",
+        "start": 45.9,
+        "end": 45.98,
+        "highlight": false
+      },
+      {
+        "text": "ont",
+        "start": 45.98,
+        "end": 46.14,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "encore renforcée. Et",
+    "start": 46.14,
+    "end": 47.62,
+    "words": [
+      {
+        "text": "encore",
+        "start": 46.14,
+        "end": 46.44,
+        "highlight": false
+      },
+      {
+        "text": "renforcée.",
+        "start": 46.44,
+        "end": 47.24,
+        "highlight": false
+      },
+      {
+        "text": "Et",
+        "start": 47.28,
+        "end": 47.62,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "elle est encore",
+    "start": 47.62,
+    "end": 48.62,
+    "words": [
+      {
+        "text": "elle",
+        "start": 47.62,
+        "end": 47.72,
+        "highlight": false
+      },
+      {
+        "text": "est",
+        "start": 47.72,
+        "end": 48.1,
+        "highlight": false
+      },
+      {
+        "text": "encore",
+        "start": 48.1,
+        "end": 48.62,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "très puissante,",
+    "start": 48.62,
+    "end": 49.74,
+    "words": [
+      {
+        "text": "très",
+        "start": 48.62,
+        "end": 49.06,
+        "highlight": false
+      },
+      {
+        "text": "puissante,",
+        "start": 49.06,
+        "end": 49.74,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "et elle est",
+    "start": 50.88,
+    "end": 51.26,
+    "words": [
+      {
+        "text": "et",
+        "start": 50.88,
+        "end": 51.0,
+        "highlight": false
+      },
+      {
+        "text": "elle",
+        "start": 51.0,
+        "end": 51.1,
+        "highlight": false
+      },
+      {
+        "text": "est",
+        "start": 51.1,
+        "end": 51.26,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "encore très puissante.",
+    "start": 51.26,
+    "end": 52.18,
+    "words": [
+      {
+        "text": "encore",
+        "start": 51.26,
+        "end": 51.46,
+        "highlight": false
+      },
+      {
+        "text": "très",
+        "start": 51.46,
+        "end": 51.64,
+        "highlight": false
+      },
+      {
+        "text": "puissante.",
+        "start": 51.64,
+        "end": 52.18,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "Ils ont ajouté",
+    "start": 52.18,
+    "end": 53.56,
+    "words": [
+      {
+        "text": "Ils",
+        "start": 52.18,
+        "end": 52.74,
+        "highlight": false
+      },
+      {
+        "text": "ont",
+        "start": 52.74,
+        "end": 53.0,
+        "highlight": false
+      },
+      {
+        "text": "ajouté",
+        "start": 53.0,
+        "end": 53.56,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "donc de l",
+    "start": 53.56,
+    "end": 54.24,
+    "words": [
+      {
+        "text": "donc",
+        "start": 53.56,
+        "end": 53.92,
+        "highlight": false
+      },
+      {
+        "text": "de",
+        "start": 53.92,
+        "end": 54.12,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 54.12,
+        "end": 54.24,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "'IA dans la",
+    "start": 54.24,
+    "end": 55.02,
+    "words": [
+      {
+        "text": "'IA",
+        "start": 54.24,
+        "end": 54.32,
+        "highlight": true
+      },
+      {
+        "text": "dans",
+        "start": 54.32,
+        "end": 54.66,
+        "highlight": false
+      },
+      {
+        "text": "la",
+        "start": 54.66,
+        "end": 55.02,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "navigation.",
+    "start": 55.02,
+    "end": 55.5,
+    "words": [
+      {
+        "text": "navigation.",
+        "start": 55.02,
+        "end": 55.5,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "Donc désormais quandvous",
+    "start": 56.1,
+    "end": 56.92,
+    "words": [
+      {
+        "text": "Donc",
+        "start": 56.1,
+        "end": 56.16,
+        "highlight": false
+      },
+      {
+        "text": "désormais",
+        "start": 56.16,
+        "end": 56.68,
+        "highlight": false
+      },
+      {
+        "text": "quandvous",
+        "start": 56.68,
+        "end": 56.92,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "faites des recherches,",
+    "start": 56.92,
+    "end": 58.16,
+    "words": [
+      {
+        "text": "faites",
+        "start": 56.92,
+        "end": 57.1,
+        "highlight": false
+      },
+      {
+        "text": "des",
+        "start": 57.1,
+        "end": 57.32,
+        "highlight": false
+      },
+      {
+        "text": "recherches,",
+        "start": 57.32,
+        "end": 58.16,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "vos recherches sont",
+    "start": 58.34,
+    "end": 58.96,
+    "words": [
+      {
+        "text": "vos",
+        "start": 58.34,
+        "end": 58.42,
+        "highlight": false
+      },
+      {
+        "text": "recherches",
+        "start": 58.42,
+        "end": 58.68,
+        "highlight": false
+      },
+      {
+        "text": "sont",
+        "start": 58.68,
+        "end": 58.96,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "boostées par l",
+    "start": 58.96,
+    "end": 60.0,
+    "words": [
+      {
+        "text": "boostées",
+        "start": 58.96,
+        "end": 59.42,
+        "highlight": true
+      },
+      {
+        "text": "par",
+        "start": 59.42,
+        "end": 59.84,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 59.84,
+        "end": 60.0,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "'intelligence artificielle. Et",
+    "start": 60.0,
+    "end": 61.76,
+    "words": [
+      {
+        "text": "'intelligence",
+        "start": 60.0,
+        "end": 60.36,
+        "highlight": true
+      },
+      {
+        "text": "artificielle.",
+        "start": 60.36,
+        "end": 60.98,
+        "highlight": true
+      },
+      {
+        "text": "Et",
+        "start": 61.48,
+        "end": 61.76,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "ils ont fait",
+    "start": 61.76,
+    "end": 62.32,
+    "words": [
+      {
+        "text": "ils",
+        "start": 61.76,
+        "end": 62.0,
+        "highlight": false
+      },
+      {
+        "text": "ont",
+        "start": 62.0,
+        "end": 62.14,
+        "highlight": false
+      },
+      {
+        "text": "fait",
+        "start": 62.14,
+        "end": 62.32,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "sortir aussi une",
+    "start": 62.32,
+    "end": 63.24,
+    "words": [
+      {
+        "text": "sortir",
+        "start": 62.32,
+        "end": 62.64,
+        "highlight": false
+      },
+      {
+        "text": "aussi",
+        "start": 62.64,
+        "end": 63.02,
+        "highlight": false
+      },
+      {
+        "text": "une",
+        "start": 63.02,
+        "end": 63.24,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "nouvelle intelligence artificielle",
+    "start": 63.24,
+    "end": 64.32,
+    "words": [
+      {
+        "text": "nouvelle",
+        "start": 63.24,
+        "end": 63.48,
+        "highlight": true
+      },
+      {
+        "text": "intelligence",
+        "start": 63.48,
+        "end": 63.88,
+        "highlight": true
+      },
+      {
+        "text": "artificielle",
+        "start": 63.88,
+        "end": 64.32,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "qui travaille à",
+    "start": 64.32,
+    "end": 64.94,
+    "words": [
+      {
+        "text": "qui",
+        "start": 64.32,
+        "end": 64.58,
+        "highlight": false
+      },
+      {
+        "text": "travaille",
+        "start": 64.58,
+        "end": 64.8,
+        "highlight": false
+      },
+      {
+        "text": "à",
+        "start": 64.8,
+        "end": 64.94,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "ta place. Wow,",
+    "start": 64.94,
+    "end": 65.96,
+    "words": [
+      {
+        "text": "ta",
+        "start": 64.94,
+        "end": 65.14,
+        "highlight": false
+      },
+      {
+        "text": "place.",
+        "start": 65.14,
+        "end": 65.42,
+        "highlight": false
+      },
+      {
+        "text": "Wow,",
+        "start": 65.66,
+        "end": 65.96,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "c 'est extraordinaire.",
+    "start": 66.12,
+    "end": 67.24,
+    "words": [
+      {
+        "text": "c",
+        "start": 66.12,
+        "end": 66.28,
+        "highlight": false
+      },
+      {
+        "text": "'est",
+        "start": 66.28,
+        "end": 66.62,
+        "highlight": false
+      },
+      {
+        "text": "extraordinaire.",
+        "start": 66.62,
+        "end": 67.24,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "Et crois -moi,",
+    "start": 67.44,
+    "end": 67.96,
+    "words": [
+      {
+        "text": "Et",
+        "start": 67.44,
+        "end": 67.62,
+        "highlight": false
+      },
+      {
+        "text": "crois",
+        "start": 67.62,
+        "end": 67.78,
+        "highlight": false
+      },
+      {
+        "text": "-moi,",
+        "start": 67.78,
+        "end": 67.96,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "ceux qui maîtrisent",
+    "start": 68.1,
+    "end": 68.94,
+    "words": [
+      {
+        "text": "ceux",
+        "start": 68.1,
+        "end": 68.18,
+        "highlight": false
+      },
+      {
+        "text": "qui",
+        "start": 68.18,
+        "end": 68.52,
+        "highlight": false
+      },
+      {
+        "text": "maîtrisent",
+        "start": 68.52,
+        "end": 68.94,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "l 'intelligence artificielle,",
+    "start": 68.94,
+    "end": 70.1,
+    "words": [
+      {
+        "text": "l",
+        "start": 68.94,
+        "end": 69.2,
+        "highlight": false
+      },
+      {
+        "text": "'intelligence",
+        "start": 69.2,
+        "end": 69.56,
+        "highlight": true
+      },
+      {
+        "text": "artificielle,",
+        "start": 69.56,
+        "end": 70.1,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "maintenant je ne",
+    "start": 70.4,
+    "end": 70.88,
+    "words": [
+      {
+        "text": "maintenant",
+        "start": 70.4,
+        "end": 70.58,
+        "highlight": false
+      },
+      {
+        "text": "je",
+        "start": 70.58,
+        "end": 70.78,
+        "highlight": false
+      },
+      {
+        "text": "ne",
+        "start": 70.78,
+        "end": 70.88,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "cesserai jamais de",
+    "start": 70.88,
+    "end": 71.62,
+    "words": [
+      {
+        "text": "cesserai",
+        "start": 70.88,
+        "end": 71.18,
+        "highlight": false
+      },
+      {
+        "text": "jamais",
+        "start": 71.18,
+        "end": 71.48,
+        "highlight": false
+      },
+      {
+        "text": "de",
+        "start": 71.48,
+        "end": 71.62,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "le dire. Prennent",
+    "start": 71.62,
+    "end": 72.36,
+    "words": [
+      {
+        "text": "le",
+        "start": 71.62,
+        "end": 71.76,
+        "highlight": false
+      },
+      {
+        "text": "dire.",
+        "start": 71.76,
+        "end": 71.96,
+        "highlight": false
+      },
+      {
+        "text": "Prennent",
+        "start": 72.06,
+        "end": 72.36,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "de l 'avance",
+    "start": 72.36,
+    "end": 73.04,
+    "words": [
+      {
+        "text": "de",
+        "start": 72.36,
+        "end": 72.52,
+        "highlight": false
+      },
+      {
+        "text": "l",
+        "start": 72.52,
+        "end": 72.7,
+        "highlight": false
+      },
+      {
+        "text": "'avance",
+        "start": 72.7,
+        "end": 73.04,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "sur ceux qui",
+    "start": 73.04,
+    "end": 74.1,
+    "words": [
+      {
+        "text": "sur",
+        "start": 73.04,
+        "end": 73.48,
+        "highlight": false
+      },
+      {
+        "text": "ceux",
+        "start": 73.48,
+        "end": 73.76,
+        "highlight": false
+      },
+      {
+        "text": "qui",
+        "start": 73.76,
+        "end": 74.1,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "ne la maîtrisent",
+    "start": 74.1,
+    "end": 74.96,
+    "words": [
+      {
+        "text": "ne",
+        "start": 74.1,
+        "end": 74.3,
+        "highlight": false
+      },
+      {
+        "text": "la",
+        "start": 74.3,
+        "end": 74.54,
+        "highlight": false
+      },
+      {
+        "text": "maîtrisent",
+        "start": 74.54,
+        "end": 74.96,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "pas. Donc si",
+    "start": 74.96,
+    "end": 75.7,
+    "words": [
+      {
+        "text": "pas.",
+        "start": 74.96,
+        "end": 75.1,
+        "highlight": false
+      },
+      {
+        "text": "Donc",
+        "start": 75.42,
+        "end": 75.54,
+        "highlight": false
+      },
+      {
+        "text": "si",
+        "start": 75.54,
+        "end": 75.7,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "tu ne veux",
+    "start": 75.7,
+    "end": 76.1,
+    "words": [
+      {
+        "text": "tu",
+        "start": 75.7,
+        "end": 75.78,
+        "highlight": false
+      },
+      {
+        "text": "ne",
+        "start": 75.78,
+        "end": 75.94,
+        "highlight": false
+      },
+      {
+        "text": "veux",
+        "start": 75.94,
+        "end": 76.1,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "rien rater dans",
+    "start": 76.1,
+    "end": 76.76,
+    "words": [
+      {
+        "text": "rien",
+        "start": 76.1,
+        "end": 76.36,
+        "highlight": false
+      },
+      {
+        "text": "rater",
+        "start": 76.36,
+        "end": 76.58,
+        "highlight": false
+      },
+      {
+        "text": "dans",
+        "start": 76.58,
+        "end": 76.76,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "le domaine de",
+    "start": 76.76,
+    "end": 77.16,
+    "words": [
+      {
+        "text": "le",
+        "start": 76.76,
+        "end": 76.84,
+        "highlight": false
+      },
+      {
+        "text": "domaine",
+        "start": 76.84,
+        "end": 76.98,
+        "highlight": false
+      },
+      {
+        "text": "de",
+        "start": 76.98,
+        "end": 77.16,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "l 'intelligence artificielle,",
+    "start": 77.16,
+    "end": 78.34,
+    "words": [
+      {
+        "text": "l",
+        "start": 77.16,
+        "end": 77.44,
+        "highlight": false
+      },
+      {
+        "text": "'intelligence",
+        "start": 77.44,
+        "end": 77.76,
+        "highlight": true
+      },
+      {
+        "text": "artificielle,",
+        "start": 77.76,
+        "end": 78.34,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "je t 'invite",
+    "start": 78.34,
+    "end": 79.14,
+    "words": [
+      {
+        "text": "je",
+        "start": 78.34,
+        "end": 78.54,
+        "highlight": false
+      },
+      {
+        "text": "t",
+        "start": 78.54,
+        "end": 78.66,
+        "highlight": false
+      },
+      {
+        "text": "'invite",
+        "start": 78.66,
+        "end": 79.14,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "à t 'abonner",
+    "start": 79.14,
+    "end": 79.82,
+    "words": [
+      {
+        "text": "à",
+        "start": 79.14,
+        "end": 79.38,
+        "highlight": false
+      },
+      {
+        "text": "t",
+        "start": 79.38,
+        "end": 79.46,
+        "highlight": false
+      },
+      {
+        "text": "'abonner",
+        "start": 79.46,
+        "end": 79.82,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "à ce compte",
+    "start": 79.82,
+    "end": 80.52,
+    "words": [
+      {
+        "text": "à",
+        "start": 79.82,
+        "end": 80.06,
+        "highlight": false
+      },
+      {
+        "text": "ce",
+        "start": 80.06,
+        "end": 80.1,
+        "highlight": false
+      },
+      {
+        "text": "compte",
+        "start": 80.1,
+        "end": 80.52,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "pour ne pas",
+    "start": 80.52,
+    "end": 81.38,
+    "words": [
+      {
+        "text": "pour",
+        "start": 80.52,
+        "end": 80.86,
+        "highlight": false
+      },
+      {
+        "text": "ne",
+        "start": 80.86,
+        "end": 81.06,
+        "highlight": false
+      },
+      {
+        "text": "pas",
+        "start": 81.06,
+        "end": 81.38,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "rater les prochaines",
+    "start": 81.38,
+    "end": 82.32,
+    "words": [
+      {
+        "text": "rater",
+        "start": 81.38,
+        "end": 81.66,
+        "highlight": false
+      },
+      {
+        "text": "les",
+        "start": 81.66,
+        "end": 81.92,
+        "highlight": false
+      },
+      {
+        "text": "prochaines",
+        "start": 81.92,
+        "end": 82.32,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  },
+  {
+    "text": "vidéos.",
+    "start": 82.32,
+    "end": 82.52,
+    "words": [
+      {
+        "text": "vidéos.",
+        "start": 82.32,
+        "end": 82.52,
+        "highlight": true
+      }
+    ],
+    "hasHighlight": true
+  },
+  {
+    "text": "On",
+    "start": 83.94,
+    "end": 84.48,
+    "words": [
+      {
+        "text": "On",
+        "start": 83.94,
+        "end": 84.48,
+        "highlight": false
+      }
+    ],
+    "hasHighlight": false
+  }
+]

@@ -17,7 +17,7 @@ type Pulse = {
  * Camera-style zooms synchronized with hooks and "niveau N" reveals.
  * Each pulse: scale up over half the duration, hold briefly, then back to 1.
  */
-const PULSES: Pulse[] = [
+const DEFAULT_PULSES: Pulse[] = [
   // Hook: "niveau 4 actuellement" – punch zoom
   { start: 5.4, duration: 1.8, scale: 1.14 },
   // "bloquées au niveau 1" – emphasis
@@ -42,7 +42,7 @@ const PULSES: Pulse[] = [
   { start: 150.0, duration: 2.0, scale: 1.10 },
 ];
 
-const SHAKES: { start: number; duration: number; intensity: number }[] = [
+const DEFAULT_SHAKES: { start: number; duration: number; intensity: number }[] = [
   { start: 5.6, duration: 0.45, intensity: 6 },
   { start: 31.5, duration: 0.4, intensity: 5 },
   { start: 45.2, duration: 0.4, intensity: 5 },
@@ -51,13 +51,23 @@ const SHAKES: { start: number; duration: number; intensity: number }[] = [
   { start: 118.2, duration: 0.5, intensity: 7 },
 ];
 
-export const ZoomTrack: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+type ZoomTrackProps = {
+  children: React.ReactNode;
+  pulses?: Pulse[];
+  shakes?: { start: number; duration: number; intensity: number }[];
+};
+
+export const ZoomTrack: React.FC<ZoomTrackProps> = ({
+  children,
+  pulses = DEFAULT_PULSES,
+  shakes = DEFAULT_SHAKES,
+}) => {
   const frame = useCurrentFrame();
   const t = frame / FPS;
 
   // Compute current scale (max over active pulses, default 1)
   let scale = 1;
-  for (const p of PULSES) {
+  for (const p of pulses) {
     if (t >= p.start && t <= p.start + p.duration) {
       const local = (t - p.start) / p.duration;
       // Smooth: 0 → 1 (peak at 0.4) → 0
@@ -74,7 +84,7 @@ export const ZoomTrack: React.FC<{ children: React.ReactNode }> = ({ children })
   // Shake
   let dx = 0;
   let dy = 0;
-  for (const s of SHAKES) {
+  for (const s of shakes) {
     if (t >= s.start && t <= s.start + s.duration) {
       const local = (t - s.start) / s.duration;
       const damp = 1 - local; // decay

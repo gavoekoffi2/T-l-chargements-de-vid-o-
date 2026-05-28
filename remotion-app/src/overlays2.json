@@ -1,0 +1,43 @@
+[
+  {
+    "id": "google-intro",
+    "brand": "Google",
+    "logo": "google.svg",
+    "color": "#4285F4",
+    "start": 0.3,
+    "duration": 2.0,
+    "side": "left",
+    "y": 130
+  },
+  {
+    "id": "gemini-harmony",
+    "brand": "Gemini Harmony",
+    "logo": "gemini.svg",
+    "color": "#8E54E9",
+    "start": 22.0,
+    "duration": 3.0,
+    "side": "right",
+    "y": 130,
+    "subtitle": "by Google"
+  },
+  {
+    "id": "gemini",
+    "brand": "Gemini 3.0",
+    "logo": "gemini.svg",
+    "color": "#1E88E5",
+    "start": 41.5,
+    "duration": 3.0,
+    "side": "left",
+    "y": 130
+  },
+  {
+    "id": "ai-search",
+    "brand": "AI Search",
+    "logo": "google.svg",
+    "color": "#34A853",
+    "start": 55.0,
+    "duration": 2.5,
+    "side": "right",
+    "y": 130
+  }
+]
