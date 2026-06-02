@@ -1,0 +1,15 @@
+# Source video (trop lourde)
+video2.mp4
+# Intermédiaires de rendu
+edit/base.mp4
+edit/base_*.mp4
+edit/clips_graded/
+edit/clips_preview/
+edit/clips_draft/
+edit/composite_*.mp4
+edit/final_montage.mp4
+edit/*.prenorm.mp4
+edit/_concat.txt
+# ProRes lourds (régénérables)
+edit/animations/*.mov
+edit/broll_clips/*.mov
