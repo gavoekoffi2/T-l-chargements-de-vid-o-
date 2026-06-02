@@ -134,8 +134,8 @@ export const VideoWithOverlays: React.FC<VideoOverlayProps> = ({
       {/* ── Lower Third principal (frame 30–120) ── */}
       <Sequence from={30} durationInFrames={90}>
         <LowerThird
-          name="Titre de la vidéo"
-          title="Sous-titre • Description"
+          name="ABRAHAM KOFFI AKPOBI"
+          title="Conseiller en sécurité financière"
           startFrame={0}
           exitFrame={70}
         />
@@ -167,8 +167,8 @@ export const VideoWithOverlays: React.FC<VideoOverlayProps> = ({
       {/* ── Second Lower Third (frame 270–360) ── */}
       <Sequence from={270} durationInFrames={90}>
         <LowerThird
-          name="Moment clé"
-          title="Événement • Lieu"
+          name="ABRAHAM KOFFI AKPOBI"
+          title="Conseiller en sécurité financière"
           startFrame={0}
           exitFrame={70}
         />
