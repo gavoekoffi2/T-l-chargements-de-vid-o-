@@ -5,4 +5,4 @@ Config.setOverwriteOutput(true);
 Config.setConcurrency(2);
 Config.setPixelFormat("yuv420p");
 Config.setCodec("h264");
-Config.setQuality(85);
+Config.setJpegQuality(85);

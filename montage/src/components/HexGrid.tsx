@@ -39,8 +39,8 @@ const Hexagon: React.FC<HexProps> = ({ cx, cy, size, delay, color }) => {
 };
 
 export const HexGrid: React.FC<{ opacity?: number }> = ({ opacity = 0.4 }) => {
-  const cols = 18;
-  const rows = 10;
+  const cols = 11;
+  const rows = 20;
   const size = 60;
   const w = size * Math.sqrt(3);
   const h = size * 2;
@@ -67,7 +67,7 @@ export const HexGrid: React.FC<{ opacity?: number }> = ({ opacity = 0.4 }) => {
         opacity,
         pointerEvents: "none",
       }}
-      viewBox="0 0 1920 1080"
+      viewBox="0 0 1080 1920"
     >
       {hexes.map((h, i) => (
         <Hexagon key={i} cx={h.cx} cy={h.cy} size={size} delay={h.delay} color={h.color} />

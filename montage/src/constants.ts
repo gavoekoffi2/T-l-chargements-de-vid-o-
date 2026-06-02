@@ -1,10 +1,10 @@
 export const VIDEO_FPS = 30;
-export const VIDEO_WIDTH = 1920;
-export const VIDEO_HEIGHT = 1080;
+export const VIDEO_WIDTH = 1080;
+export const VIDEO_HEIGHT = 1920;
 
 // Durées en frames (30fps)
 export const INTRO_DURATION = 90;       // 3s
-export const MAIN_DURATION = 450;       // 15s (s'adapte à la vidéo source)
+export const MAIN_DURATION = 8394;      // ~279.8s — vidéo source complète
 export const OUTRO_DURATION = 90;       // 3s
 export const TOTAL_DURATION = INTRO_DURATION + MAIN_DURATION + OUTRO_DURATION;
 

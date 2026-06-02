@@ -5,8 +5,9 @@ import {
   interpolate,
   spring,
   AbsoluteFill,
-  Video,
+  OffthreadVideo,
   Sequence,
+  staticFile,
 } from "remotion";
 import { LowerThird } from "../components/LowerThird";
 import { ScanLines } from "../components/ScanLines";
@@ -59,8 +60,8 @@ export const VideoWithOverlays: React.FC<VideoOverlayProps> = ({
 
       {/* ── Vidéo source ── */}
       <AbsoluteFill style={{ transform: `scale(${breathe * beat})` }}>
-        <Video
-          src={videoSrc}
+        <OffthreadVideo
+          src={videoSrc.startsWith("http") ? videoSrc : staticFile(videoSrc)}
           style={{ width: "100%", height: "100%", objectFit: "cover" }}
           volume={1}
         />
@@ -175,54 +176,19 @@ export const VideoWithOverlays: React.FC<VideoOverlayProps> = ({
 
       {/* ── Flare dramatique ── */}
       <Sequence from={150} durationInFrames={60}>
-        <Flare x={1800} y={100} startFrame={0} size={600} color={COLORS.gold} />
+        <Flare x={900} y={300} startFrame={0} size={500} color={COLORS.gold} />
       </Sequence>
 
-      {/* ── Lignes de cadre animées ── */}
-      <FrameLines />
+      {/* ── Lower third de clôture (vers la fin) ── */}
+      <Sequence from={durationInFrames - 150} durationInFrames={150}>
+        <LowerThird
+          name="À suivre…"
+          title="Merci de votre attention"
+          startFrame={0}
+          exitFrame={120}
+        />
+      </Sequence>
 
     </AbsoluteFill>
-  );
-};
-
-// Lignes de cadre cinématographiques
-const FrameLines: React.FC = () => {
-  const frame = useCurrentFrame();
-
-  const opacity = interpolate(frame, [0, 20], [0, 0.6], {
-    extrapolateRight: "clamp",
-  });
-
-  const barH = 60; // hauteur des bandes ciné
-
-  return (
-    <>
-      {/* Bande cinéma haut */}
-      <div
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          right: 0,
-          height: barH,
-          background: "rgba(0,0,0,0.75)",
-          opacity,
-          pointerEvents: "none",
-        }}
-      />
-      {/* Bande cinéma bas */}
-      <div
-        style={{
-          position: "absolute",
-          bottom: 0,
-          left: 0,
-          right: 0,
-          height: barH,
-          background: "rgba(0,0,0,0.75)",
-          opacity,
-          pointerEvents: "none",
-        }}
-      />
-    </>
   );
 };
