@@ -1,0 +1,14 @@
+# Gros binaires intermédiaires régénérables
+*.mov
+*.mp4
+*.wav
+clips_graded/
+clips_preview/
+clips_draft/
+verify/
+__pycache__/
+_concat.txt
+*.prenorm.mp4
+# On garde : *.py, edl.json, sfx_cues.json, master.srt,
+# transcripts/*.json (évite re-transcription), broll/*.png (images IA générées)
+*.webm

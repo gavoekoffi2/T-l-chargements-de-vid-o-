@@ -1,0 +1,261 @@
+{
+  "sources": {
+    "video": "../public/video.mp4"
+  },
+  "grade": "warm_cinematic",
+  "ranges": [
+    {
+      "source": "video",
+      "start": 1.98,
+      "end": 16.06
+    },
+    {
+      "source": "video",
+      "start": 16.44,
+      "end": 30.28
+    },
+    {
+      "source": "video",
+      "start": 31.62,
+      "end": 43.88
+    },
+    {
+      "source": "video",
+      "start": 44.92,
+      "end": 52.02
+    },
+    {
+      "source": "video",
+      "start": 52.62,
+      "end": 59.04
+    },
+    {
+      "source": "video",
+      "start": 69.98,
+      "end": 78.52
+    },
+    {
+      "source": "video",
+      "start": 79.17,
+      "end": 91.69
+    },
+    {
+      "source": "video",
+      "start": 94.36,
+      "end": 102.12
+    },
+    {
+      "source": "video",
+      "start": 102.98,
+      "end": 110.55
+    },
+    {
+      "source": "video",
+      "start": 111.06,
+      "end": 116.02
+    },
+    {
+      "source": "video",
+      "start": 116.5,
+      "end": 125.89
+    },
+    {
+      "source": "video",
+      "start": 126.41,
+      "end": 131.88
+    },
+    {
+      "source": "video",
+      "start": 132.32,
+      "end": 135.96
+    },
+    {
+      "source": "video",
+      "start": 136.38,
+      "end": 144.22
+    },
+    {
+      "source": "video",
+      "start": 145.02,
+      "end": 148.22
+    },
+    {
+      "source": "video",
+      "start": 149.24,
+      "end": 155.62
+    },
+    {
+      "source": "video",
+      "start": 156.57,
+      "end": 162.43
+    },
+    {
+      "source": "video",
+      "start": 162.99,
+      "end": 174.83
+    },
+    {
+      "source": "video",
+      "start": 175.61,
+      "end": 183.53
+    },
+    {
+      "source": "video",
+      "start": 185.84,
+      "end": 191.26
+    },
+    {
+      "source": "video",
+      "start": 191.95,
+      "end": 198.47
+    },
+    {
+      "source": "video",
+      "start": 199.19,
+      "end": 202.49
+    },
+    {
+      "source": "video",
+      "start": 203.32,
+      "end": 204.74
+    },
+    {
+      "source": "video",
+      "start": 205.26,
+      "end": 221.44
+    },
+    {
+      "source": "video",
+      "start": 222.0,
+      "end": 226.82
+    },
+    {
+      "source": "video",
+      "start": 227.64,
+      "end": 229.98
+    },
+    {
+      "source": "video",
+      "start": 230.55,
+      "end": 234.57
+    },
+    {
+      "source": "video",
+      "start": 235.07,
+      "end": 237.01
+    },
+    {
+      "source": "video",
+      "start": 237.66,
+      "end": 242.04
+    },
+    {
+      "source": "video",
+      "start": 242.56,
+      "end": 249.66
+    },
+    {
+      "source": "video",
+      "start": 251.29,
+      "end": 260.25
+    },
+    {
+      "source": "video",
+      "start": 260.83,
+      "end": 263.69
+    },
+    {
+      "source": "video",
+      "start": 264.07,
+      "end": 275.76
+    },
+    {
+      "source": "video",
+      "start": 276.2,
+      "end": 278.08
+    }
+  ],
+  "overlays": [
+    {
+      "file": "animations/intro.mov",
+      "start_in_output": 0.82,
+      "duration": 5.0
+    },
+    {
+      "file": "broll_clips/br_immigrants.mov",
+      "start_in_output": 8.82,
+      "duration": 3.0
+    },
+    {
+      "file": "animations/canada.mov",
+      "start_in_output": 14.44,
+      "duration": 9.0
+    },
+    {
+      "file": "broll_clips/br_tired.mov",
+      "start_in_output": 41.06,
+      "duration": 2.8
+    },
+    {
+      "file": "broll_clips/br_bills.mov",
+      "start_in_output": 50.46,
+      "duration": 2.8
+    },
+    {
+      "file": "animations/counter.mov",
+      "start_in_output": 54.52,
+      "duration": 6.0
+    },
+    {
+      "file": "broll_clips/br_taxes.mov",
+      "start_in_output": 63.87,
+      "duration": 2.8
+    },
+    {
+      "file": "animations/t4.mov",
+      "start_in_output": 68.87,
+      "duration": 5.5
+    },
+    {
+      "file": "animations/sixans.mov",
+      "start_in_output": 75.2,
+      "duration": 5.5
+    },
+    {
+      "file": "broll_clips/br_freedom.mov",
+      "start_in_output": 105.83,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_home.mov",
+      "start_in_output": 125.15,
+      "duration": 2.8
+    },
+    {
+      "file": "broll_clips/br_university.mov",
+      "start_in_output": 129.15,
+      "duration": 2.8
+    },
+    {
+      "file": "animations/liberte.mov",
+      "start_in_output": 149.86,
+      "duration": 6.5
+    },
+    {
+      "file": "animations/cta.mov",
+      "start_in_output": 162.36,
+      "duration": 6.0
+    },
+    {
+      "file": "broll_clips/br_advisor.mov",
+      "start_in_output": 195.41,
+      "duration": 2.8
+    },
+    {
+      "file": "animations/endcard.mov",
+      "start_in_output": 198.84,
+      "duration": 7.0
+    }
+  ],
+  "subtitles": "master.srt"
+}

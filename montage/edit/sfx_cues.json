@@ -1,0 +1,82 @@
+[
+  {
+    "time": 0.82,
+    "sfx": "boom",
+    "name": "intro"
+  },
+  {
+    "time": 8.82,
+    "sfx": "whoosh",
+    "name": "br_immigrants"
+  },
+  {
+    "time": 14.44,
+    "sfx": "whoosh",
+    "name": "canada"
+  },
+  {
+    "time": 41.06,
+    "sfx": "whoosh",
+    "name": "br_tired"
+  },
+  {
+    "time": 50.46,
+    "sfx": "pop",
+    "name": "br_bills"
+  },
+  {
+    "time": 54.52,
+    "sfx": "ding",
+    "name": "counter"
+  },
+  {
+    "time": 63.87,
+    "sfx": "whoosh",
+    "name": "br_taxes"
+  },
+  {
+    "time": 68.87,
+    "sfx": "whoosh",
+    "name": "t4"
+  },
+  {
+    "time": 75.2,
+    "sfx": "boom",
+    "name": "sixans"
+  },
+  {
+    "time": 105.83,
+    "sfx": "boom",
+    "name": "br_freedom"
+  },
+  {
+    "time": 125.15,
+    "sfx": "boom",
+    "name": "br_home"
+  },
+  {
+    "time": 129.15,
+    "sfx": "whoosh",
+    "name": "br_university"
+  },
+  {
+    "time": 149.86,
+    "sfx": "ding",
+    "name": "liberte"
+  },
+  {
+    "time": 162.36,
+    "sfx": "pop",
+    "name": "cta"
+  },
+  {
+    "time": 195.41,
+    "sfx": "boom",
+    "name": "br_advisor"
+  },
+  {
+    "time": 198.84,
+    "sfx": "boom",
+    "name": "endcard"
+  }
+]
