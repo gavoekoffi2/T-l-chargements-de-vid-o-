@@ -6,254 +6,199 @@
   "ranges": [
     {
       "source": "video",
-      "start": 1.98,
-      "end": 16.06
+      "start": 1.8,
+      "end": 30.46
     },
     {
       "source": "video",
-      "start": 16.44,
-      "end": 30.28
+      "start": 31.44,
+      "end": 44.06
     },
     {
       "source": "video",
-      "start": 31.62,
-      "end": 43.88
+      "start": 44.74,
+      "end": 52.2
     },
     {
       "source": "video",
-      "start": 44.92,
-      "end": 52.02
+      "start": 52.44,
+      "end": 59.22
     },
     {
       "source": "video",
-      "start": 52.62,
-      "end": 59.04
+      "start": 69.8,
+      "end": 78.7
     },
     {
       "source": "video",
-      "start": 69.98,
-      "end": 78.52
+      "start": 78.99,
+      "end": 91.87
     },
     {
       "source": "video",
-      "start": 79.17,
-      "end": 91.69
+      "start": 94.18,
+      "end": 102.3
     },
     {
       "source": "video",
-      "start": 94.36,
-      "end": 102.12
+      "start": 102.8,
+      "end": 144.4
     },
     {
       "source": "video",
-      "start": 102.98,
-      "end": 110.55
+      "start": 144.84,
+      "end": 148.4
     },
     {
       "source": "video",
-      "start": 111.06,
-      "end": 116.02
+      "start": 149.06,
+      "end": 155.8
     },
     {
       "source": "video",
-      "start": 116.5,
-      "end": 125.89
+      "start": 156.39,
+      "end": 162.61
     },
     {
       "source": "video",
-      "start": 126.41,
-      "end": 131.88
+      "start": 162.81,
+      "end": 175.01
     },
     {
       "source": "video",
-      "start": 132.32,
-      "end": 135.96
+      "start": 175.43,
+      "end": 183.71
     },
     {
       "source": "video",
-      "start": 136.38,
-      "end": 144.22
+      "start": 185.66,
+      "end": 191.44
     },
     {
       "source": "video",
-      "start": 145.02,
-      "end": 148.22
+      "start": 191.77,
+      "end": 198.65
     },
     {
       "source": "video",
-      "start": 149.24,
-      "end": 155.62
+      "start": 199.01,
+      "end": 202.67
     },
     {
       "source": "video",
-      "start": 156.57,
-      "end": 162.43
+      "start": 203.14,
+      "end": 221.62
     },
     {
       "source": "video",
-      "start": 162.99,
-      "end": 174.83
+      "start": 221.82,
+      "end": 227.0
     },
     {
       "source": "video",
-      "start": 175.61,
-      "end": 183.53
+      "start": 227.46,
+      "end": 230.16
     },
     {
       "source": "video",
-      "start": 185.84,
-      "end": 191.26
+      "start": 230.37,
+      "end": 237.19
     },
     {
       "source": "video",
-      "start": 191.95,
-      "end": 198.47
+      "start": 237.48,
+      "end": 249.84
     },
     {
       "source": "video",
-      "start": 199.19,
-      "end": 202.49
+      "start": 251.11,
+      "end": 260.43
     },
     {
       "source": "video",
-      "start": 203.32,
-      "end": 204.74
-    },
-    {
-      "source": "video",
-      "start": 205.26,
-      "end": 221.44
-    },
-    {
-      "source": "video",
-      "start": 222.0,
-      "end": 226.82
-    },
-    {
-      "source": "video",
-      "start": 227.64,
-      "end": 229.98
-    },
-    {
-      "source": "video",
-      "start": 230.55,
-      "end": 234.57
-    },
-    {
-      "source": "video",
-      "start": 235.07,
-      "end": 237.01
-    },
-    {
-      "source": "video",
-      "start": 237.66,
-      "end": 242.04
-    },
-    {
-      "source": "video",
-      "start": 242.56,
-      "end": 249.66
-    },
-    {
-      "source": "video",
-      "start": 251.29,
-      "end": 260.25
-    },
-    {
-      "source": "video",
-      "start": 260.83,
-      "end": 263.69
-    },
-    {
-      "source": "video",
-      "start": 264.07,
-      "end": 275.76
-    },
-    {
-      "source": "video",
-      "start": 276.2,
-      "end": 278.08
+      "start": 260.65,
+      "end": 278.26
     }
   ],
   "overlays": [
     {
       "file": "animations/intro.mov",
-      "start_in_output": 0.82,
+      "start_in_output": 1.0,
       "duration": 5.0
     },
     {
       "file": "broll_clips/br_immigrants.mov",
-      "start_in_output": 8.82,
+      "start_in_output": 9.0,
       "duration": 3.0
     },
     {
       "file": "animations/canada.mov",
-      "start_in_output": 14.44,
+      "start_in_output": 15.0,
       "duration": 9.0
     },
     {
       "file": "broll_clips/br_tired.mov",
-      "start_in_output": 41.06,
+      "start_in_output": 42.34,
       "duration": 2.8
     },
     {
       "file": "broll_clips/br_bills.mov",
-      "start_in_output": 50.46,
+      "start_in_output": 52.1,
       "duration": 2.8
     },
     {
       "file": "animations/counter.mov",
-      "start_in_output": 54.52,
+      "start_in_output": 56.52,
       "duration": 6.0
     },
     {
       "file": "broll_clips/br_taxes.mov",
-      "start_in_output": 63.87,
+      "start_in_output": 66.23,
       "duration": 2.8
     },
     {
       "file": "animations/t4.mov",
-      "start_in_output": 68.87,
+      "start_in_output": 71.23,
       "duration": 5.5
     },
     {
       "file": "animations/sixans.mov",
-      "start_in_output": 75.2,
+      "start_in_output": 77.92,
       "duration": 5.5
     },
     {
       "file": "broll_clips/br_freedom.mov",
-      "start_in_output": 105.83,
+      "start_in_output": 110.42,
       "duration": 3.0
     },
     {
       "file": "broll_clips/br_home.mov",
-      "start_in_output": 125.15,
+      "start_in_output": 131.32,
       "duration": 2.8
     },
     {
       "file": "broll_clips/br_university.mov",
-      "start_in_output": 129.15,
+      "start_in_output": 135.32,
       "duration": 2.8
     },
     {
       "file": "animations/liberte.mov",
-      "start_in_output": 149.86,
+      "start_in_output": 157.11,
       "duration": 6.5
     },
     {
       "file": "animations/cta.mov",
-      "start_in_output": 162.36,
+      "start_in_output": 170.33,
       "duration": 6.0
     },
     {
       "file": "broll_clips/br_advisor.mov",
-      "start_in_output": 195.41,
+      "start_in_output": 205.34,
       "duration": 2.8
     },
     {
       "file": "animations/endcard.mov",
-      "start_in_output": 198.84,
+      "start_in_output": 209.13,
       "duration": 7.0
     }
   ],

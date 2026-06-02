@@ -14,8 +14,8 @@ EDIT = Path(__file__).parent
 TRANSCRIPT = Path("/tmp/transcript.json")
 SOURCE_NAME = "video"
 
-GAP_CUT = 0.6      # silence >= 0.6s -> on coupe (supprime le temps mort)
-PAD = 0.12         # padding à chaque bord de coupe
+GAP_CUT = 0.80     # silence >= 0.8s -> on coupe (plus conservateur, moins de coupures serrées)
+PAD = 0.30         # padding à chaque bord de coupe (0.12->0.30 pour ne pas couper les fins de phrase)
 DROP_SEGMENTS = [5]  # index 0-based : segment bafouillé/confus 60-69s
 
 data = json.load(open(TRANSCRIPT))
