@@ -1,0 +1,25 @@
+{
+  "name": "montage-motion-design",
+  "version": "1.0.0",
+  "description": "Montage professionnel avec motion design via Remotion",
+  "scripts": {
+    "start": "remotion studio",
+    "build": "remotion render",
+    "render": "remotion render MainComposition out/montage.mp4",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.290",
+    "@remotion/media-utils": "4.0.290",
+    "remotion": "4.0.290"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "typescript": "5.4.5"
+  },
+  "remotion": {
+    "entryPoint": "src/index.ts"
+  }
+}
