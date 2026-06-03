@@ -1,56 +1,26 @@
 [
   {
     "time": 0.0,
-    "sfx": "boom",
+    "sfx": "impact",
     "name": "intro"
   },
   {
-    "time": 5.3,
-    "sfx": "whoosh",
-    "name": "br_medecin"
-  },
-  {
-    "time": 13.92,
-    "sfx": "whoosh",
-    "name": "br_dentiste"
-  },
-  {
-    "time": 38.12,
-    "sfx": "pop",
-    "name": "br_surcharge"
-  },
-  {
-    "time": 41.88,
-    "sfx": "whoosh",
+    "time": 40.08,
+    "sfx": "impact",
     "name": "heures"
   },
   {
-    "time": 49.18,
-    "sfx": "boom",
-    "name": "br_famille"
-  },
-  {
-    "time": 55.7,
+    "time": 52.94,
     "sfx": "ding",
     "name": "retraite"
   },
   {
-    "time": 64.26,
-    "sfx": "whoosh",
-    "name": "br_retraite"
-  },
-  {
-    "time": 76.6,
+    "time": 76.72,
     "sfx": "boom",
     "name": "solution"
   },
   {
-    "time": 89.56,
-    "sfx": "whoosh",
-    "name": "br_canada"
-  },
-  {
-    "time": 98.92,
+    "time": 93.38,
     "sfx": "whoosh",
     "name": "rra"
   },
@@ -60,23 +30,53 @@
     "name": "capital"
   },
   {
-    "time": 133.4,
-    "sfx": "boom",
-    "name": "br_richesse"
-  },
-  {
-    "time": 164.62,
-    "sfx": "whoosh",
-    "name": "br_reunion"
-  },
-  {
-    "time": 176.8,
+    "time": 176.3,
     "sfx": "pop",
     "name": "cta"
   },
   {
     "time": 200.23,
-    "sfx": "boom",
+    "sfx": "impact",
     "name": "endcard"
+  },
+  {
+    "time": 4.36,
+    "sfx": "shutter",
+    "name": "br_medecin"
+  },
+  {
+    "time": 13.92,
+    "sfx": "shutter",
+    "name": "br_dentiste"
+  },
+  {
+    "time": 38.12,
+    "sfx": "shutter",
+    "name": "br_surcharge"
+  },
+  {
+    "time": 46.92,
+    "sfx": "shutter",
+    "name": "br_famille"
+  },
+  {
+    "time": 64.26,
+    "sfx": "shutter",
+    "name": "br_retraite"
+  },
+  {
+    "time": 89.56,
+    "sfx": "shutter",
+    "name": "br_canada"
+  },
+  {
+    "time": 133.4,
+    "sfx": "shutter",
+    "name": "br_richesse"
+  },
+  {
+    "time": 164.62,
+    "sfx": "shutter",
+    "name": "br_reunion"
   }
 ]

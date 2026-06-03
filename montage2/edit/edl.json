@@ -239,82 +239,82 @@
     {
       "file": "animations/intro.mov",
       "start_in_output": 0.0,
-      "duration": 5.0
-    },
-    {
-      "file": "broll_clips/br_medecin.mov",
-      "start_in_output": 5.3,
-      "duration": 3.0
-    },
-    {
-      "file": "broll_clips/br_dentiste.mov",
-      "start_in_output": 13.92,
-      "duration": 2.8
-    },
-    {
-      "file": "broll_clips/br_surcharge.mov",
-      "start_in_output": 38.12,
-      "duration": 2.8
+      "duration": 16.0
     },
     {
       "file": "animations/heures.mov",
-      "start_in_output": 41.88,
-      "duration": 7.0
-    },
-    {
-      "file": "broll_clips/br_famille.mov",
-      "start_in_output": 49.18,
-      "duration": 3.0
+      "start_in_output": 40.08,
+      "duration": 8.06
     },
     {
       "file": "animations/retraite.mov",
-      "start_in_output": 55.7,
-      "duration": 7.0
-    },
-    {
-      "file": "broll_clips/br_retraite.mov",
-      "start_in_output": 64.26,
-      "duration": 2.8
+      "start_in_output": 52.94,
+      "duration": 16.0
     },
     {
       "file": "animations/solution.mov",
-      "start_in_output": 76.6,
-      "duration": 5.5
-    },
-    {
-      "file": "broll_clips/br_canada.mov",
-      "start_in_output": 89.56,
-      "duration": 3.0
+      "start_in_output": 76.72,
+      "duration": 9.94
     },
     {
       "file": "animations/rra.mov",
-      "start_in_output": 98.92,
-      "duration": 8.0
+      "start_in_output": 93.38,
+      "duration": 16.0
     },
     {
       "file": "animations/capital.mov",
       "start_in_output": 112.92,
-      "duration": 8.0
-    },
-    {
-      "file": "broll_clips/br_richesse.mov",
-      "start_in_output": 133.4,
-      "duration": 3.0
-    },
-    {
-      "file": "broll_clips/br_reunion.mov",
-      "start_in_output": 164.62,
-      "duration": 2.8
+      "duration": 16.0
     },
     {
       "file": "animations/cta.mov",
-      "start_in_output": 176.8,
-      "duration": 7.0
+      "start_in_output": 176.3,
+      "duration": 16.0
     },
     {
       "file": "animations/endcard.mov",
       "start_in_output": 200.23,
-      "duration": 7.5
+      "duration": 13.8
+    },
+    {
+      "file": "broll_clips/br_medecin.mov",
+      "start_in_output": 4.36,
+      "duration": 3.5
+    },
+    {
+      "file": "broll_clips/br_dentiste.mov",
+      "start_in_output": 13.92,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_surcharge.mov",
+      "start_in_output": 38.12,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_famille.mov",
+      "start_in_output": 46.92,
+      "duration": 3.5
+    },
+    {
+      "file": "broll_clips/br_retraite.mov",
+      "start_in_output": 64.26,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_canada.mov",
+      "start_in_output": 89.56,
+      "duration": 3.5
+    },
+    {
+      "file": "broll_clips/br_richesse.mov",
+      "start_in_output": 133.4,
+      "duration": 3.5
+    },
+    {
+      "file": "broll_clips/br_reunion.mov",
+      "start_in_output": 164.62,
+      "duration": 3.2
     }
   ],
   "subtitles": "master.srt"
