@@ -1,0 +1,240 @@
+{
+  "sources": {
+    "video2": "../video2.mp4"
+  },
+  "grade": "warm_cinematic",
+  "ranges": [
+    {
+      "source": "video2",
+      "start": 2.34,
+      "end": 3.88
+    },
+    {
+      "source": "video2",
+      "start": 4.6,
+      "end": 7.18
+    },
+    {
+      "source": "video2",
+      "start": 7.56,
+      "end": 9.4
+    },
+    {
+      "source": "video2",
+      "start": 10.7,
+      "end": 13.02
+    },
+    {
+      "source": "video2",
+      "start": 13.44,
+      "end": 15.22
+    },
+    {
+      "source": "video2",
+      "start": 17.38,
+      "end": 18.84
+    },
+    {
+      "source": "video2",
+      "start": 19.2,
+      "end": 20.92
+    },
+    {
+      "source": "video2",
+      "start": 21.62,
+      "end": 23.34
+    },
+    {
+      "source": "video2",
+      "start": 23.96,
+      "end": 27.24
+    },
+    {
+      "source": "video2",
+      "start": 27.72,
+      "end": 31.78
+    },
+    {
+      "source": "video2",
+      "start": 32.18,
+      "end": 38.84
+    },
+    {
+      "source": "video2",
+      "start": 40.08,
+      "end": 43.54
+    },
+    {
+      "source": "video2",
+      "start": 44.04,
+      "end": 49.78
+    },
+    {
+      "source": "video2",
+      "start": 50.84,
+      "end": 52.1
+    },
+    {
+      "source": "video2",
+      "start": 52.74,
+      "end": 53.6
+    },
+    {
+      "source": "video2",
+      "start": 55.2,
+      "end": 58.1
+    },
+    {
+      "source": "video2",
+      "start": 59.1,
+      "end": 63.04
+    },
+    {
+      "source": "video2",
+      "start": 63.98,
+      "end": 70.12
+    },
+    {
+      "source": "video2",
+      "start": 70.48,
+      "end": 73.12
+    },
+    {
+      "source": "video2",
+      "start": 73.52,
+      "end": 78.12
+    },
+    {
+      "source": "video2",
+      "start": 78.54,
+      "end": 82.7
+    },
+    {
+      "source": "video2",
+      "start": 83.42,
+      "end": 91.38
+    },
+    {
+      "source": "video2",
+      "start": 92.08,
+      "end": 94.98
+    },
+    {
+      "source": "video2",
+      "start": 95.58,
+      "end": 96.86
+    },
+    {
+      "source": "video2",
+      "start": 98.88,
+      "end": 104.58
+    },
+    {
+      "source": "video2",
+      "start": 105.06,
+      "end": 108.86
+    },
+    {
+      "source": "video2",
+      "start": 109.64,
+      "end": 113.1
+    },
+    {
+      "source": "video2",
+      "start": 113.8,
+      "end": 115.92
+    },
+    {
+      "source": "video2",
+      "start": 116.3,
+      "end": 123.54
+    },
+    {
+      "source": "video2",
+      "start": 124.3,
+      "end": 125.48
+    },
+    {
+      "source": "video2",
+      "start": 126.14,
+      "end": 128.76
+    },
+    {
+      "source": "video2",
+      "start": 129.679,
+      "end": 131.16
+    },
+    {
+      "source": "video2",
+      "start": 131.78,
+      "end": 141.14
+    },
+    {
+      "source": "video2",
+      "start": 141.7,
+      "end": 146.8
+    },
+    {
+      "source": "video2",
+      "start": 147.56,
+      "end": 155.8
+    },
+    {
+      "source": "video2",
+      "start": 156.12,
+      "end": 160.1
+    },
+    {
+      "source": "video2",
+      "start": 160.48,
+      "end": 163.36
+    },
+    {
+      "source": "video2",
+      "start": 163.72,
+      "end": 176.98
+    },
+    {
+      "source": "video2",
+      "start": 177.4,
+      "end": 196.32
+    },
+    {
+      "source": "video2",
+      "start": 196.64,
+      "end": 208.04
+    },
+    {
+      "source": "video2",
+      "start": 208.4,
+      "end": 209.8
+    },
+    {
+      "source": "video2",
+      "start": 210.1,
+      "end": 211.49
+    },
+    {
+      "source": "video2",
+      "start": 212.2,
+      "end": 232.22
+    },
+    {
+      "source": "video2",
+      "start": 233.92,
+      "end": 246.36
+    },
+    {
+      "source": "video2",
+      "start": 246.76,
+      "end": 273.209
+    },
+    {
+      "source": "video2",
+      "start": 273.68,
+      "end": 275.24
+    }
+  ],
+  "overlays": [],
+  "subtitles": "master.srt"
+}
