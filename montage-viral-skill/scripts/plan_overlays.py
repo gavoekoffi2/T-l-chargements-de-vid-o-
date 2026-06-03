@@ -1,27 +1,23 @@
 #!/usr/bin/env python3
-"""Place overlays + B-roll sur la timeline de sortie.
+"""Place 8 overlays graphiques (durée synchro-parole) + 16 B-roll (ballotage).
 
-Règles v3 :
-- Overlays graphiques : durée = longueur du sujet dans la parole (capped à 16s)
-  → restent à l'écran TANT QUE la personne parle du sujet illustré.
-- B-roll : durée courte (3-4s), SFX=shutter, composité AU-DESSUS du graphic
-  (pas de collision avoidance entre B-roll et graphique).
-- Collision avoidance uniquement entre B-roll et B-roll (gap=0.6s).
-- Ordre final : graphiques PUIS B-roll (pour que le B-roll couvre le graphique
-  lors des cutaways, puis révèle de nouveau le panneau quand il disparaît).
+Règles v4 :
+- Overlays graphiques : durée = celle du fichier .mov (déjà calée sur le sujet parlé).
+  Restent affichés tant que la personne parle du sujet ; tiennent leur état final.
+- B-roll : 16 cutaways 3-3.2s, composités AU-DESSUS du graphique (ballotage).
+  Quand le sujet est long, plusieurs B-roll s'enchaînent en alternance avec le locuteur.
+- SFX variés : graphiques = impact/boom/whoosh/ding/pop/sparkle/sub_drop selon le type ;
+  B-roll = shutter, plus swoosh_up/glitch/transition selon l'effet d'entrée.
+- Collision avoidance B-roll/B-roll uniquement (gap 0.5s). Graphiques jamais décalés.
 """
 import json
 from pathlib import Path
 
-EDIT = Path(__file__).parent
-edl  = json.load(open(EDIT/"edl.json"))
-ranges = edl["ranges"]
-
+EDIT=Path(__file__).parent
+edl=json.load(open(EDIT/"edl.json")); ranges=edl["ranges"]
 maps=[]; off=0.0
-for r in ranges:
-    maps.append((r["start"],r["end"],off)); off+=r["end"]-r["start"]
-TOTAL_OUT=off
-
+for r in ranges: maps.append((r["start"],r["end"],off)); off+=r["end"]-r["start"]
+TOTAL=off
 def s2o(t):
     for a,b,o in maps:
         if a<=t<=b: return o+(t-a)
@@ -31,93 +27,68 @@ def s2o(t):
             if best is None or abs(edge-t)<best[0]: best=(abs(edge-t),val)
     return best[1] if best else 0.0
 
-# ── Overlays graphiques ─────────────────────────────────────────────────────
-# (src_appear, src_topic_end, name, file, sfx)
-# Durée = s2o(topic_end) - s2o(src_appear), capped à 16s
-GRAPHICS_DEF = [
-    (  2.5,  40.5, "intro",    "animations/intro.mov",    "impact"),   # médecins/dentistes
-    ( 55.0,  65.0, "heures",   "animations/heures.mov",   "impact"),   # 70h/semaine
-    ( 70.0,  97.0, "retraite", "animations/retraite.mov", "ding"),     # retraite 9%
-    ( 99.0, 110.0, "solution", "animations/solution.mov", "boom"),     # J'ai une solution
-    (118.0, 142.0, "rra",      "animations/rra.mov",       "whoosh"),  # RRA stratégie
-    (140.5, 165.0, "capital",  "animations/capital.mov",   "ding"),    # +4M $
-    (207.0, 232.0, "cta",      "animations/cta.mov",       "pop"),     # ILLUSTRATION
-    (234.0, 248.0, "endcard",  "animations/endcard.mov",   "impact"),  # endcard
+# Durées réelles des .mov graphiques (== overlays.py JOBS)
+GDUR={"intro":15.0,"heures":8.0,"retraite":16.0,"solution":10.0,
+      "rra":16.0,"capital":16.0,"cta":15.0,"endcard":13.0}
+# (src_appear, name, sfx)
+GRAPHICS=[
+ (  2.5,"intro",   "impact"),
+ ( 55.0,"heures",  "sub_drop"),
+ ( 70.0,"retraite","sub_drop"),
+ ( 99.0,"solution","boom"),
+ (118.0,"rra",     "sparkle"),
+ (140.5,"capital", "ding"),
+ (207.0,"cta",     "pop"),
+ (234.0,"endcard", "impact"),
 ]
-MAX_DUR = 16.0
-MIN_DUR  = 5.0
-
-graphics = []
-for src_appear, src_end, name, path, sfx in GRAPHICS_DEF:
-    t_start = max(0.0, s2o(src_appear) - 0.2)
-    t_end   = min(TOTAL_OUT, s2o(src_end))
-    dur = max(MIN_DUR, min(MAX_DUR, t_end - t_start))
-    graphics.append({
-        "name": name, "file": path,
-        "start_in_output": round(t_start, 2),
-        "duration": round(dur, 2),
-        "sfx": sfx, "kind": "graphic",
-    })
-
-# ── B-roll ───────────────────────────────────────────────────────────────────
-# (src_appear, name, file, durée)  — SFX = shutter pour tous
-BROLL_DEF = [
-    (  8.0, "br_medecin",   "broll_clips/br_medecin.mov",   3.5),
-    ( 22.5, "br_dentiste",  "broll_clips/br_dentiste.mov",  3.2),
-    ( 51.0, "br_surcharge", "broll_clips/br_surcharge.mov", 3.2),
-    ( 63.5, "br_famille",   "broll_clips/br_famille.mov",   3.5),
-    ( 82.5, "br_retraite",  "broll_clips/br_retraite.mov",  3.2),
-    (113.5, "br_canada",    "broll_clips/br_canada.mov",    3.5),
-    (163.0, "br_richesse",  "broll_clips/br_richesse.mov",  3.5),
-    (195.0, "br_reunion",   "broll_clips/br_reunion.mov",   3.2),
+# B-roll : (src_appear, clip, sfx_entrée)  — shutter de base + variation selon effet
+BROLL=[
+ (  6.0,"br_medecin",  "shutter"),
+ (  9.5,"br_etudes",   "swoosh_up"),
+ ( 14.0,"br_diplome",  "sparkle"),
+ ( 23.0,"br_dentiste", "shutter"),
+ ( 51.0,"br_surcharge","glitch"),
+ ( 62.0,"br_famille",  "swoosh_up"),
+ ( 70.5,"br_stress",   "glitch"),
+ ( 84.0,"br_retraite", "transition"),
+ (145.0,"br_argent",   "swoosh_up"),
+ (160.0,"br_vieillesse","shutter"),
+ (168.0,"br_clinique", "shutter"),
+ (177.0,"br_richesse", "sparkle"),
+ (188.0,"br_maison",   "sparkle"),
+ (200.0,"br_reunion",  "shutter"),
+ (235.0,"br_abraham",  "transition"),
+ (244.0,"br_canada",   "shutter"),
 ]
 
-broll = []
-for src_appear, name, path, dur in BROLL_DEF:
-    t_start = max(0.0, s2o(src_appear) - 0.2)
-    broll.append({
-        "name": name, "file": path,
-        "start_in_output": round(t_start, 2),
-        "duration": dur,
-        "sfx": "shutter",          # son de capture photo pour les images
-        "kind": "broll",
-    })
+cues=[]
+for src,name,sfx in GRAPHICS:
+    t=max(0.0,s2o(src)-0.2)
+    cues.append({"name":name,"file":f"animations/{name}.mov","start_in_output":round(t,2),
+                 "duration":GDUR[name],"sfx":sfx,"kind":"graphic"})
+graphics=sorted(cues,key=lambda c:c["start_in_output"])
 
-# Collision avoidance B-roll only (gap 0.6s entre deux B-roll)
-broll.sort(key=lambda c: c["start_in_output"])
-GAP_BR = 0.6
-for i in range(1, len(broll)):
-    prev = broll[i-1]; cur = broll[i]
-    prev_end = prev["start_in_output"] + prev["duration"]
-    if cur["start_in_output"] < prev_end + GAP_BR:
-        cur["start_in_output"] = round(prev_end + GAP_BR, 2)
+br=[]
+for src,name,sfx in BROLL:
+    t=max(0.0,s2o(src)-0.2)
+    br.append({"name":name,"file":f"broll_clips/{name}.mov","start_in_output":round(t,2),
+               "duration":3.2 if name.endswith(("medecin","famille","dentiste","canada","abraham","richesse")) else 3.0,
+               "sfx":sfx,"kind":"broll"})
+br.sort(key=lambda c:c["start_in_output"])
+GAP=0.5
+for i in range(1,len(br)):
+    pe=br[i-1]["start_in_output"]+br[i-1]["duration"]
+    if br[i]["start_in_output"]<pe+GAP: br[i]["start_in_output"]=round(pe+GAP,2)
 
-# Ordre final : graphiques (par temps) + B-roll (par temps)
-# Le B-roll est composité APRÈS (donc dessus) les graphiques
-# → pendant le cutaway B-roll on voit l'image plein cadre,
-#   puis en retour on revoit le locuteur + le panneau graphique encore actif.
-all_cues = sorted(graphics, key=lambda c: c["start_in_output"]) + \
-           sorted(broll,    key=lambda c: c["start_in_output"])
+# graphiques d'abord (dessous), puis B-roll (dessus = ballotage)
+allc=[c for c in (graphics+br) if c["start_in_output"]+c["duration"]<=TOTAL+0.1]
 
-# Borner à la timeline de sortie
-all_cues = [c for c in all_cues if c["start_in_output"] + c["duration"] <= TOTAL_OUT + 0.1]
+edl["overlays"]=[{"file":c["file"],"start_in_output":c["start_in_output"],"duration":c["duration"]} for c in allc]
+json.dump(edl,open(EDIT/"edl.json","w"),ensure_ascii=False,indent=2)
+sfx=[{"time":c["start_in_output"],"sfx":c["sfx"],"name":c["name"]} for c in allc]
+json.dump(sfx,open(EDIT/"sfx_cues.json","w"),ensure_ascii=False,indent=2)
 
-# Écrire dans edl.json
-edl["overlays"] = [{"file": c["file"],
-                    "start_in_output": c["start_in_output"],
-                    "duration": c["duration"]} for c in all_cues]
-json.dump(edl, open(EDIT/"edl.json","w"), ensure_ascii=False, indent=2)
-
-# sfx_cues.json
-sfx_cues = [{"time": c["start_in_output"], "sfx": c["sfx"], "name": c["name"]}
-            for c in all_cues]
-json.dump(sfx_cues, open(EDIT/"sfx_cues.json","w"), ensure_ascii=False, indent=2)
-
-print(f"Timeline : {TOTAL_OUT:.1f}s | {len(all_cues)} éléments")
-print(f"  {'Graphiques':>12s} : {len(graphics)}")
-print(f"  {'B-roll':>12s} : {len(broll)}")
-for c in all_cues:
-    kind = c['kind']
-    end  = c['start_in_output'] + c['duration']
-    print(f"  {c['start_in_output']:6.1f}s-{end:6.1f}s (+{c['duration']:.1f}s)  "
-          f"[{kind:7s}] {c['name']:14s} sfx={c['sfx']}")
+print(f"Timeline {TOTAL:.1f}s | {len(allc)} éléments ({len(graphics)} graphiques + {len(br)} B-roll)")
+for c in sorted(allc,key=lambda c:c['start_in_output']):
+    e=c['start_in_output']+c['duration']
+    print(f"  {c['start_in_output']:6.1f}-{e:6.1f}s [{c['kind']:7s}] {c['name']:14s} sfx={c['sfx']}")

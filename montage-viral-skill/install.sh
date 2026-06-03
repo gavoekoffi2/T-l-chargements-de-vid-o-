@@ -16,7 +16,35 @@ mkdir -p "$SCRIPTS_DIR"
 REPO_DIR="$(cd "$(dirname "$0")" && pwd)"
 cp "$REPO_DIR/SKILL.md"          "$SKILL_DIR/SKILL.md"
 cp "$REPO_DIR/scripts/"*.py      "$SCRIPTS_DIR/"
+cp "$REPO_DIR/scripts/"*.sh      "$SCRIPTS_DIR/" 2>/dev/null || true
 echo "  ✓ SKILL.md et scripts copiés"
+
+# Installer les polices virales dans ~/.fonts
+echo "  Installation des polices virales..."
+mkdir -p "$HOME/.fonts"
+declare -A FONTS=(
+  ["Anton"]="https://fonts.gstatic.com/s/anton/v25/1Ptgg87LROyAm0K08i4gS7lu.woff2"
+  ["BebasNeue"]="https://fonts.gstatic.com/s/bebasneue/v14/JTUSjIg69CK48gW7PXooxW5rygbi49c.woff2"
+  ["Bangers"]="https://fonts.gstatic.com/s/bangers/v24/FeVQS0BTqb0h60ACL5la2bxii28wYQ.woff2"
+)
+for NAME in "${!FONTS[@]}"; do
+  TTF="$HOME/.fonts/${NAME}.ttf"
+  if [ ! -f "$TTF" ]; then
+    echo "    Téléchargement $NAME..."
+    curl -sL "${FONTS[$NAME]}" -o "$HOME/.fonts/${NAME}.woff2" && \
+      python3 -c "
+try:
+    from fonttools.ttLib import TTFont; TTFont('$HOME/.fonts/${NAME}.woff2').save('$TTF')
+except: import shutil; shutil.copy('$HOME/.fonts/${NAME}.woff2','$TTF')
+" 2>/dev/null || true
+  fi
+done
+# Montserrat via pip fonttools approach — fallback: manual install note
+if ! fc-list 2>/dev/null | grep -qi "montserrat"; then
+  echo "    ⚠ Montserrat non trouvée. Télécharge depuis fonts.google.com et place dans ~/.fonts"
+fi
+fc-cache -f "$HOME/.fonts" 2>/dev/null || true
+echo "  ✓ Polices installées dans ~/.fonts"
 
 # Vérifier / installer les dépendances Python
 echo "  Vérification des dépendances Python..."

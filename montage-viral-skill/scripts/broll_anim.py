@@ -102,14 +102,22 @@ def render_clip(name,img_name,dur,enter,label=None,kb=0.10):
     print(f"  ✓ {name}.mov ({dur:.1f}s)")
 
 CLIPS=[
- ("br_medecin",    "medecin",      3.0,"slide_r", "MÉDECIN"),
- ("br_dentiste",   "dentiste",     2.8,"punch",   "DENTISTE"),
- ("br_surcharge",  "surcharge",    2.8,"glitch",  "ÉPUISÉ ?"),
- ("br_famille",    "famille",      3.0,"rise",    "TA FAMILLE"),
- ("br_retraite",   "retraite_pauvre",2.8,"slide_l","9%  RETRAITE"),
- ("br_richesse",   "richesse",     3.0,"flash",   "LIBRE"),
- ("br_reunion",    "reunion",      2.8,"slide_r", "TON PLAN"),
- ("br_canada",     "canada_doc",   3.0,"punch",   "AU CANADA"),
+ ("br_medecin",    "medecin",        3.2,"slide_r", "MÉDECIN"),
+ ("br_etudes",     "etudes",         3.0,"rise",    "10 ANS D'ÉTUDES"),
+ ("br_diplome",    "diplome",        3.0,"flash",   "DIPLÔMÉ"),
+ ("br_dentiste",   "dentiste",       3.0,"punch",   "DENTISTE"),
+ ("br_surcharge",  "surcharge",      3.0,"glitch",  "ÉPUISÉ ?"),
+ ("br_famille",    "famille",        3.2,"rise",    "TA FAMILLE"),
+ ("br_stress",     "stress_argent",  3.0,"glitch",  "LES FACTURES"),
+ ("br_retraite",   "retraite_pauvre",3.0,"slide_l", "9%  RETRAITE"),
+ ("br_canada",     "canada_doc",     3.2,"punch",   "AU CANADA"),
+ ("br_argent",     "argent_croissance",3.0,"rise",  "+4 MILLIONS"),
+ ("br_maison",     "maison",         3.0,"flash",   "TA MAISON"),
+ ("br_clinique",   "clinique",       3.0,"slide_r", "TA CLINIQUE"),
+ ("br_richesse",   "richesse",       3.2,"flash",   "LIBRE"),
+ ("br_vieillesse", "vieillesse",     3.0,"slide_l", "RETRAITE SEREINE"),
+ ("br_reunion",    "reunion",        3.0,"slide_r", "TON PLAN"),
+ ("br_abraham",    "abraham_pro",    3.2,"punch",   "TON CONTACT"),
 ]
 
 if __name__=="__main__":

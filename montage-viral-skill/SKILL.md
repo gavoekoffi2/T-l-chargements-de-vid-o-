@@ -1,142 +1,104 @@
 ---
 name: montage-viral
-description: Monte une vidéo (talking-head, témoignage, pitch) en format vertical ultra-professionnel et viral. Transcrit, coupe les silences/répétitions/bafouillages, ajoute des overlays motion design synchronisés à la parole, génère des images B-roll IA (nano-banana) pour illustrer les propos, anime ces images avec des entrées spectaculaires, ajoute des effets sonores aux apparitions (shutter pour B-roll, impact/boom pour overlays), incruste des sous-titres dynamiques en bas du cadre (ne chevauchent jamais les overlays), applique un color grading cinématique et normalise l'audio. Utilise quand l'utilisateur demande un "montage", "monter une vidéo", "rendre une vidéo professionnelle/virale", "ajouter du motion design / des overlays / du B-roll / des sous-titres".
+description: Monte une vidéo (talking-head, témoignage, pitch) en format vertical ultra-professionnel et viral. Transcrit, coupe les silences/répétitions, ajoute du ZOOM dynamique sur le locuteur, des overlays motion design synchronisés à la parole (restent affichés tant que le sujet est parlé), génère BEAUCOUP d'images B-roll IA (nano-banana) pour illustrer chaque partie, anime ces images avec des entrées spectaculaires en alternance avec le locuteur (ballotage), ajoute une riche palette d'effets sonores variés (shutter, impact, swoosh, glitch, sub-drop, sparkle…), incruste des sous-titres ANIMÉS karaoké (mot surligné, couleurs, plusieurs templates de police), applique un color grading cinématique et normalise l'audio. Utilise quand l'utilisateur demande un "montage", "monter une vidéo", "rendre une vidéo professionnelle/virale", "ajouter du motion design / des overlays / du B-roll / des sous-titres / du zoom".
 ---
 
-# Montage Viral — pipeline complet v3
+# Montage Viral — pipeline complet v4
 
-Pipeline de montage automatique inspiré de `video-use` (coupe + compositing
-production-correct) enrichi de **motion design (overlays PIL→ProRes)**, de
-**B-roll IA généré** (OpenRouter / nano-banana, gemini-2.5-flash-image),
-**d'effets sonores variés et synchronisés** et de **durées d'overlay synchro-parole**.
-Pensé pour le format vertical 1080×1920 (Reels / TikTok / Shorts).
+Pipeline de montage automatique (inspiré `video-use`) enrichi de **zoom dynamique**,
+**motion design (overlays PIL→ProRes)**, **B-roll IA abondant** (OpenRouter / nano-banana),
+**SFX variés et captivants** et **sous-titres karaoké animés multi-templates**.
+Format vertical 1080×1920 (Reels / TikTok / Shorts).
 
-## Hard Rules (video-use + spécifiques montage-viral)
+## Hard Rules
 
-1. Audio d'abord : les coupes naissent des frontières de mots et des silences.
-2. **Sous-titres brûlés EN DERNIER et SÉPARÉMENT** — pas via render.py mais via un
-   `ffmpeg subtitles=` post-SFX avec `force_style='...,MarginV=26'` → sous-titres
-   à y≈1750px, jamais sur les overlays.
-3. Extraction par segment → concat lossless → overlays PTS-shiftés → PUIS SFX → PUIS sous-titres.
-4. Fades audio 30 ms à chaque bord de coupe (anti-pop).
-5. Jamais couper en plein mot ; PAD=0.30s, GAP_CUT=0.80-0.90s (conservateur).
-6. Overlays `setpts=PTS-STARTPTS+T/TB` ; sous-titres en offsets timeline de sortie.
-7. Normaliser à −14 LUFS / −1 dBTP via mix_sfx.py (loudnorm intégré).
+1. Audio d'abord : coupes sur frontières de mots / silences ≥ 0.85s. PAD=0.30s (jamais couper une phrase).
+2. **Sous-titres brûlés EN DERNIER et SÉPARÉMENT** (filtre `ass=`), JAMAIS via render.py.
+3. Ordre du pipeline : cut+grade → **zoom dynamique** → overlays (ballotage) → **SFX** → **sous-titres ASS**.
+4. Fades audio 30 ms à chaque coupe. Overlays `setpts=PTS-STARTPTS+T/TB`.
+5. Loudnorm −14 LUFS / −1 dBTP (intégré à mix_sfx.py).
 
-## Pré-requis (vérifier au démarrage, installer au 1er usage)
+## Règles de mise en scène (CRITIQUES — demandées par l'utilisateur)
 
-- `ffmpeg` + `ffprobe` sur le PATH (build statique johnvansickle si absent).
-- Clé `ELEVENLABS_API_KEY` avec permission *speech_to_text* (transcription Scribe,
-  word-level) dans `~/.claude/skills/video-use/.env`.
-- `OPENROUTER_API_KEY` dans le même `.env` pour le B-roll IA
-  (modèle `google/gemini-2.5-flash-image` via OpenRouter).
-- `Pillow` + `numpy` (overlays + animations B-roll + génération SFX Python).
-- Helpers `video-use` : `~/.claude/skills/video-use/helpers/{transcribe,render}.py`.
+- **Zoom / dynamisme** : `video_dynamics.py` applique un Ken Burns alterné par coupe
+  (zoom-in lent / zoom-out / punch-in net 1 segment sur 4). La vidéo ne doit JAMAIS être statique.
+- **Beaucoup de B-roll** : illustrer CHAQUE partie importante. Viser ~14-18 images pour une
+  vidéo de 4 min. Une image par idée forte. Ne jamais laisser un thème fort sans illustration.
+- **Ballotage** : le B-roll est composité AU-DESSUS du panneau graphique. Séquence type :
+  locuteur → cutaway B-roll 3s (plein cadre + son shutter) → retour locuteur (panneau encore visible).
+  Si un sujet est LONG, enchaîner plusieurs B-roll en alternance avec le locuteur.
+- **Overlays persistants** : un overlay reste à l'écran TANT QUE la personne parle du sujet
+  illustré. Sa durée = longueur du sujet (5–16s). Le .mov doit durer aussi longtemps : les
+  fonctions de dessin tiennent leur état final (compteurs figés à leur max) puis fade out.
+  NE JAMAIS faire disparaître un overlay avant que le locuteur change de sujet.
+- **Zones (anti-collision, anti-UI TikTok)** :
+  - Visage : haut du cadre (y < 850) — laissé libre.
+  - Overlays graphiques : **y = 880 → 1430** (poitrine/ventre).
+  - Sous-titres : centrés à **y ≈ 1500** (ni sur les overlays, ni trop bas où l'UI TikTok masque).
+  - Toujours garder un écart ≥ 50px entre bas d'overlay et sous-titres.
 
-## Processus
+## Sous-titres ANIMÉS (subs_ass.py) — multi-templates
 
-1. **Inventaire** : `ffprobe` la source (durée, w/h, portrait?). Extraire l'audio 16 kHz mono.
-2. **Transcription** : `helpers/transcribe.py <video> --edit-dir edit/ --language fr`
-   Sortie mots-timestampés dans `edit/transcripts/<source>.json` (format ElevenLabs Scribe).
-3. **Lecture + analyse** : lire le transcript complet. Identifier :
-   - Silences ≥ 0.80s (points de coupe)
-   - Bafouillages / répétitions (segments à supprimer)
-   - **Frontières de sujets** (quand le locuteur change de thème → fin de l'overlay)
-   - Moments forts à illustrer avec B-roll
-4. **Stratégie** : coupes, liste overlays + B-roll, SFX, durées synchro-parole.
-5. **EDL** : `build_edl.py` → `edl.json`. PAD=0.30, GAP_CUT=0.85.
-   Convertir aussi le transcript ElevenLabs en format video-use (`*_vu.json`) pour les sous-titres.
-6. **Overlays graphiques** : `overlays.py` — textes adaptés au contenu.
-   **Zone autorisée : y=1000–1580 uniquement** (poitrine/ventre, visage dégagé).
-   PIL → ProRes 4444 (.mov, alpha). Palette: or (255,200,70), cyan (0,212,255),
-   vert (45,222,135), rouge (255,90,90).
-7. **B-roll IA** : `genimg.py` — prompts illustrant les thèmes forts.
-   **Respecter toute contrainte ethnique/représentation de l'utilisateur.**
-   Puis `broll_anim.py` — entrées spectaculaires (punch-zoom, glitch RGB, slide,
-   flash, light-sweep) + cadres cinématiques. ProRes 4444 alpha plein cadre.
-8. **Plan timeline** : `plan_overlays.py` — règles v3 :
-   - **Overlays graphiques** : durée = longueur du sujet dans la parole
-     (s2o(src_topic_end) - s2o(src_appear), capped 5–16s). L'overlay reste visible
-     TANT QUE le locuteur parle du sujet illustré.
-   - **B-roll** : durée courte 3–4s, SFX=shutter (son d'appareil photo).
-   - **Pas de collision avoidance entre B-roll et graphique** : le B-roll est
-     composité AU-DESSUS du graphique. Pendant le cutaway → image plein cadre.
-     Après le cutaway → locuteur + panneau graphique encore visible. = "ballotage".
-   - Collision avoidance uniquement entre B-roll et B-roll (gap=0.6s).
-   - Ordre dans edl.json : graphiques TRIÉS PAR TEMPS en premier, puis B-roll.
-   - Génère `sfx_cues.json`.
-9. **Compositing** : `render.py edl.json -o composite_nosfx.mp4 --no-subtitles --no-loudnorm`
-   (pas de sous-titres ici ! ils viennent après les SFX).
-10. **SFX** : `mix_sfx.py composite_nosfx.mp4 composite_withsfx.mp4`
-    SFX disponibles : whoosh, pop, boom, ding, riser, **shutter** (B-roll), **impact** (overlays forts).
-    Générer shutter.wav + impact.wav via numpy si absents (voir scripts/).
-    loudnorm −14 LUFS intégré dans mix_sfx.py.
-11. **Sous-titres** : brûler séparément avec MarginV=26 (y≈1750, EN DESSOUS des overlays) :
-    ```
-    ffmpeg -y -i composite_withsfx.mp4 \
-      -vf "subtitles='master.srt':force_style='FontName=Helvetica,FontSize=18,Bold=1,\
-    PrimaryColour=&H00FFFFFF,OutlineColour=&H00000000,BackColour=&H00000000,\
-    BorderStyle=1,Outline=2,Shadow=0,Alignment=2,MarginV=26'" \
-      -c:v libx264 -preset fast -crf 18 -pix_fmt yuv420p \
-      -c:a copy -movflags +faststart final_montage.mp4
-    ```
-12. **Auto-évaluation** : extraire frames aux moments d'overlay. Vérifier :
-    - Visage dégagé (aucun overlay au-dessus de y=1000)
-    - Sous-titres en bas (y≈1750, pas sur les overlays)
-    - B-roll et graphique actifs simultanément → B-roll bien au-dessus (couvre tout)
-    - Après B-roll → graphique encore visible jusqu'à fin du sujet
-13. **Livraison** : compresser (CRF 26 ≈ 75-80 Mo) et pousser sur GitHub.
+Format **ASS** (libass) avec PlayResX/Y = 1080/1920. Effets par chunk de 2-3 mots :
+- **Karaoké** : le mot prononcé passe en couleur highlight + léger zoom (`\t` timing relatif).
+- **Pop-in** : scale 40%→100% à l'apparition (`\fscx\fscy` + `\t`), `\fad(80,60)`.
+- Templates prévus (varier d'une vidéo à l'autre, NE PAS toujours le même) :
+  `tiktok_yellow` (Montserrat, highlight jaune) · `neon_pop` (Anton, rose néon) ·
+  `bold_box` (Montserrat, fond boîte) · `gold_lux` (Bebas Neue, or) · `bangers_fun` (Bangers, cyan).
+- Polices à installer dans `~/.fonts` au 1er usage (Anton, Bebas Neue, Montserrat, Bangers — Google Fonts).
+- Usage : `python subs_ass.py <template> master.ass` puis brûler `ass='master.ass'`.
 
-## Réglages éprouvés
+## Bibliothèque SFX (make_sfx.py) — 14 sons numpy
 
-- Format vertical 1080×1920, 30 fps. Grade `warm_cinematic`.
-- Coupes : PAD=0.30s, GAP_CUT=0.85s. ~12–15% de temps mort supprimé.
-- Overlays graphiques : **y=1000–1580** (poitrine/ventre). Panneaux verre dépoli.
-- Durées overlays : calculées depuis les frontières de sujets dans la transcription.
-  MIN=5s, MAX=16s. Ne JAMAIS faire disparaître un overlay avant la fin du sujet parlé.
-- B-roll : cutaways plein cadre 3.2–3.5s, fond flou + Ken Burns + label chip + coins.
-  Composité APRÈS les graphiques → couvre momentanément le panneau.
-  Après disparition → panneau graphique redevient visible ("ballotage").
-- Sous-titres : 2 mots, MAJUSCULES, DejaVu Bold 18, **MarginV=26** (y≈1750).
-  Construire le SRT AVANT le compositing, brûler APRÈS les SFX.
-- SFX palette :
-  - `impact` : apparition d'overlay graphique fort (intro, endcard)
-  - `boom` : révélation / pivot / solution
-  - `whoosh` : slide graphique / B-roll slide
-  - `ding` : chiffre / statistique / liste
-  - `pop` : CTA / apparition légère
-  - `shutter` : **TOUJOURS pour les B-roll images** (son d'appareil photo)
-  - `riser` : montée de tension en fond
-- Densité : 1 graphique ~toutes les 20–30s (durée longue), 1 B-roll ~toutes les 15s.
+`whoosh, swoosh_up, swoosh_down, pop, boom, impact, sub_drop, ding, sparkle,
+shutter, glitch, riser, transition, click`. Accompagner CHAQUE mouvement brusque d'un son :
+- **shutter** : B-roll (son d'appareil photo) — règle par défaut pour toute image.
+- **swoosh_up/down** : zoom / entrée rise. **glitch** : entrée glitch RGB.
+- **sub_drop** : révélation chiffre choc (70H, 9%). **impact/boom** : overlay fort / pivot.
+- **sparkle** : apparition premium (diplôme, RRA, héritage). **transition** : changement de scène.
+- **ding** : chiffre/accent. **pop** : CTA léger. Gains dans mix_sfx.py (sub_drop/impact ~0.95).
 
-## Pipeline de génération SFX (numpy, si wav absent)
+## Pré-requis
 
-```python
-import numpy as np, wave, math
-SR = 48000
-def save_wav(path, s):
-    d=(np.clip(s,-1,1)*32767).astype(np.int16)
-    with wave.open(path,'w') as w:
-        w.setnchannels(1);w.setsampwidth(2);w.setframerate(SR);w.writeframes(d.tobytes())
+- `ffmpeg`+`ffprobe` PATH. `Pillow`, `numpy`.
+- `ELEVENLABS_API_KEY` (speech_to_text) + `OPENROUTER_API_KEY` dans `~/.claude/skills/video-use/.env`.
+- Helpers video-use : `~/.claude/skills/video-use/helpers/{transcribe,render}.py`.
+- Polices virales dans `~/.fonts` (cf. ci-dessus).
 
-t=np.linspace(0,0.14,int(SR*0.14),False)
-shutter=(0.9*np.sin(2*math.pi*t*7000)*np.exp(-t*70)
-        +0.5*np.sin(2*math.pi*t*3500)*np.exp(-t*45)
-        +0.2*np.sin(2*math.pi*t*14000)*np.exp(-t*120))
-save_wav("sfx/shutter.wav", shutter)
+## Processus (orchestré par run_pipeline.sh)
 
-t=np.linspace(0,0.55,int(SR*0.55),False)
-impact=(0.95*np.sin(2*math.pi*t*60)*np.exp(-t*5)
-       +0.60*np.sin(2*math.pi*t*180)*np.exp(-t*9)
-       +0.40*np.sin(2*math.pi*t*1200)*np.exp(-t*30))
-save_wav("sfx/impact.wav", impact)
-```
+1. **Inventaire** ffprobe + audio 16kHz.
+2. **Transcription** : `helpers/transcribe.py <video> --edit-dir edit/ --language fr`.
+3. **Analyse** : lire le transcript. Repérer silences, sujets (frontières → durée overlay),
+   et TOUTES les idées fortes à illustrer (→ liste B-roll abondante).
+4. **EDL** : `build_edl.py` (PAD=0.30, GAP_CUT=0.85). Écrit aussi le transcript video-use (`*_vu.json`).
+5. **Overlays** : `overlays.py` — zone y=880-1430, durées = longueur des sujets (tiennent l'état final).
+6. **B-roll IA** : `genimg.py` (14-18 prompts, contrainte ethnique respectée) → `broll_anim.py`
+   (entrées variées punch/glitch/slide/flash/rise/light-sweep + cadre + label).
+7. **Plan** : `plan_overlays.py` — graphiques (durée sujet) + B-roll (ballotage, gap 0.5s),
+   SFX variés par élément. Écrit overlays[] dans edl.json + sfx_cues.json.
+8. **Base** : render.py sur un EDL sans overlays → `base_only.mp4` (cut+grade seul).
+9. **Zoom** : `video_dynamics.py base_only.mp4 base_dyn.mp4` (Ken Burns alterné + punch-in).
+10. **Composite** : `composite.py base_dyn.mp4 composite_nosfx.mp4` (overlays PTS-shiftés, B-roll dessus).
+11. **SFX** : `mix_sfx.py composite_nosfx.mp4 composite_withsfx.mp4` (14 SFX + loudnorm).
+12. **Sous-titres** : `subs_ass.py <template> master.ass` → ffmpeg `ass=` → final_montage.mp4.
+13. **Compression** : CRF 26 ≈ 73-80 Mo → livrable. Pousser sur GitHub.
+
+`bash run_pipeline.sh <template>` enchaîne 4→13 automatiquement.
+
+## Auto-évaluation (planche contact)
+
+Extraire des frames à : un B-roll, un overlay+sous-titre simultanés, un punch-in. Vérifier :
+- Visage dégagé (rien au-dessus de y=850).
+- Overlay persistant pendant tout le sujet ; B-roll bien plein cadre au-dessus pendant le cutaway.
+- Sous-titre karaoké à y≈1500, mot actif coloré, AUCUN chevauchement avec l'overlay.
+- Zoom perceptible mais sans jitter (pré-scale x2 dans video_dynamics).
 
 ## Notes
 
-- Secrets : `~/.claude/skills/video-use/.env` UNIQUEMENT. JAMAIS dans le dépôt.
-- Intermédiaires lourds (ProRes .mov, composites .mp4) : gitignore.
-  Committer : code + images broll/*.png + transcript + livrable final + sfx/*.wav.
-- nano-banana sort en 1024×1024 → bg_blur + Ken Burns dans broll_anim.py.
-- Le transcript ElevenLabs a `type:"word"` et `type:"spacing"` → filtrer sur `type=="word"`.
-  Convertir en format video-use pour render.py build_master_srt (champ `text` sans espace).
+- Secrets : `~/.claude/skills/video-use/.env` UNIQUEMENT.
+- Intermédiaires lourds (.mov ProRes, base/composite .mp4) : gitignore. Committer code + broll png +
+  transcript + sfx wav + ass + livrable final.
+- nano-banana sort en 1024² → bg_blur + Ken Burns (broll_anim).
+- Transcript ElevenLabs : filtrer `type=="word"` ; convertir en format video-use pour les sous-titres.
+- Overlay .mov plus long que l'animation = les fonctions de dessin DOIVENT tenir leur état final.

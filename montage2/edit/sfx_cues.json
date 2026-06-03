@@ -6,12 +6,12 @@
   },
   {
     "time": 40.08,
-    "sfx": "impact",
+    "sfx": "sub_drop",
     "name": "heures"
   },
   {
     "time": 52.94,
-    "sfx": "ding",
+    "sfx": "sub_drop",
     "name": "retraite"
   },
   {
@@ -21,7 +21,7 @@
   },
   {
     "time": 93.38,
-    "sfx": "whoosh",
+    "sfx": "sparkle",
     "name": "rra"
   },
   {
@@ -40,43 +40,83 @@
     "name": "endcard"
   },
   {
-    "time": 4.36,
+    "time": 2.74,
     "sfx": "shutter",
     "name": "br_medecin"
   },
   {
-    "time": 13.92,
+    "time": 6.44,
+    "sfx": "swoosh_up",
+    "name": "br_etudes"
+  },
+  {
+    "time": 9.94,
+    "sfx": "sparkle",
+    "name": "br_diplome"
+  },
+  {
+    "time": 14.42,
     "sfx": "shutter",
     "name": "br_dentiste"
   },
   {
     "time": 38.12,
-    "sfx": "shutter",
+    "sfx": "glitch",
     "name": "br_surcharge"
   },
   {
-    "time": 46.92,
-    "sfx": "shutter",
+    "time": 45.88,
+    "sfx": "swoosh_up",
     "name": "br_famille"
   },
   {
-    "time": 64.26,
-    "sfx": "shutter",
+    "time": 53.08,
+    "sfx": "glitch",
+    "name": "br_stress"
+  },
+  {
+    "time": 65.04,
+    "sfx": "transition",
     "name": "br_retraite"
   },
   {
-    "time": 89.56,
-    "sfx": "shutter",
-    "name": "br_canada"
+    "time": 116.86,
+    "sfx": "swoosh_up",
+    "name": "br_argent"
   },
   {
-    "time": 133.4,
+    "time": 130.78,
     "sfx": "shutter",
+    "name": "br_vieillesse"
+  },
+  {
+    "time": 138.04,
+    "sfx": "shutter",
+    "name": "br_clinique"
+  },
+  {
+    "time": 147.02,
+    "sfx": "sparkle",
     "name": "br_richesse"
   },
   {
-    "time": 164.62,
+    "time": 157.62,
+    "sfx": "sparkle",
+    "name": "br_maison"
+  },
+  {
+    "time": 169.3,
     "sfx": "shutter",
     "name": "br_reunion"
+  },
+  {
+    "time": 201.23,
+    "sfx": "transition",
+    "name": "br_abraham"
+  },
+  {
+    "time": 210.23,
+    "sfx": "shutter",
+    "name": "br_canada"
   }
 ]

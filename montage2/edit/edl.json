@@ -232,19 +232,19 @@
     {
       "source": "video2",
       "start": 273.68,
-      "end": 275.477
+      "end": 275.24
     }
   ],
   "overlays": [
     {
       "file": "animations/intro.mov",
       "start_in_output": 0.0,
-      "duration": 16.0
+      "duration": 15.0
     },
     {
       "file": "animations/heures.mov",
       "start_in_output": 40.08,
-      "duration": 8.06
+      "duration": 8.0
     },
     {
       "file": "animations/retraite.mov",
@@ -254,7 +254,7 @@
     {
       "file": "animations/solution.mov",
       "start_in_output": 76.72,
-      "duration": 9.94
+      "duration": 10.0
     },
     {
       "file": "animations/rra.mov",
@@ -269,51 +269,91 @@
     {
       "file": "animations/cta.mov",
       "start_in_output": 176.3,
-      "duration": 16.0
+      "duration": 15.0
     },
     {
       "file": "animations/endcard.mov",
       "start_in_output": 200.23,
-      "duration": 13.8
+      "duration": 13.0
     },
     {
       "file": "broll_clips/br_medecin.mov",
-      "start_in_output": 4.36,
-      "duration": 3.5
+      "start_in_output": 2.74,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_etudes.mov",
+      "start_in_output": 6.44,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_diplome.mov",
+      "start_in_output": 9.94,
+      "duration": 3.0
     },
     {
       "file": "broll_clips/br_dentiste.mov",
-      "start_in_output": 13.92,
+      "start_in_output": 14.42,
       "duration": 3.2
     },
     {
       "file": "broll_clips/br_surcharge.mov",
       "start_in_output": 38.12,
-      "duration": 3.2
+      "duration": 3.0
     },
     {
       "file": "broll_clips/br_famille.mov",
-      "start_in_output": 46.92,
-      "duration": 3.5
+      "start_in_output": 45.88,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_stress.mov",
+      "start_in_output": 53.08,
+      "duration": 3.0
     },
     {
       "file": "broll_clips/br_retraite.mov",
-      "start_in_output": 64.26,
+      "start_in_output": 65.04,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_argent.mov",
+      "start_in_output": 116.86,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_vieillesse.mov",
+      "start_in_output": 130.78,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_clinique.mov",
+      "start_in_output": 138.04,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_richesse.mov",
+      "start_in_output": 147.02,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_maison.mov",
+      "start_in_output": 157.62,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_reunion.mov",
+      "start_in_output": 169.3,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_abraham.mov",
+      "start_in_output": 201.23,
       "duration": 3.2
     },
     {
       "file": "broll_clips/br_canada.mov",
-      "start_in_output": 89.56,
-      "duration": 3.5
-    },
-    {
-      "file": "broll_clips/br_richesse.mov",
-      "start_in_output": 133.4,
-      "duration": 3.5
-    },
-    {
-      "file": "broll_clips/br_reunion.mov",
-      "start_in_output": 164.62,
+      "start_in_output": 210.23,
       "duration": 3.2
     }
   ],

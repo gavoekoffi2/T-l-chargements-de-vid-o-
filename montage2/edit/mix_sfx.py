@@ -18,8 +18,9 @@ cues = json.load(open(EDIT/"sfx_cues.json"))
 inputs = ["-i", str(comp)]
 filters = []
 amix_labels = ["[0:a]"]
-gain = {"whoosh":0.80,"pop":0.80,"boom":0.95,"ding":0.75,"riser":0.70,
-        "shutter":0.90,"impact":0.95}
+gain = {"whoosh":0.80,"pop":0.80,"boom":0.95,"ding":0.75,"riser":0.65,
+        "shutter":0.85,"impact":0.95,"swoosh_up":0.85,"swoosh_down":0.85,
+        "sub_drop":0.92,"sparkle":0.70,"glitch":0.78,"transition":0.88,"click":0.6}
 idx = 1
 for c in cues:
     f = SFX/f"{c['sfx']}.wav"
