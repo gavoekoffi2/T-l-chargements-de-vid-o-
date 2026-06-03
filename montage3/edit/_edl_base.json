@@ -1,0 +1,15 @@
+{
+  "sources": {
+    "video3": "../video3.mp4"
+  },
+  "grade": "warm_cinematic",
+  "ranges": [
+    {
+      "source": "video3",
+      "start": 0.0,
+      "end": 141.177
+    }
+  ],
+  "overlays": [],
+  "subtitles": "master.srt"
+}

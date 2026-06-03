@@ -1,0 +1,146 @@
+{
+  "sources": {
+    "video3": "../video3.mp4"
+  },
+  "grade": "warm_cinematic",
+  "ranges": [
+    {
+      "source": "video3",
+      "start": 0.0,
+      "end": 141.177
+    }
+  ],
+  "overlays": [
+    {
+      "file": "animations/intro.mov",
+      "start_in_output": 0.3,
+      "duration": 8.0
+    },
+    {
+      "file": "animations/vague.mov",
+      "start_in_output": 12.1,
+      "duration": 9.0
+    },
+    {
+      "file": "animations/contexte.mov",
+      "start_in_output": 21.6,
+      "duration": 8.0
+    },
+    {
+      "file": "animations/puissance.mov",
+      "start_in_output": 30.6,
+      "duration": 16.0
+    },
+    {
+      "file": "animations/exemple.mov",
+      "start_in_output": 51.9,
+      "duration": 12.0
+    },
+    {
+      "file": "animations/bon_prompt.mov",
+      "start_in_output": 63.8,
+      "duration": 16.0
+    },
+    {
+      "file": "animations/prompt_eng.mov",
+      "start_in_output": 91.5,
+      "duration": 15.0
+    },
+    {
+      "file": "animations/cta.mov",
+      "start_in_output": 131.9,
+      "duration": 9.0
+    },
+    {
+      "file": "broll_clips/br_confused.mov",
+      "start_in_output": 3.8,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_vague_type.mov",
+      "start_in_output": 8.8,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_no_result.mov",
+      "start_in_output": 13.8,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_context.mov",
+      "start_in_output": 22.3,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_lightbulb.mov",
+      "start_in_output": 27.3,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_ia_power.mov",
+      "start_in_output": 32.8,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_no_result.mov",
+      "start_in_output": 43.8,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_job.mov",
+      "start_in_output": 52.8,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_lettre.mov",
+      "start_in_output": 58.8,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_good_prompt.mov",
+      "start_in_output": 65.3,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_ia_result.mov",
+      "start_in_output": 72.3,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_success.mov",
+      "start_in_output": 83.8,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_eng.mov",
+      "start_in_output": 92.8,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_discipline.mov",
+      "start_in_output": 100.3,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_futur.mov",
+      "start_in_output": 109.8,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_eng.mov",
+      "start_in_output": 119.8,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_creator.mov",
+      "start_in_output": 133.3,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_host.mov",
+      "start_in_output": 137.8,
+      "duration": 3.2
+    }
+  ],
+  "subtitles": "master.srt"
+}

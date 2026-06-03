@@ -1,0 +1,13 @@
+# Intermédiaires lourds montage
+**/base_only.mp4
+**/base_dyn.mp4
+**/base.mp4
+**/composite_nosfx.mp4
+**/composite_withsfx.mp4
+**/final_montage.mp4
+**/audio16k.wav
+**/overlays/*.mov
+**/broll_clips/*.mov
+**/clips_graded/
+**/animations
+video*.mp4

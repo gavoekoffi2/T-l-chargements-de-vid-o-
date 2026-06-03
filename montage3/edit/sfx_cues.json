@@ -1,0 +1,132 @@
+[
+  {
+    "time": 0.3,
+    "sfx": "impact",
+    "name": "intro"
+  },
+  {
+    "time": 12.1,
+    "sfx": "sub_drop",
+    "name": "vague"
+  },
+  {
+    "time": 21.6,
+    "sfx": "boom",
+    "name": "contexte"
+  },
+  {
+    "time": 30.6,
+    "sfx": "sparkle",
+    "name": "puissance"
+  },
+  {
+    "time": 51.9,
+    "sfx": "ding",
+    "name": "exemple"
+  },
+  {
+    "time": 63.8,
+    "sfx": "swoosh_up",
+    "name": "bon_prompt"
+  },
+  {
+    "time": 91.5,
+    "sfx": "sparkle",
+    "name": "prompt_eng"
+  },
+  {
+    "time": 131.9,
+    "sfx": "pop",
+    "name": "cta"
+  },
+  {
+    "time": 3.8,
+    "sfx": "glitch",
+    "name": "br_confused"
+  },
+  {
+    "time": 8.8,
+    "sfx": "shutter",
+    "name": "br_vague_type"
+  },
+  {
+    "time": 13.8,
+    "sfx": "transition",
+    "name": "br_no_result"
+  },
+  {
+    "time": 22.3,
+    "sfx": "swoosh_up",
+    "name": "br_context"
+  },
+  {
+    "time": 27.3,
+    "sfx": "sparkle",
+    "name": "br_lightbulb"
+  },
+  {
+    "time": 32.8,
+    "sfx": "shutter",
+    "name": "br_ia_power"
+  },
+  {
+    "time": 43.8,
+    "sfx": "glitch",
+    "name": "br_no_result"
+  },
+  {
+    "time": 52.8,
+    "sfx": "transition",
+    "name": "br_job"
+  },
+  {
+    "time": 58.8,
+    "sfx": "shutter",
+    "name": "br_lettre"
+  },
+  {
+    "time": 65.3,
+    "sfx": "swoosh_up",
+    "name": "br_good_prompt"
+  },
+  {
+    "time": 72.3,
+    "sfx": "sparkle",
+    "name": "br_ia_result"
+  },
+  {
+    "time": 83.8,
+    "sfx": "shutter",
+    "name": "br_success"
+  },
+  {
+    "time": 92.8,
+    "sfx": "glitch",
+    "name": "br_eng"
+  },
+  {
+    "time": 100.3,
+    "sfx": "transition",
+    "name": "br_discipline"
+  },
+  {
+    "time": 109.8,
+    "sfx": "swoosh_up",
+    "name": "br_futur"
+  },
+  {
+    "time": 119.8,
+    "sfx": "shutter",
+    "name": "br_eng"
+  },
+  {
+    "time": 133.3,
+    "sfx": "shutter",
+    "name": "br_creator"
+  },
+  {
+    "time": 137.8,
+    "sfx": "transition",
+    "name": "br_host"
+  }
+]
