@@ -11,3 +11,4 @@
 **/clips_graded/
 **/animations
 video*.mp4
+__pycache__/
