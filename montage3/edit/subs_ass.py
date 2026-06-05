@@ -12,7 +12,7 @@ import json, sys, re
 from pathlib import Path
 
 EDIT = Path(__file__).parent
-VU   = EDIT/"transcripts"/"video3_vu.json"
+VU   = EDIT/"transcripts"/"video2_vu.json"
 EDL  = EDIT/"edl.json"
 
 # ── Templates (couleurs en &HAABBGGRR) ──────────────────────────────────────
@@ -20,19 +20,19 @@ EDL  = EDIT/"edl.json"
 TEMPLATES = {
  "tiktok_yellow": dict(font="Montserrat", size=78, bold=-1,
      primary="&H00FFFFFF", highlight="&H0000E5FF", outline="&H00000000",
-     ow=6, shadow=2, pos_y=1500, upper=True, hl_scale=118),
+     ow=6, shadow=2, pos_y=1500, upper=True, hl_scale=145),
  "neon_pop": dict(font="Anton", size=92, bold=0,
      primary="&H00FFFFFF", highlight="&H00FF2BC8", outline="&H00400030",
-     ow=5, shadow=0, pos_y=1500, upper=True, hl_scale=122),
+     ow=5, shadow=0, pos_y=1500, upper=True, hl_scale=145),
  "bold_box": dict(font="Montserrat", size=74, bold=-1,
      primary="&H00FFFFFF", highlight="&H0000D2FF", outline="&H00000000",
-     ow=4, shadow=0, pos_y=1500, upper=True, hl_scale=115, box=True),
+     ow=4, shadow=0, pos_y=1500, upper=True, hl_scale=145, box=True),
  "gold_lux": dict(font="Bebas Neue", size=96, bold=0,
      primary="&H00FFFFFF", highlight="&H0046C8FF", outline="&H00102030",
-     ow=5, shadow=2, pos_y=1500, upper=True, hl_scale=120),
+     ow=5, shadow=2, pos_y=1500, upper=True, hl_scale=145),
  "bangers_fun": dict(font="Bangers", size=98, bold=0,
      primary="&H00FFFFFF", highlight="&H002BE5FF", outline="&H00202020",
-     ow=6, shadow=2, pos_y=1500, upper=True, hl_scale=125),
+     ow=6, shadow=2, pos_y=1500, upper=True, hl_scale=145),
 }
 
 def fmt_t(s):

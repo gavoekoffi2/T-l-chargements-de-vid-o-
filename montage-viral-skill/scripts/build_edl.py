@@ -1,44 +1,57 @@
 #!/usr/bin/env python3
 """Construit l'EDL depuis la transcription ElevenLabs Scribe (word-level).
-Cibles : médecins / dentistes — pitch RRA (retraite assurée).
+Règle PRO #1 — RYTHME : coupes agressives (GAP_CUT 0.65s), détection fillers.
 """
-import json
+import json, re
 from pathlib import Path
 
 EDIT    = Path(__file__).parent
-TR_PATH = EDIT / "transcripts" / "video2.json"
+TR_PATH = EDIT / "transcripts" / "video.json"   # adapter au nom de la vidéo
 
-GAP_CUT = 0.90   # silence >= 0.9s -> coupe
-PAD     = 0.30   # padding à chaque bord
-DROP_SEGS = []   # index segments à supprimer (bafouillages)
+GAP_CUT = 0.65   # silence >= 0.65s -> coupe (était 0.85-0.90 ; plus serré = plus pro)
+PAD     = 0.25   # padding à chaque bord (réduit de 0.30 -> 0.25)
+DROP_SEGS = []   # index segments à supprimer manuellement (bafouillages)
+
+# Mots de remplissage à supprimer si segment ne contient qu'eux
+FILLERS = {"euh","hm","hmm","ah","eh","bon","bah","ben","hein","voilà",
+           "donc","alors","en fait","genre","quoi","ouais","ok"}
 
 data  = json.load(open(TR_PATH))
 WORDS = [w for w in data["words"] if w["type"] == "word"]
 DUR   = float(data.get("audio_duration_secs", WORDS[-1]["end"]))
 
-# Convert to video-use format for render.py build_master_srt
+video_name = TR_PATH.stem   # ex: "video3"
 vu_words = [{"type":"word","start":w["start"],"end":w["end"],"text":w["text"]}
             for w in WORDS]
 vu_tr = {"language": data.get("language_code","fr"), "words": vu_words}
-json.dump(vu_tr, open(EDIT/"transcripts"/"video2_vu.json","w"),
+json.dump(vu_tr, open(EDIT/"transcripts"/f"{video_name}_vu.json","w"),
           ensure_ascii=False, indent=2)
 
 # Segmenter par silences
 segments = []
 if WORDS:
-    seg_s = WORDS[0]["start"]; seg_e = WORDS[0]["end"]
+    seg_words = [WORDS[0]]
     for w in WORDS[1:]:
-        gap = w["start"] - seg_e
+        gap = w["start"] - seg_words[-1]["end"]
         if gap >= GAP_CUT:
-            segments.append((seg_s, seg_e))
-            seg_s = w["start"]
-        seg_e = w["end"]
-    segments.append((seg_s, seg_e))
+            segments.append(seg_words)
+            seg_words = [w]
+        else:
+            seg_words.append(w)
+    segments.append(seg_words)
 
-kept = [s for i,s in enumerate(segments) if i not in DROP_SEGS]
+# Filtrer les segments qui ne contiennent que des fillers (trop courts < 0.5s aussi)
+def is_filler(seg_words):
+    txt = " ".join(w["text"].lower().strip(".,!?;:") for w in seg_words)
+    dur = seg_words[-1]["end"] - seg_words[0]["start"]
+    return txt in FILLERS or (dur < 0.4 and txt in FILLERS)
+
+kept_segs = [(sw[0]["start"], sw[-1]["end"])
+             for i, sw in enumerate(segments)
+             if i not in DROP_SEGS and not is_filler(sw)]
 
 # Padding + fusion
-padded = [(max(0.0, a-PAD), min(DUR, b+PAD)) for (a,b) in kept]
+padded = [(max(0.0, a-PAD), min(DUR, b+PAD)) for (a,b) in kept_segs]
 merged = [padded[0]]
 for a,b in padded[1:]:
     pa,pb = merged[-1]
@@ -47,9 +60,9 @@ for a,b in padded[1:]:
 padded = merged
 
 edl = {
-    "sources": {"video2": "../video2.mp4"},
+    "sources": {video_name: f"../{video_name}.mp4"},
     "grade": "warm_cinematic",
-    "ranges": [{"source":"video2","start":round(a,3),"end":round(b,3)} for (a,b) in padded],
+    "ranges": [{"source":video_name,"start":round(a,3),"end":round(b,3)} for (a,b) in padded],
     "overlays": [],
     "subtitles": "master.srt",
 }
@@ -57,6 +70,6 @@ json.dump(edl, open(EDIT/"edl.json","w"), ensure_ascii=False, indent=2)
 
 total_out = sum(b-a for a,b in padded)
 print(f"Source : {DUR:.1f}s  ->  Sortie : {total_out:.1f}s  ({len(padded)} segments)")
-print(f"Temps mort supprimé : {DUR-total_out:.1f}s")
+print(f"Temps mort supprimé : {DUR-total_out:.1f}s  (GAP_CUT={GAP_CUT}s)")
 for i,(a,b) in enumerate(padded):
     print(f"  [{i:02d}] {a:7.2f} - {b:7.2f}  ({b-a:5.2f}s)")

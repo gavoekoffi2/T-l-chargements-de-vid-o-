@@ -83,12 +83,33 @@ for i in range(1,len(br)):
 # graphiques d'abord (dessous), puis B-roll (dessus = ballotage)
 allc=[c for c in (graphics+br) if c["start_in_output"]+c["duration"]<=TOTAL+0.1]
 
+# Règle PRO #3 : GAP-FILL SFX — relances toutes 3-4s
+# Scanner les gaps > 4s sans event visuel, y injecter un SFX audio uniquement
+GAP_SFX_THRESHOLD = 4.0
+SFX_POOL = ["ding", "transition", "click", "swoosh_up"]
+event_windows = sorted([(c["start_in_output"], c["start_in_output"]+c["duration"]) for c in allc])
+gap_sfx = []
+prev_end = 0.0
+pool_idx = 0
+for ev_s, ev_e in event_windows:
+    gap = ev_s - prev_end
+    if gap > GAP_SFX_THRESHOLD:
+        t = round(prev_end + gap / 2, 2)
+        gap_sfx.append({"time": t, "sfx": SFX_POOL[pool_idx % len(SFX_POOL)], "name": f"gap_fill_{pool_idx}"})
+        pool_idx += 1
+    prev_end = max(prev_end, ev_e)
+if TOTAL - prev_end > GAP_SFX_THRESHOLD:
+    t = round(prev_end + (TOTAL - prev_end) / 2, 2)
+    gap_sfx.append({"time": t, "sfx": "transition", "name": f"gap_fill_{pool_idx}"})
+
 edl["overlays"]=[{"file":c["file"],"start_in_output":c["start_in_output"],"duration":c["duration"]} for c in allc]
 json.dump(edl,open(EDIT/"edl.json","w"),ensure_ascii=False,indent=2)
-sfx=[{"time":c["start_in_output"],"sfx":c["sfx"],"name":c["name"]} for c in allc]
+sfx=[{"time":c["start_in_output"],"sfx":c["sfx"],"name":c["name"]} for c in allc] + gap_sfx
 json.dump(sfx,open(EDIT/"sfx_cues.json","w"),ensure_ascii=False,indent=2)
 
 print(f"Timeline {TOTAL:.1f}s | {len(allc)} éléments ({len(graphics)} graphiques + {len(br)} B-roll)")
+if gap_sfx:
+    print(f"  Gap-fill SFX: {len(gap_sfx)} cues audio injectés (gaps > {GAP_SFX_THRESHOLD}s)")
 for c in sorted(allc,key=lambda c:c['start_in_output']):
     e=c['start_in_output']+c['duration']
     print(f"  {c['start_in_output']:6.1f}-{e:6.1f}s [{c['kind']:7s}] {c['name']:14s} sfx={c['sfx']}")

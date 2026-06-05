@@ -11,6 +11,9 @@ python3 build_edl.py
 echo "=== 2. Plan timeline (overlays + B-roll + SFX) ==="
 python3 plan_overlays.py
 
+echo "=== 2b. Keyword popups (hiérarchie visuelle — Règle PRO #2) ==="
+python3 keyword_popup.py
+
 echo "=== 3. Base cut+grade (sans overlays) ==="
 # edl temporaire sans overlays -> base seule
 python3 - << 'PY'
@@ -39,5 +42,5 @@ ffmpeg -y -i composite_withsfx.mp4 -vf "ass='${ASS_ABS}'" \
 
 echo "=== 8. Compression web ==="
 ffmpeg -y -i final_montage.mp4 -c:v libx264 -crf 26 -preset fast \
-  -c:a aac -b:a 128k -movflags +faststart ../final_montage3_web.mp4
-echo "=== TERMINÉ -> montage3/final_montage3_web.mp4 ==="
+  -c:a aac -b:a 128k -movflags +faststart ../final_montage2_web.mp4
+echo "=== TERMINÉ -> montage2/final_montage2_web.mp4 ==="
