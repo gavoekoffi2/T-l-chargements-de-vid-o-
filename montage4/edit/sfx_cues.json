@@ -16,7 +16,7 @@
   },
   {
     "time": 24.77,
-    "sfx": "sparkle",
+    "sfx": "bass_hit",
     "name": "instruction"
   },
   {
@@ -26,7 +26,7 @@
   },
   {
     "time": 56.27,
-    "sfx": "swoosh_up",
+    "sfx": "chime",
     "name": "bon_prompt"
   },
   {
@@ -41,43 +41,68 @@
   },
   {
     "time": 3.77,
-    "sfx": "glitch",
+    "sfx": "camera_flash",
     "name": "br_no_degree"
   },
   {
     "time": 7.27,
-    "sfx": "shutter",
+    "sfx": "swoosh_up",
     "name": "br_discipline"
   },
   {
+    "time": 11.77,
+    "sfx": "shutter",
+    "name": "br_brain_ai"
+  },
+  {
     "time": 15.77,
-    "sfx": "transition",
+    "sfx": "glitch",
     "name": "br_formuler"
   },
   {
     "time": 19.77,
-    "sfx": "shutter",
+    "sfx": "camera_flash",
     "name": "br_ia_answer"
   },
   {
+    "time": 23.77,
+    "sfx": "transition",
+    "name": "br_phone_ai_app"
+  },
+  {
     "time": 27.27,
-    "sfx": "swoosh_up",
+    "sfx": "reverse_swell",
     "name": "br_ecrire"
   },
   {
-    "time": 34.27,
-    "sfx": "glitch",
+    "time": 31.27,
+    "sfx": "swoosh_down",
+    "name": "br_lightbulb_idea"
+  },
+  {
+    "time": 34.67,
+    "sfx": "camera_flash",
     "name": "br_exemple_vague"
   },
   {
     "time": 40.27,
-    "sfx": "sparkle",
+    "sfx": "digi_blip",
     "name": "br_contexte_notes"
   },
   {
+    "time": 43.77,
+    "sfx": "whoosh",
+    "name": "br_target_precision"
+  },
+  {
     "time": 47.77,
-    "sfx": "shutter",
+    "sfx": "sparkle",
     "name": "br_tiktok_creator"
+  },
+  {
+    "time": 51.77,
+    "sfx": "camera_flash",
+    "name": "br_team_success"
   },
   {
     "time": 56.77,
@@ -86,27 +111,32 @@
   },
   {
     "time": 62.95,
-    "sfx": "sparkle",
+    "sfx": "shutter",
     "name": "br_bon_resultat"
   },
   {
+    "time": 66.95,
+    "sfx": "glitch",
+    "name": "br_growth_chart"
+  },
+  {
     "time": 72.45,
-    "sfx": "transition",
+    "sfx": "camera_flash",
     "name": "br_role_ia"
   },
   {
     "time": 78.45,
-    "sfx": "shutter",
+    "sfx": "transition",
     "name": "br_framework_doc"
   },
   {
     "time": 84.77,
-    "sfx": "swoosh_up",
+    "sfx": "reverse_swell",
     "name": "br_subscribe_cta"
   },
   {
     "time": 90.27,
-    "sfx": "shutter",
+    "sfx": "swoosh_down",
     "name": "br_host_video4"
   }
 ]

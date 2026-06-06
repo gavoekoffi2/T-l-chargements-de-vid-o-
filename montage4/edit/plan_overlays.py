@@ -1,7 +1,10 @@
 #!/usr/bin/env python3
-"""Place 8 overlays graphiques + 14 B-roll (ballotage) — video4.
+"""Place 8 overlays graphiques + 20 B-roll (ballotage) — video4.
 Sujet : Prompt Engineering v2 (96.8s).
 Timeline sortie = 96.3s.
+
+SFX VARIÉS & ALTERNÉS (Règle pro audio) : pool tournant pour B-roll & graphiques,
+le son d'éclair photo `camera_flash` accompagne plusieurs apparitions d'images.
 
 Timecodes source → output (3 segments) :
   [00] src 0.03 → 60.87  = out 0.0 → 60.84
@@ -31,34 +34,49 @@ def s2o(t):
 GDUR = {"intro":8.5,"prompt_eng":5.5,"definition":10.0,"instruction":17.0,
         "exemple":10.0,"bon_prompt":14.0,"role":12.0,"cta":8.0}
 
-# (src_appear, name, sfx)
+# Graphiques : SFX forts et distincts par pivot de scène
 GRAPHICS = [
     (  0.5, "intro",       "impact"),
     (  9.5, "prompt_eng",  "sub_drop"),
     ( 15.0, "definition",  "boom"),
-    ( 25.0, "instruction", "sparkle"),
+    ( 25.0, "instruction", "bass_hit"),
     ( 46.5, "exemple",     "ding"),
-    ( 56.5, "bon_prompt",  "swoosh_up"),
+    ( 56.5, "bon_prompt",  "chime"),
     ( 71.0, "role",        "sparkle"),
     ( 88.8, "cta",         "pop"),
 ]
 
-# B-roll : (src_appear, clip, sfx)
-BROLL = [
-    (  4.0, "br_no_degree",      "glitch"),
-    (  7.5, "br_discipline",     "shutter"),
-    ( 16.0, "br_formuler",       "transition"),
-    ( 20.0, "br_ia_answer",      "shutter"),
-    ( 27.5, "br_ecrire",         "swoosh_up"),
-    ( 34.5, "br_exemple_vague",  "glitch"),
-    ( 40.5, "br_contexte_notes", "sparkle"),
-    ( 48.0, "br_tiktok_creator", "shutter"),
-    ( 57.0, "br_expert_marketing","swoosh_up"),
-    ( 63.5, "br_bon_resultat",   "sparkle"),
-    ( 73.0, "br_role_ia",        "transition"),
-    ( 79.0, "br_framework_doc",  "shutter"),
-    ( 85.5, "br_subscribe_cta",  "swoosh_up"),
-    ( 91.0, "br_host_video4",    "shutter"),
+# B-roll : 20 illustrations (densité ~1 / 5s). Le SFX est attribué par un pool tournant
+# (varié, jamais 2x le même d'affilée) ci-dessous — le 3e champ n'est qu'indicatif.
+BROLL_NAMES = [
+    (  4.0, "br_no_degree"),
+    (  7.5, "br_discipline"),
+    ( 12.0, "br_brain_ai"),
+    ( 16.0, "br_formuler"),
+    ( 20.0, "br_ia_answer"),
+    ( 24.0, "br_phone_ai_app"),
+    ( 27.5, "br_ecrire"),
+    ( 31.5, "br_lightbulb_idea"),
+    ( 34.5, "br_exemple_vague"),
+    ( 40.5, "br_contexte_notes"),
+    ( 44.0, "br_target_precision"),
+    ( 48.0, "br_tiktok_creator"),
+    ( 52.0, "br_team_success"),
+    ( 57.0, "br_expert_marketing"),
+    ( 63.5, "br_bon_resultat"),
+    ( 67.5, "br_growth_chart"),
+    ( 73.0, "br_role_ia"),
+    ( 79.0, "br_framework_doc"),
+    ( 85.5, "br_subscribe_cta"),
+    ( 91.0, "br_host_video4"),
+]
+
+# Pool de SFX d'apparition d'IMAGE — varié & captivant, alterné en rotation.
+# camera_flash (éclair photo) revient régulièrement comme signature "photo".
+BROLL_SFX_POOL = [
+    "camera_flash", "swoosh_up", "shutter", "glitch",
+    "camera_flash", "transition", "reverse_swell", "swoosh_down",
+    "camera_flash", "digi_blip", "whoosh", "sparkle",
 ]
 
 cues = []
@@ -70,24 +88,31 @@ for src, name, sfx in GRAPHICS:
 graphics = sorted(cues, key=lambda c: c["start_in_output"])
 
 br = []
-for src, name, sfx in BROLL:
+LONG = ("br_ia_answer","br_framework_doc","br_host_video4","br_role_ia")
+for i,(src, name) in enumerate(BROLL_NAMES):
     t = max(0.0, s2o(src)-0.2)
-    dur = 3.2 if name in ("br_ia_answer","br_framework_doc","br_host_video4","br_role_ia") else 3.0
+    dur = 3.2 if name in LONG else 3.0
+    sfx = BROLL_SFX_POOL[i % len(BROLL_SFX_POOL)]
     br.append({"name":name,"file":f"broll_clips/{name}.mov",
                "start_in_output":round(t,2),"duration":dur,
                "sfx":sfx,"kind":"broll"})
 br.sort(key=lambda c: c["start_in_output"])
-GAP = 0.5
+GAP = 0.4
 for i in range(1, len(br)):
     pe = br[i-1]["start_in_output"]+br[i-1]["duration"]
     if br[i]["start_in_output"] < pe+GAP:
         br[i]["start_in_output"] = round(pe+GAP, 2)
+# éviter deux SFX identiques consécutifs après le tri
+for i in range(1, len(br)):
+    if br[i]["sfx"] == br[i-1]["sfx"]:
+        alt = [s for s in BROLL_SFX_POOL if s != br[i-1]["sfx"]]
+        br[i]["sfx"] = alt[i % len(alt)]
 
 allc = [c for c in (graphics+br) if c["start_in_output"]+c["duration"] <= TOTAL+0.1]
 
 # Règle PRO #3 : GAP-FILL SFX
 GAP_SFX_THRESHOLD = 4.0
-SFX_POOL = ["ding","transition","click","swoosh_up"]
+SFX_POOL = ["ding","transition","click","swoosh_up","chime","digi_blip"]
 event_windows = sorted([(c["start_in_output"],c["start_in_output"]+c["duration"]) for c in allc])
 gap_sfx = []; prev_end = 0.0; pool_idx = 0
 for ev_s, ev_e in event_windows:

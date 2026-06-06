@@ -85,6 +85,24 @@ BROLL = {
     "host_video4":
         "A Black African man wearing glasses and blue t-shirt speaking to camera confidently, "
         "microphone in hand, engaged and passionate expression, explaining something important.",
+    "brain_ai":
+        "Close-up of a glowing human brain merged with digital AI circuit lines and neural network, "
+        "blue and gold light, futuristic intelligence concept, dark background, high detail macro.",
+    "phone_ai_app":
+        "Black African hands holding a smartphone displaying a sleek AI assistant app interface, "
+        "modern minimalist UI, soft bokeh background, close-up product-style shot.",
+    "lightbulb_idea":
+        "A Black African person having a bright idea, a glowing lightbulb concept above, "
+        "inspired confident expression looking up, warm cinematic light, clean background.",
+    "target_precision":
+        "A dart hitting the exact center bullseye of a target, extreme close-up, sharp focus on the arrow, "
+        "concept of precision and accuracy, dramatic lighting, shallow depth of field.",
+    "team_success":
+        "A diverse team of Black African professionals celebrating together in a modern office, "
+        "high-fives and genuine smiles, success and teamwork energy, bright natural light.",
+    "growth_chart":
+        "A Black African businessperson pointing at a rising growth chart with an upward arrow on a screen, "
+        "success and progression concept, confident expression, modern office, professional lighting.",
 }
 
 if __name__ == "__main__":

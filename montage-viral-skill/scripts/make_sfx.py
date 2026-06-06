@@ -122,4 +122,37 @@ t = np.linspace(0,0.06,int(SR*0.06),False)
 ck = noise(len(t))*np.exp(-t*120)*0.7 + np.sin(2*math.pi*2200*t)*np.exp(-t*90)*0.3
 save("click", ck)
 
+# ── 15. camera_flash : éclair photo (décharge xénon brillante) ──
+t = np.linspace(0,0.25,int(SR*0.25),False)
+whine = np.sin(2*math.pi*(4000+3000*np.clip(t/0.04,0,1))*t)*np.clip(t/0.005,0,1)*np.exp(-t*14)*0.4
+burst = noise(len(t))*np.exp(-t*30)*0.6           # décharge lumineuse
+ping  = np.sin(2*math.pi*5200*t)*np.exp(-t*22)*0.5  # ping brillant
+save("camera_flash", whine+burst+ping)
+
+# ── 16. chime : carillon premium 2 notes (apparition élégante) ──
+t = np.linspace(0,0.7,int(SR*0.7),False)
+ch = np.zeros(len(t))
+for fr,dl,g in [(1568,0.0,0.5),(2093,0.09,0.45)]:
+    e = np.clip((t-dl)/0.003,0,1)*np.exp(-np.clip(t-dl,0,None)*5)
+    ch += np.sin(2*math.pi*fr*t)*e*g
+save("chime", ch)
+
+# ── 17. digi_blip : bip numérique court (popup mot-clé) ──
+t = np.linspace(0,0.12,int(SR*0.12),False)
+bl = np.sin(2*math.pi*(1200+1600*t/0.12)*t)*env(t,0.002,35)
+save("digi_blip", bl)
+
+# ── 18. reverse_swell : montée inversée (anticipation avant B-roll) ──
+t = np.linspace(0,0.6,int(SR*0.6),False)
+ramp = (t/0.6)**2
+rs = noise(len(t))*ramp*0.5 + np.sin(2*math.pi*(400+1200*ramp)*t)*ramp*0.3
+rs *= np.clip((0.6-t)/0.02,0,1)
+save("reverse_swell", rs)
+
+# ── 19. bass_hit : coup de basse compact (apparition forte) ──
+t = np.linspace(0,0.45,int(SR*0.45),False)
+f = 140*np.exp(-t*7)+50
+bh = np.sin(2*math.pi*np.cumsum(f)/SR)*np.exp(-t*5) + noise(len(t))*0.25*np.exp(-t*50)
+save("bass_hit", bh)
+
 print("Bibliothèque SFX générée.")

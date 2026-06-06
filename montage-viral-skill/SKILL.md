@@ -45,10 +45,15 @@ Format vertical 1080×1920 (Reels / TikTok / Shorts).
 
 - **Zoom / dynamisme** : `video_dynamics.py` applique un Ken Burns alterné par coupe
   (zoom-in lent / zoom-out / punch-in net 1 segment sur 4). La vidéo ne doit JAMAIS être statique.
-- **Beaucoup de B-roll** : illustrer CHAQUE partie importante. Viser ~14-18 images pour une
-  vidéo de 4 min. Une image par idée forte. Ne jamais laisser un thème fort sans illustration.
+- **Beaucoup de B-roll — NOMBRE DYNAMIQUE (décidé par toi, jamais fixe)** : le nombre d'images
+  d'illustration DOIT s'adapter à la longueur de la vidéo. Règle : viser **≈ 1 illustration toutes
+  les 4–6 s de parole** (densité élevée pour garder l'intérêt), soit :
+  - ~60 s → 12–16 images · ~90–100 s → 16–22 images · ~3 min → 28–36 · ~4 min → 36–50.
+  Calcule `n_broll ≈ durée_output / 5` puis ajuste selon le nombre d'idées fortes. NE JAMAIS
+  fixer un nombre en dur : chaque vidéo a son propre compte. Une image par idée forte, et
+  plusieurs images par sujet long. Ne jamais laisser un thème fort sans illustration.
 - **Ballotage** : le B-roll est composité AU-DESSUS du panneau graphique. Séquence type :
-  locuteur → cutaway B-roll 3s (plein cadre + son shutter) → retour locuteur (panneau encore visible).
+  locuteur → cutaway B-roll 3s (plein cadre + SFX d'apparition varié) → retour locuteur (panneau encore visible).
   Si un sujet est LONG, enchaîner plusieurs B-roll en alternance avec le locuteur.
 - **Overlays persistants** : un overlay reste à l'écran TANT QUE la personne parle du sujet
   illustré. Sa durée = longueur du sujet (5–16s). Le .mov doit durer aussi longtemps : les
@@ -71,15 +76,21 @@ Format **ASS** (libass) avec PlayResX/Y = 1080/1920. Effets par chunk de 2-3 mot
 - Polices à installer dans `~/.fonts` au 1er usage (Anton, Bebas Neue, Montserrat, Bangers — Google Fonts).
 - Usage : `python subs_ass.py <template> master.ass` puis brûler `ass='master.ass'`.
 
-## Bibliothèque SFX (make_sfx.py) — 14 sons numpy
+## Bibliothèque SFX (make_sfx.py) — 19 sons numpy
 
 `whoosh, swoosh_up, swoosh_down, pop, boom, impact, sub_drop, ding, sparkle,
-shutter, glitch, riser, transition, click`. Accompagner CHAQUE mouvement brusque d'un son :
-- **shutter** : B-roll (son d'appareil photo) — règle par défaut pour toute image.
-- **swoosh_up/down** : zoom / entrée rise. **glitch** : entrée glitch RGB.
-- **sub_drop** : révélation chiffre choc (70H, 9%). **impact/boom** : overlay fort / pivot.
-- **sparkle** : apparition premium (diplôme, RRA, héritage). **transition** : changement de scène.
-- **ding** : chiffre/accent. **pop** : CTA léger. Gains dans mix_sfx.py (sub_drop/impact ~0.95).
+shutter, glitch, riser, transition, click, camera_flash, chime, digi_blip,
+reverse_swell, bass_hit`. Accompagner CHAQUE mouvement brusque d'un son :
+- **camera_flash** : éclair photo (décharge xénon brillante) — son signature des apparitions d'images.
+- **shutter** : déclencheur appareil photo (clic mécanique) — B-roll.
+- **swoosh_up/down** : zoom / entrée rise/fall. **glitch** : entrée glitch RGB. **whoosh** : transition d'air.
+- **sub_drop / bass_hit** : révélation forte / impact grave. **impact/boom** : overlay fort / pivot.
+- **sparkle / chime** : apparition premium / élégante. **transition / reverse_swell** : changement de scène / anticipation.
+- **ding / digi_blip** : accent / popup mot-clé. **pop** : CTA léger. Gains dans mix_sfx.py.
+- **VARIER & ALTERNER (obligatoire)** : ne JAMAIS répéter le même SFX sur des apparitions
+  consécutives. Faire tourner un *pool* varié pour les B-roll et les graphiques (cf. `plan_overlays.py`,
+  `BROLL_SFX_POOL`) ; `camera_flash` revient régulièrement comme signature « photo », entrecoupé
+  de swoosh / shutter / glitch / transition / reverse_swell / digi_blip / sparkle.
 
 ## Pré-requis
 

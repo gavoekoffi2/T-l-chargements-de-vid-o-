@@ -72,6 +72,11 @@
       "duration": 3.0
     },
     {
+      "file": "broll_clips/br_brain_ai.mov",
+      "start_in_output": 11.77,
+      "duration": 3.0
+    },
+    {
       "file": "broll_clips/br_formuler.mov",
       "start_in_output": 15.77,
       "duration": 3.0
@@ -82,13 +87,23 @@
       "duration": 3.2
     },
     {
+      "file": "broll_clips/br_phone_ai_app.mov",
+      "start_in_output": 23.77,
+      "duration": 3.0
+    },
+    {
       "file": "broll_clips/br_ecrire.mov",
       "start_in_output": 27.27,
       "duration": 3.0
     },
     {
+      "file": "broll_clips/br_lightbulb_idea.mov",
+      "start_in_output": 31.27,
+      "duration": 3.0
+    },
+    {
       "file": "broll_clips/br_exemple_vague.mov",
-      "start_in_output": 34.27,
+      "start_in_output": 34.67,
       "duration": 3.0
     },
     {
@@ -97,8 +112,18 @@
       "duration": 3.0
     },
     {
+      "file": "broll_clips/br_target_precision.mov",
+      "start_in_output": 43.77,
+      "duration": 3.0
+    },
+    {
       "file": "broll_clips/br_tiktok_creator.mov",
       "start_in_output": 47.77,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_team_success.mov",
+      "start_in_output": 51.77,
       "duration": 3.0
     },
     {
@@ -109,6 +134,11 @@
     {
       "file": "broll_clips/br_bon_resultat.mov",
       "start_in_output": 62.95,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_growth_chart.mov",
+      "start_in_output": 66.95,
       "duration": 3.0
     },
     {

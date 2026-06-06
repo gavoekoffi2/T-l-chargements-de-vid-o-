@@ -166,6 +166,12 @@ CLIPS=[
  ("br_framework_doc",   "framework_doc",   3.2, "rise",    "FRAMEWORK"),
  ("br_subscribe_cta",   "subscribe_cta",   3.0, "flash",   "ABONNE-TOI"),
  ("br_host_video4",     "host_video4",     3.2, "punch",   "TON FORMATEUR"),
+ ("br_brain_ai",        "brain_ai",        3.0, "glitch",  "TON CERVEAU + IA"),
+ ("br_phone_ai_app",    "phone_ai_app",    3.0, "rise",    "DANS TA POCHE"),
+ ("br_lightbulb_idea",  "lightbulb_idea",  3.0, "flash",   "LA BONNE IDÉE"),
+ ("br_target_precision","target_precision",3.0, "punch",   "SOIS PRÉCIS"),
+ ("br_team_success",    "team_success",    3.0, "slide_l", "EN ÉQUIPE"),
+ ("br_growth_chart",    "growth_chart",    3.0, "rise",    "TES RÉSULTATS"),
 ]
 
 if __name__=="__main__":
