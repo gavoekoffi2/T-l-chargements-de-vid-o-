@@ -1,0 +1,276 @@
+{
+  "sources": {
+    "video4": "../video4.mp4"
+  },
+  "grade": "warm_cinematic",
+  "ranges": [
+    {
+      "source": "video4",
+      "start": 0.03,
+      "end": 60.869
+    },
+    {
+      "source": "video4",
+      "start": 61.189,
+      "end": 83.29
+    },
+    {
+      "source": "video4",
+      "start": 83.47,
+      "end": 96.804
+    }
+  ],
+  "overlays": [
+    {
+      "file": "animations/intro.mov",
+      "start_in_output": 0.27,
+      "duration": 8.5
+    },
+    {
+      "file": "animations/prompt_eng.mov",
+      "start_in_output": 9.27,
+      "duration": 5.5
+    },
+    {
+      "file": "animations/definition.mov",
+      "start_in_output": 14.77,
+      "duration": 10.0
+    },
+    {
+      "file": "animations/instruction.mov",
+      "start_in_output": 24.77,
+      "duration": 17.0
+    },
+    {
+      "file": "animations/exemple.mov",
+      "start_in_output": 46.27,
+      "duration": 10.0
+    },
+    {
+      "file": "animations/bon_prompt.mov",
+      "start_in_output": 56.27,
+      "duration": 14.0
+    },
+    {
+      "file": "animations/role.mov",
+      "start_in_output": 70.45,
+      "duration": 12.0
+    },
+    {
+      "file": "animations/cta.mov",
+      "start_in_output": 88.07,
+      "duration": 8.0
+    },
+    {
+      "file": "broll_clips/br_no_degree.mov",
+      "start_in_output": 3.77,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_discipline.mov",
+      "start_in_output": 7.27,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_formuler.mov",
+      "start_in_output": 15.77,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_ia_answer.mov",
+      "start_in_output": 19.77,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_ecrire.mov",
+      "start_in_output": 27.27,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_exemple_vague.mov",
+      "start_in_output": 34.27,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_contexte_notes.mov",
+      "start_in_output": 40.27,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_tiktok_creator.mov",
+      "start_in_output": 47.77,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_expert_marketing.mov",
+      "start_in_output": 56.77,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_bon_resultat.mov",
+      "start_in_output": 62.95,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_role_ia.mov",
+      "start_in_output": 72.45,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_framework_doc.mov",
+      "start_in_output": 78.45,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/br_subscribe_cta.mov",
+      "start_in_output": 84.77,
+      "duration": 3.0
+    },
+    {
+      "file": "broll_clips/br_host_video4.mov",
+      "start_in_output": 90.27,
+      "duration": 3.2
+    },
+    {
+      "file": "broll_clips/popup_ceux.mov",
+      "start_in_output": 0.61,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_bons.mov",
+      "start_in_output": 1.55,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_lintelligence.mov",
+      "start_in_output": 2.41,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_artificielle.mov",
+      "start_in_output": 2.99,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_cest.mov",
+      "start_in_output": 6.05,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_prompt.mov",
+      "start_in_output": 10.69,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_cest.mov",
+      "start_in_output": 14.53,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_lintelligence.mov",
+      "start_in_output": 19.03,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_artificielle.mov",
+      "start_in_output": 19.63,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_voyez.mov",
+      "start_in_output": 24.03,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_prompt.mov",
+      "start_in_output": 26.53,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_lintelligence.mov",
+      "start_in_output": 28.67,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_artificielle.mov",
+      "start_in_output": 29.19,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_cest.mov",
+      "start_in_output": 34.31,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_prompt.mov",
+      "start_in_output": 35.59,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_voyez.mov",
+      "start_in_output": 36.47,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_vidéo.mov",
+      "start_in_output": 42.09,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_lintelligence.mov",
+      "start_in_output": 51.05,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_artificielle.mov",
+      "start_in_output": 51.71,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_vidéo.mov",
+      "start_in_output": 53.39,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_vidéo.mov",
+      "start_in_output": 63.99,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_voyez.mov",
+      "start_in_output": 66.37,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_lintelligence.mov",
+      "start_in_output": 72.53,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_artificielle.mov",
+      "start_in_output": 73.19,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_bons.mov",
+      "start_in_output": 81.89,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_vidéo.mov",
+      "start_in_output": 88.93,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_lintelligence.mov",
+      "start_in_output": 92.73,
+      "duration": 1.5
+    },
+    {
+      "file": "broll_clips/popup_artificielle.mov",
+      "start_in_output": 93.63,
+      "duration": 1.5
+    }
+  ],
+  "subtitles": "master.srt"
+}

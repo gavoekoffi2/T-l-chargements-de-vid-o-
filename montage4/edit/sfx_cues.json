@@ -1,0 +1,112 @@
+[
+  {
+    "time": 0.27,
+    "sfx": "impact",
+    "name": "intro"
+  },
+  {
+    "time": 9.27,
+    "sfx": "sub_drop",
+    "name": "prompt_eng"
+  },
+  {
+    "time": 14.77,
+    "sfx": "boom",
+    "name": "definition"
+  },
+  {
+    "time": 24.77,
+    "sfx": "sparkle",
+    "name": "instruction"
+  },
+  {
+    "time": 46.27,
+    "sfx": "ding",
+    "name": "exemple"
+  },
+  {
+    "time": 56.27,
+    "sfx": "swoosh_up",
+    "name": "bon_prompt"
+  },
+  {
+    "time": 70.45,
+    "sfx": "sparkle",
+    "name": "role"
+  },
+  {
+    "time": 88.07,
+    "sfx": "pop",
+    "name": "cta"
+  },
+  {
+    "time": 3.77,
+    "sfx": "glitch",
+    "name": "br_no_degree"
+  },
+  {
+    "time": 7.27,
+    "sfx": "shutter",
+    "name": "br_discipline"
+  },
+  {
+    "time": 15.77,
+    "sfx": "transition",
+    "name": "br_formuler"
+  },
+  {
+    "time": 19.77,
+    "sfx": "shutter",
+    "name": "br_ia_answer"
+  },
+  {
+    "time": 27.27,
+    "sfx": "swoosh_up",
+    "name": "br_ecrire"
+  },
+  {
+    "time": 34.27,
+    "sfx": "glitch",
+    "name": "br_exemple_vague"
+  },
+  {
+    "time": 40.27,
+    "sfx": "sparkle",
+    "name": "br_contexte_notes"
+  },
+  {
+    "time": 47.77,
+    "sfx": "shutter",
+    "name": "br_tiktok_creator"
+  },
+  {
+    "time": 56.77,
+    "sfx": "swoosh_up",
+    "name": "br_expert_marketing"
+  },
+  {
+    "time": 62.95,
+    "sfx": "sparkle",
+    "name": "br_bon_resultat"
+  },
+  {
+    "time": 72.45,
+    "sfx": "transition",
+    "name": "br_role_ia"
+  },
+  {
+    "time": 78.45,
+    "sfx": "shutter",
+    "name": "br_framework_doc"
+  },
+  {
+    "time": 84.77,
+    "sfx": "swoosh_up",
+    "name": "br_subscribe_cta"
+  },
+  {
+    "time": 90.27,
+    "sfx": "shutter",
+    "name": "br_host_video4"
+  }
+]

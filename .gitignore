@@ -5,6 +5,9 @@
 **/composite_nosfx.mp4
 **/composite_withsfx.mp4
 **/final_montage.mp4
+**/final_montage4.mp4
+**/base_only_copy.mp4
+**/concat*.txt
 **/audio16k.wav
 **/overlays/*.mov
 **/broll_clips/*.mov
